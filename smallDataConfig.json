@@ -16,31 +16,31 @@
                      {
                         "variable": "variable1",
                         "value": {
-                           "path": "$.userInfo.name"
+                           "path": "$.applicantDetail.name"
                         }
                      },
                      {
                         "variable": "variable2",
                         "value": {
-                           "path": "$.userInfo.mobileNumber"
+                           "path": "$.applicantDetail.mobileNumber"
                         }
                      },
                      {
                         "variable": "variable3",
                         "value": {
-                           "path": "$.userInfo.houseNo"
+                           "path": "$.applicantDetail.houseNo"
                         }
                      },
                      {
                         "variable": "variable4",
                         "value": {
-                           "path": "$.userInfo.permanentAddress"
+                           "path": "$.applicantDetail.permanentAddress"
                         }
                      },
                      {
                         "variable": "variable5",
                         "value": {
-                           "path": "$.userInfo.sector"
+                           "path": "$.applicantDetail.sector"
                         }
                      },
                      {
