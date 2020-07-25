@@ -1,0 +1,34 @@
+{
+  "key": "tl-receipt",
+  "DataConfigs": {
+    "serviceName": "rainmaker-tl",
+    "version": "1.0.0",
+    "baseKeyPath": "$.Licenses.*",
+    "entityIdPath": "$.applicationNumber",
+    "isCommonTableBorderRequired": true,
+    "mappings": [
+      {
+        "topic": "tl-pdf-generation",
+        "staticConfigPath": "https://raw.githubusercontent.com/egovernments/egov-services/vishal-feature-filestore/core/egov-indexer/src/main/resources/rainmaker-pgr-indexer.yml",
+        "mappings": [
+          {
+            "direct": [
+              {
+                "variable": "variable11",
+                "value": {
+                  "path": "$.tradeName"
+                }
+              },
+              {
+                "variable": "variable12",
+                "value": {
+                  "path": "$.applicationNumber"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
