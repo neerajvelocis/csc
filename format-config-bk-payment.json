@@ -3,11 +3,11 @@
   "config": {
             "content": [
                 {
-                    "text": "Municipal Corporation, Chandigarh",
+                    "text": "Municipal Corporation, Chandigarh {{variable11}}",
                     "style": "pdfheader"
                 },
                 {
-                    "text": "Payment Receipt",
+                    "text": "Payment Receipt {{variable12}}",
                     "style": "pdfsubheader"
 
                 }
