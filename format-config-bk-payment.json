@@ -248,10 +248,13 @@
         }
       }
     ],
-    "footer": {
-      "text": "* This is computer generated receipt, no signature required.",
-      "style": "footerstyle"
-    },
+    
+    "footer": [
+      {
+        "text": "* This is computer generated receipt, no signature required.",
+        "style": "footerstyle"
+      }
+    ],
     "styles": {
       "pdfheader": {
         "fontSize": 15,
