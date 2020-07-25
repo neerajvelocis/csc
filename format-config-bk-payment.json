@@ -1,0 +1,39 @@
+{
+  "key": "bk-payment-receipt",
+  "config": {
+            "content": [
+                {
+                    "text": "Municipal Corporation, Chandigarh",
+                    "style": "pdfheader"
+                },
+                {
+                    "text": "Payment Receipt",
+                    "style": "pdfsubheader"
+
+                }
+            ],
+            "footer": {
+              "text": "* This is computer generated receipt, no signature required.", "style": "footerstyle" 
+              
+            },
+            "styles": {
+
+                "pdfheader": {
+                    "fontSize": 15,
+                    "alignment": "center",
+                    "bold": true
+                },
+                "pdfsubheader": {
+                    "fontSize": 15,
+                    "alignment": "center",
+                    "margin": [0, 0, 0, 20]
+                },
+                "footerstyle": {
+                    "alignment": "center"
+                }
+
+
+            }
+            
+        }
+}
