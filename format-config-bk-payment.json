@@ -11,8 +11,138 @@
         "style": "pdfsubheader"
       },
       {
+        "columns": [
+          {
+            "width": "auto",
+            "style": "tableExample",
+            "color": "#444",
+            "table": {
+              "widths": [
+                100,
+                100
+              ],
+              "headerRows": 2,
+              "keepWithHeaderRows": 1,
+              "body": [
+                [
+                  {
+                    "text": "Applicant Details",
+                    "style": "tableHeader",
+                    "colSpan": 2,
+                    "alignment": "center"
+                  },
+                  {}
+                ],
+                [
+                  {
+                    "text": "Applicant Name:",
+                    "style": "verticalcolumnsheader"
+                  },
+                  {
+                    "text": "{{variable1}}",
+                    "style": "verticalcontentstyle"
+                  }
+                ],
+                [
+                  {
+                    "text": "Contact No:",
+                    "style": "verticalcolumnsheader"
+                  },
+                  {
+                    "text": "{{variable2}}",
+                    "style": "verticalcontentstyle"
+                  }
+                ],
+                [
+                  {
+                    "text": "House No/Site No:",
+                    "style": "verticalcolumnsheader"
+                  },
+                  {
+                    "text": "{{variable3}}",
+                    "style": "verticalcontentstyle"
+                  }
+                ],
+                [
+                  {
+                    "text": "Address:",
+                    "style": "verticalcolumnsheader"
+                  },
+                  {
+                    "text": "{{variable4}}",
+                    "style": "verticalcontentstyle"
+                  }
+                ],
+                [
+                  {
+                    "text": "Sector:",
+                    "style": "verticalcolumnsheader"
+                  },
+                  {
+                    "text": "{{variable5}}",
+                    "style": "verticalcontentstyle"
+                  }
+                ]
+              ]
+            }
+          },
+          {
+            "width": "*",
+            "style": "tableExample",
+            "table": {
+              "widths": [
+                100,
+                150
+              ],
+              "headerRows": 2,
+              "body": [
+                [
+                  {
+                    "text": "Payment Details",
+                    "style": "tableHeader",
+                    "colSpan": 2,
+                    "alignment": "center"
+                  },
+                  {}
+                ],
+                [
+                  {
+                    "text": "Application No:",
+                    "style": "verticalcolumnsheader"
+                  },
+                  {
+                    "text": "{{variable6}}",
+                    "style": "verticalcontentstyle"
+                  }
+                ],
+                [
+                  {
+                    "text": "Payment Date:",
+                    "style": "verticalcolumnsheader"
+                  },
+                  {
+                    "text": "{{variable7}}",
+                    "style": "verticalcontentstyle"
+                  }
+                ],
+                [
+                  {
+                    "text": "Transaction Id:",
+                    "style": "verticalcolumnsheader"
+                  },
+                  {
+                    "text": "{{variable8}}",
+                    "style": "verticalcontentstyle"
+                  }
+                ]
+              ]
+            }
+          }
+        ],
+        "columnGap": 30
+      },
+      {
         "style": "tableExample",
-        "color": "#444",
         "table": {
           "widths": [
             "auto",
@@ -24,7 +154,7 @@
           "body": [
             [
               {
-                "text": "Sr",
+                "text": "#",
                 "style": "horizontalcolumnsheader",
                 "alignment": "center"
               },
@@ -132,12 +262,7 @@
       "pdfsubheader": {
         "fontSize": 15,
         "alignment": "center",
-        "margin": [
-          0,
-          0,
-          0,
-          20
-        ]
+        "margin": [0, 0, 0, 20]
       },
       "footerstyle": {
         "alignment": "center"
