@@ -3,7 +3,7 @@
   "config": {
     "content": [
       {
-        "text": "Municipal Corporation, Chandigarh",
+        "text": "Municipal Corporation, Chandigarh {{variable1}}",
         "style": "pdfheader"
       },
       {
@@ -45,7 +45,7 @@
                 "alignment": "center"
               },
               {
-                "text": "3",
+                "text": "{{variable1}}",
                 "style": "horizontalcontentstyle",
                 "alignment": "center"
               },
