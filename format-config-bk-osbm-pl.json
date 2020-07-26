@@ -1,0 +1,331 @@
+{
+  "key": "bk-osbm-pl",
+  "config": {
+    "content": [
+      {
+        "text": "Municipal Corporation, Chandigarh",
+        "style": "pdfheader"
+      },
+      {
+        "text": "Permission Letter to Store Building Material",
+        "style": "pdfsubheader"
+      },
+      {
+        "columns": [
+          {
+            "width": "auto",
+            "style": "tableExample",
+            "table": {
+              "widths": [
+                100,
+                100
+              ],
+              "headerRows": 2,
+              "keepWithHeaderRows": 1,
+              "body": [
+                [
+                  {
+                    "text": "Applicant Details",
+                    "style": "tableHeader",
+                    "colSpan": 2,
+                    "alignment": "center"
+                  },
+                  {}
+                ],
+                [
+                  {
+                    "text": "Applicant Name:",
+                    "style": "verticalcolumnsheader"
+                  },
+                  {
+                    "text": "{{variable15}}",
+                    "style": "verticalcontentstyle"
+                  }
+                ],
+                [
+                  {
+                    "text": "Contact No:",
+                    "style": "verticalcolumnsheader"
+                  },
+                  {
+                    "text": "{{variable16}}",
+                    "style": "verticalcontentstyle"
+                  }
+                ],
+                [
+                  {
+                    "text": "House No/Site No:",
+                    "style": "verticalcolumnsheader"
+                  },
+                  {
+                    "text": "{{variable17}}",
+                    "style": "verticalcontentstyle"
+                  }
+                ],
+                [
+                  {
+                    "text": "Address:",
+                    "style": "verticalcolumnsheader"
+                  },
+                  {
+                    "text": "{{variable18}}",
+                    "style": "verticalcontentstyle"
+                  }
+                ],
+                [
+                  {
+                    "text": "Sector:",
+                    "style": "verticalcolumnsheader"
+                  },
+                  {
+                    "text": "{{variable19}}",
+                    "style": "verticalcontentstyle"
+                  }
+                ]
+              ]
+            }
+          },
+          {
+            "width": "*",
+            "style": "tableExample",
+            "table": {
+              "widths": [
+                100,
+                150
+              ],
+              "headerRows": 2,
+              "body": [
+                [
+                  {
+                    "text": "Application Details",
+                    "style": "tableHeader",
+                    "colSpan": 2,
+                    "alignment": "center"
+                  },
+                  {}
+                ],
+                [
+                  {
+                    "text": "Application No:",
+                    "style": "verticalcolumnsheader"
+                  },
+                  {
+                    "text": "{{variable20}}",
+                    "style": "verticalcontentstyle"
+                  }
+                ],
+                [
+                  {
+                    "text": "Application Date:",
+                    "style": "verticalcolumnsheader"
+                  },
+                  {
+                    "text": "{{variable21}}",
+                    "style": "verticalcontentstyle"
+                  }
+                ]
+              ]
+            }
+          }
+        ],
+        "columnGap": 30
+      },
+      {
+        "style": "tableExample",
+        "table": {
+          "widths": [
+            50,
+            200,
+            250
+          ],
+          "headerRows": 1,
+          "body": [
+            [
+              {
+                "text": "#",
+                "style": "tableHeader",
+                "alignment": "center"
+              },
+              {
+                "text": "Booking Details",
+                "style": "tableHeader",
+                "alignment": "center",
+                "colSpan": 2
+              },
+              {}
+            ],
+            [
+              {
+                "text": "1",
+                "style": "verticalcolumnsheader",
+                "alignment": "center"
+              },
+              {
+                "text": "Village/City",
+                "style": "verticalcolumnsheader"
+              },
+              {
+                "text": "{{variable22}}",
+                "style": "verticalcontentstyle"
+              }
+            ],
+            [
+              {
+                "text": "2",
+                "style": "verticalcolumnsheader",
+                "alignment": "center"
+              },
+              {
+                "text": "Residential / Commercial",
+                "style": "verticalcolumnsheader"
+              },
+              {
+                "text": "{{variable23}}",
+                "style": "verticalcontentstyle"
+              }
+            ],
+            [
+              {
+                "text": "3",
+                "style": "verticalcolumnsheader",
+                "alignment": "center"
+              },
+              {
+                "text": "Area Required for storage of material ",
+                "style": "verticalcolumnsheader"
+              },
+              {
+                "text": "{{variable24}}",
+                "style": "verticalcontentstyle"
+              }
+            ],
+            [
+              {
+                "text": "4",
+                "style": "verticalcolumnsheader",
+                "alignment": "center"
+              },
+              {
+                "text": "Category",
+                "style": "verticalcolumnsheader"
+              },
+              {
+                "text": "{{variable25}}",
+                "style": "verticalcontentstyle"
+              }
+            ],
+            [
+              {
+                "text": "5",
+                "style": "verticalcolumnsheader",
+                "alignment": "center"
+              },
+              {
+                "text": "Type of Construction",
+                "style": "verticalcolumnsheader"
+              },
+              {
+                "text": "{{variable26}}",
+                "style": "verticalcontentstyle"
+              }
+            ],
+            [
+              {
+                "text": "6",
+                "style": "verticalcolumnsheader",
+                "alignment": "center"
+              },
+              {
+                "text": "Period for permission is required (dd/mm/yyyy)",
+                "style": "verticalcolumnsheader"
+              },
+              {
+                "text": "{{variable27}}",
+                "style": "verticalcontentstyle"
+              }
+            ],
+            [
+              {
+                "text": "7",
+                "style": "verticalcolumnsheader",
+                "alignment": "center"
+              },
+              {
+                "text": "Duration",
+                "style": "verticalcolumnsheader"
+              },
+              {
+                "text": "{{variable28}}",
+                "style": "verticalcontentstyle"
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "text": [
+          {
+            "text": "Note: ",
+            "bold": true,
+            "fontSize": 10
+          },
+          {
+            "text": "On account of permission for stacking building material for a period of {{variable28}}. This is purely temporary permission and can be withdrawn at any time without signing any reason for stacking of building material. The holder of permission shall need to show the permission to the authorized officer/official of the Municipal Corporation Chandigarh (MCC) when requested. This permission is only for stacking of building material for the mentioned duration. In case it is found that the area is excess than permitted or the holder has violated the provisions applicable for construction and stacking of building material then the holder shall be challenged as per bye laws applicable for the time being and the authority may also seize the material if necessary.",
+            "fontSize": 8,
+            "alignment": "left"
+          }
+        ]
+      }
+    ],
+    "footer": [
+      {
+        "text": "* This is computer generated receipt, no signature required.",
+        "style": "footerstyle"
+      }
+    ],
+    "styles": {
+      "pdfheader": {
+        "fontSize": 15,
+        "alignment": "center",
+        "bold": true
+      },
+      "pdfsubheader": {
+        "fontSize": 15,
+        "alignment": "center",
+        "margin": [
+          0,
+          0,
+          0,
+          20
+        ]
+      },
+      "footerstyle": {
+        "alignment": "center"
+      },
+      "verticalcolumnsheader": {
+        "fontSize": 10,
+        "bold": true,
+        "alignment": "left"
+      },
+      "verticalcontentstyle": {
+        "fontSize": 10,
+        "alignment": "left"
+      },
+      "horizontalcolumnsheader": {
+        "fontSize": 10,
+        "bold": true
+      },
+      "horizontalcontentstyle": {
+        "fontSize": 10
+      },
+      "tableExample": {
+        "margin": [
+          0,
+          5,
+          0,
+          15
+        ]
+      }
+    }
+  }
+}
