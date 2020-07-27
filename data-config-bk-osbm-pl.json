@@ -99,9 +99,8 @@
                      },
                      {
                         "variable": "variable29",
-                        "value": {
-                           "path": "$.bookingDetail.categoryImage"
-                        }
+                        "url":"$.bookingDetail.categoryImage",
+                        "type":"image"
                      }
                   ]
                }
