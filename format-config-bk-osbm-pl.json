@@ -263,17 +263,6 @@
         }
       },
       {
-        "image": "{{variable29}}",
-        "width": 50,
-        "height": 61.25,
-        "margin": [
-          45,
-          12,
-          10,
-          10
-        ]
-      },
-      {
         "text": [
           {
             "text": "Note: ",
