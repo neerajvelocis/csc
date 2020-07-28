@@ -102,6 +102,12 @@
                         "value": {
                            "path": "$.paymentInfo.amountInWords"
                         }
+                     },
+                     {
+                        "variable": "variable75",
+                        "value": {
+                           "path": "$.paymentInfo.paymentItemExtraColumnLabel"
+                        }
                      }
                   ]
                }
