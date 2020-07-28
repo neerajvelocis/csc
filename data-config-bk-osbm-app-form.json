@@ -113,11 +113,7 @@
                            "path": "$.bookingDetail.duration"
                         }
                      },
-                     {
-                        "variable": "variable43",
-                        "url":"$.bookingDetail.categoryImage",
-                        "type":"image"
-                     },
+                     
                      {
                         "variable": "variable44",
                         "value": {
