@@ -1,0 +1,561 @@
+{
+  "key": "bk-osbm-app-form",
+  "config": {
+    "pageSize": "A4",
+    "footer": [
+      {
+        "text": "* This is computer generated receipt, no signature required.",
+        "style": "footerstyle"
+      }
+    ],
+    "content": [
+      {
+        "text": "Municipal Corporation, Chandigarh",
+        "style": "pdfheader"
+      },
+      {
+        "text": "Application No. {{variable34}}",
+        "style": "pdfsubheader",
+        "margin": [
+          0,
+          20,
+          0,
+          20
+        ]
+      },
+      {
+        "style": "table-gap",
+        "table": {
+          "widths": [
+            150,
+            150,
+            180
+          ],
+          "body": [
+            [
+              {
+                "text": "Application Details",
+                "style": "app-table-value",
+                "alignment": "left",
+                "colSpan": 3,
+                "border": [
+                  true,
+                  true,
+                  true,
+                  false
+                ]
+              },
+              {},
+              {}
+            ],
+            [
+              {
+                "text": "House No",
+                "style": "app-table-label",
+                "alignment": "left",
+                "border": [
+                  true,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "text": "Complete Address",
+                "style": "app-table-label",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "text": "Locality",
+                "style": "app-table-label",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  true,
+                  false
+                ]
+              }
+            ],
+            [
+              {
+                "text": "{{variable44}}",
+                "style": "app-table-value",
+                "alignment": "left",
+                "border": [
+                  true,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "text": "{{variable45}}",
+                "style": "app-table-value",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "text": "{{variable46}}",
+                "style": "app-table-value",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  true,
+                  false
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Village/City",
+                "style": "app-table-label",
+                "alignment": "left",
+                "border": [
+                  true,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "text": "Property Type",
+                "style": "app-table-label",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "text": "Storage Area",
+                "style": "app-table-label",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  true,
+                  false
+                ]
+              }
+            ],
+            [
+              {
+                "text": "{{variable36}}",
+                "style": "app-table-value",
+                "alignment": "left",
+                "border": [
+                  true,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "text": "{{variable37}}",
+                "style": "app-table-value",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "text": "{{variable38}}",
+                "style": "app-table-value",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  true,
+                  false
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Category",
+                "style": "app-table-label",
+                "alignment": "left",
+                "border": [
+                  true,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "text": "Type of Construction",
+                "style": "app-table-label",
+                "alignment": "left",
+                "colSpan": 2,
+                "border": [
+                  false,
+                  false,
+                  true,
+                  false
+                ]
+              },
+              {}
+            ],
+            [
+              {
+                "text": "{{variable39}}",
+                "style": "app-table-value",
+                "alignment": "left",
+                "border": [
+                  true,
+                  false,
+                  false,
+                  true
+                ]
+              },
+              {
+                "text": "{{variable40}}",
+                "style": "app-table-value",
+                "alignment": "left",
+                "colSpan": 2,
+                "border": [
+                  false,
+                  false,
+                  true,
+                  true
+                ]
+              },
+              {}
+            ]
+          ]
+        }
+      },
+      {
+        "style": "table-gap",
+        "table": {
+          "widths": [
+            150,
+            150,
+            180
+          ],
+          "body": [
+            [
+              {
+                "text": "Applicant Information",
+                "style": "app-table-value",
+                "alignment": "left",
+                "colSpan": 3,
+                "border": [
+                  true,
+                  true,
+                  true,
+                  false
+                ]
+              },
+              {},
+              {}
+            ],
+            [
+              {
+                "text": "Applicant Name",
+                "style": "app-table-label",
+                "alignment": "left",
+                "border": [
+                  true,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "text": "Applicant Contact",
+                "style": "app-table-label",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "text": "Father/ Husbands Name",
+                "style": "app-table-label",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  true,
+                  false
+                ]
+              }
+            ],
+            [
+              {
+                "text": "{{variable30}}",
+                "style": "app-table-value",
+                "alignment": "left",
+                "border": [
+                  true,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "text": "{{variable47}}",
+                "style": "app-table-value",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "text": "{{variable48}}",
+                "style": "app-table-value",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  true,
+                  false
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Date of Birth",
+                "style": "app-table-label",
+                "alignment": "left",
+                "border": [
+                  true,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "text": "Email",
+                "style": "app-table-label",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "text": "Owner Address",
+                "style": "app-table-label",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  true,
+                  false
+                ]
+              }
+            ],
+            [
+              {
+                "text": "{{variable50}}",
+                "style": "app-table-value",
+                "alignment": "left",
+                "border": [
+                  true,
+                  false,
+                  false,
+                  true
+                ]
+              },
+              {
+                "text": "{{variable49}}",
+                "style": "app-table-value",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  false,
+                  true
+                ]
+              },
+              {
+                "text": "{{variable32}}",
+                "style": "app-table-value",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  true,
+                  true
+                ]
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "style": "table-gap",
+        "table": {
+          "widths": [
+            150,
+            150,
+            180
+          ],
+          "body": [
+            [
+              {
+                "text": "Fee Details",
+                "style": "app-table-value",
+                "alignment": "left",
+                "colSpan": 3,
+                "border": [
+                  true,
+                  true,
+                  true,
+                  false
+                ]
+              },
+              {},
+              {}
+            ],
+            [
+              {
+                "text": "Base Charges",
+                "style": "app-table-label",
+                "alignment": "left",
+                "border": [
+                  true,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "text": "Taxes",
+                "style": "app-table-label",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "text": "Total Amount (Rs.)",
+                "style": "app-table-label",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  true,
+                  false
+                ]
+              }
+            ],
+            [
+              {
+                "text": "8000",
+                "style": "app-table-value",
+                "alignment": "left",
+                "border": [
+                  true,
+                  false,
+                  false,
+                  true
+                ]
+              },
+              {
+                "text": "1440",
+                "style": "app-table-value",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  false,
+                  true
+                ]
+              },
+              {
+                "text": "9440",
+                "style": "app-table-value",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  true,
+                  true
+                ]
+              }
+            ]
+          ]
+        }
+      }
+    ],
+    "styles": {
+      "pdfheader": {
+        "fontSize": 15,
+        "alignment": "center",
+        "bold": true
+      },
+      "pdfsubheader": {
+        "fontSize": 12,
+        "alignment": "center",
+        "margin": [
+          0,
+          0,
+          0,
+          20
+        ]
+      },
+      "footerstyle": {
+        "alignment": "center"
+      },
+      "table-gap": {
+        "margin": [
+          0,
+          5,
+          0,
+          15
+        ]
+      },
+      "app-table-value": {
+        "fontSize": 10,
+        "bold": true,
+        "margin": [
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      "app-table-label": {
+        "fontSize": 10,
+        "margin": [
+          5,
+          5,
+          5,
+          0
+        ]
+      }
+    }
+  }
+}
