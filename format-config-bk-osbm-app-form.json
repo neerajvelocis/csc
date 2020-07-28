@@ -254,7 +254,7 @@
           "body": [
             [
               {
-                "text": "Applicant Information",
+                "text": "Applicant Details",
                 "style": "app-table-value",
                 "alignment": "left",
                 "colSpan": 3,
@@ -473,7 +473,7 @@
             ],
             [
               {
-                "text": "8000",
+                "text": "{{variable51}}",
                 "style": "app-table-value",
                 "alignment": "left",
                 "border": [
@@ -484,7 +484,7 @@
                 ]
               },
               {
-                "text": "1440",
+                "text": "{{variable52}}",
                 "style": "app-table-value",
                 "alignment": "left",
                 "border": [
@@ -495,7 +495,7 @@
                 ]
               },
               {
-                "text": "9440",
+                "text": "{{variable53}}",
                 "style": "app-table-value",
                 "alignment": "left",
                 "border": [
