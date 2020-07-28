@@ -159,7 +159,7 @@
                 "alignment": "center"
               },
               {
-                "text": "BOOKING PERIOD",
+                "text": "{{variable75}}",
                 "style": "horizontalcolumnsheader",
                 "alignment": "center"
               },
