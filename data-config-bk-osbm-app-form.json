@@ -131,6 +131,24 @@
                         "value": {
                            "path": "$.bookingDetail.completeAddress"
                         }
+                     },
+                     {
+                        "variable": "variable51",
+                        "value": {
+                           "path": "$.feeDetail.baseCharge"
+                        }
+                     },
+                     {
+                        "variable": "variable52",
+                        "value": {
+                           "path": "$.feeDetail.taxes"
+                        }
+                     },
+                     {
+                        "variable": "variable53",
+                        "value": {
+                           "path": "$.feeDetail.totalAmount"
+                        }
                      }
                   ]
                }
