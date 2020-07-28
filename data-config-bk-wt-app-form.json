@@ -1,0 +1,146 @@
+{
+   "key": "bk-wt-app-form",
+   "DataConfigs": {
+      "serviceName": "rainmaker-tl",
+      "version": "1.0.0",
+      "baseKeyPath": "$.BookingInfo.*",
+      "entityIdPath": "$.bookingDetail.applicationNumber",
+      "isCommonTableBorderRequired": true,
+      "mappings": [
+         {
+            "topic": "bk-pdf-generation",
+             "mappings": [
+               {
+                  "direct": [
+                     {
+                        "variable": "variable74",
+                        "value": {
+                           "path": "$.bookingDetail.applicationNumber"
+                        }
+                     },
+                     {
+                        "variable": "variable54",
+                        "value": {
+                           "path": "$.bookingDetail.name"
+                        }
+                     },
+                     {
+                        "variable": "variable55",
+                        "value": {
+                           "path": "$.bookingDetail.email"
+                        }
+                     },
+                     {
+                        "variable": "variable56",
+                        "value": {
+                           "path": "$.bookingDetail.mobileNumber"
+                        }
+                     },
+                     {
+                        "variable": "variable57",
+                        "value": {
+                           "path": "$.bookingDetail.houseNo"
+                        }
+                     },
+                     {
+                        "variable": "variable58",
+                        "value": {
+                           "path": "$.bookingDetail.completeAddress"
+                        }
+                     },
+                     {
+                        "variable": "variable59",
+                        "value": {
+                           "path": "$.bookingDetail.locality"
+                        }
+                     },{
+                        "variable": "variable60",
+                        "value": {
+                           "path": "$.bookingDetail.propertyType"
+                        }
+                     },{
+                        "variable": "variable61",
+                        "value": {
+                           "path": "$.bookingDetail.date"
+                        }
+                     },
+                     {
+                        "variable": "variable62",
+                        "value": {
+                           "path": "$.bookingDetail.time"
+                        }
+                     },
+
+                     {
+                        "variable": "variable63",
+                        "value": {
+                           "path": "$.applicantDetail.name"
+                        }
+                     },
+                     {
+                        "variable": "variable64",
+                        "value": {
+                           "path": "$.applicantDetail.mobileNumber"
+                        }
+                     },
+                     {
+                        "variable": "variable65",
+                        "value": {
+                           "path": "$.applicantDetail.houseNo"
+                        }
+                     },
+                     {
+                        "variable": "variable66",
+                        "value": {
+                           "path": "$.applicantDetail.permanentAddress"
+                        }
+                     },
+                     {
+                        "variable": "variable67",
+                        "value": {
+                           "path": "$.applicantDetail.sector"
+                        }
+                     },
+                     {
+                        "variable": "variable68",
+                        "value": {
+                           "path": "$.applicantDetail.fatherName"
+                        }
+                     },{
+                        "variable": "variable69",
+                        "value": {
+                           "path": "$.applicantDetail.email"
+                        }
+                     },{
+                        "variable": "variable70",
+                        "value": {
+                           "path": "$.applicantDetail.DOB"
+                        }
+                     },
+
+                     {
+                        "variable": "variable71",
+                        "value": {
+                           "path": "$.feeDetail.baseCharge"
+                        }
+                     },
+                     {
+                        "variable": "variable72",
+                        "value": {
+                           "path": "$.feeDetail.taxes"
+                        }
+                     },
+                     {
+                        "variable": "variable73",
+                        "value": {
+                           "path": "$.feeDetail.totalAmount"
+                        }
+                     }
+                     
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}
