@@ -1,555 +1,631 @@
 {
-  "key": "bk-wt-app-form",
-  "config": {
-    "pageSize": "A4",
-    
-    "content": [
-        {
-            "text": "Municipal Corporation, Chandigarh",
-            "style": "pdfheader"
-        },
-        {
-            "text": "Application No. {{variable74}}",
-            "style": "pdfsubheader",
-            "margin": [0, 20, 0, 20]
-        },
-        {
-            "style": "table-gap",
-            "table": {
-                "widths": [150, 150, 180],
-
-                "body": [
-                    [
-                        {
-                            "text": "Application Details",
-                            "style": "app-table-value",
-                            "alignment": "left",
-                            "colSpan": 3,
-                            "border": [
-                                true,
-                                true,
-                                true,
-                                false
-                            ]
-                        },
-                        {},
-                        {}
-
+    "key": "bk-wt-app-form",
+    "config": {
+        "pageSize": "A4",
+        "content": [
+            {
+                "text": "Municipal Corporation, Chandigarh",
+                "style": "pdfheader"
+            },
+            {
+                "text": "Application No. {{variable74}}",
+                "style": "pdfsubheader",
+                "margin": [
+                    0,
+                    20,
+                    0,
+                    20
+                ]
+            },
+            {
+                "style": "table-gap",
+                "table": {
+                    "widths": [
+                        150,
+                        150,
+                        180
                     ],
-                    [
-                        {
-                            "text": "Name",
-                            "style": "app-table-label",
-                            "alignment": "left",
-                            "border": [
-                                true,
-                                false,
-                                false,
-                                false
-                            ]
-                        },
-                        {
-                            "text": "Email",
-                            "style": "app-table-label",
-                            "alignment": "left",
-                            "border": [
-                                false,
-                                false,
-                                false,
-                                false
-                            ]
-                        },
-                        {
-                            "text": "Contact",
-                            "style": "app-table-label",
-                            "alignment": "left",
-                            "border": [
-                                false,
-                                false,
-                                true,
-                                false
-                            ]
-                        }
-                    ],
-                    [
-                        {
-                            "text": "{{variable54}}",
-                            "style": "app-table-value",
-                            "alignment": "left",
-                            "border": [
-                                true,
-                                false,
-                                false,
-                                false
-                            ]
-                        },
-                        {
-                            "text": "{{variable55}}",
-                            "style": "app-table-value",
-                            "alignment": "left",
-                            "border": [
-                                false,
-                                false,
-                                false,
-                                false
-                            ]
-                        },
-                        {
-                            "text": "{{variable56}}",
-                            "style": "app-table-value",
-                            "alignment": "left",
-                            "border": [
-                                false,
-                                false,
-                                true,
-                                false
-                            ]
-                        }
-                    ],
-
-                    [
-                        {
-                            "text": "House No",
-                            "style": "app-table-label",
-                            "alignment": "left",
-                            "border": [
-                                true,
-                                false,
-                                false,
-                                false
-                            ]
-                        },
-                        {
-                            "text": "Complete Address",
-                            "style": "app-table-label",
-                            "alignment": "left",
-                            "border": [
-                                false,
-                                false,
-                                false,
-                                false
-                            ]
-                        },
-                        {
-                            "text": "Locality",
-                            "style": "app-table-label",
-                            "alignment": "left",
-                            "border": [
-                                false,
-                                false,
-                                true,
-                                false
-                            ]
-                        }
-                    ],
-                    [
-                        {
-                            "text": "{{variable57}}",
-                            "style": "app-table-value",
-                            "alignment": "left",
-                            "border": [
-                                true,
-                                false,
-                                false,
-                                false
-                            ]
-                        },
-                        {
-                            "text": "{{variable58}}",
-                            "style": "app-table-value",
-                            "alignment": "left",
-                            "border": [
-                                false,
-                                false,
-                                false,
-                                false
-                            ]
-                        },
-                        {
-                            "text": "{{variable59}}",
-                            "style": "app-table-value",
-                            "alignment": "left",
-                            "border": [
-                                false,
-                                false,
-                                true,
-                                false
-                            ]
-                        }
-                    ],
-                    [
-                        {
-                            "text": "Residentail/Commercial",
-                            "style": "app-table-label",
-                            "alignment": "left",
-                            "border": [
-                                true,
-                                false,
-                                false,
-                                false
-                            ]
-                        },
-                        {
-                            "text": "Date",
-                            "style": "app-table-label",
-                            "alignment": "left",
-                            "border": [
-                                false,
-                                false,
-                                false,
-                                false
-                            ]
-                        },
-                        {
-                            "text": "Time",
-                            "style": "app-table-label",
-                            "alignment": "left",
-                            "border": [
-                                false,
-                                false,
-                                true,
-                                false
-                            ]
-                        }
-                    ],
-                    [
-                        {
-                            "text": "{{variable60}}",
-                            "style": "app-table-value",
-                            "alignment": "left",
-                            "border": [
-                                true,
-                                false,
-                                false,
-                                true
-                            ]
-                        },
-                        {
-                            "text": "{{variable61}}",
-                            "style": "app-table-value",
-                            "alignment": "left",
-                            "border": [
-                                false,
-                                false,
-                                false,
-                                true
-                            ]
-                        },
-                        {
-                            "text": "{{variable62}}",
-                            "style": "app-table-value",
-                            "alignment": "left",
-                            "border": [
-                                false,
-                                false,
-                                true,
-                                true
-                            ]
-                        }
+                    "body": [
+                        [
+                            {
+                                "text": "Application Details",
+                                "style": "app-table-value",
+                                "alignment": "left",
+                                "colSpan": 3,
+                                "border": [
+                                    true,
+                                    true,
+                                    true,
+                                    false
+                                ]
+                            },
+                            {},
+                            {}
+                        ],
+                        [
+                            {
+                                "text": "Name",
+                                "style": "app-table-label",
+                                "alignment": "left",
+                                "border": [
+                                    true,
+                                    false,
+                                    false,
+                                    false
+                                ]
+                            },
+                            {
+                                "text": "Email",
+                                "style": "app-table-label",
+                                "alignment": "left",
+                                "border": [
+                                    false,
+                                    false,
+                                    false,
+                                    false
+                                ]
+                            },
+                            {
+                                "text": "Contact",
+                                "style": "app-table-label",
+                                "alignment": "left",
+                                "border": [
+                                    false,
+                                    false,
+                                    true,
+                                    false
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "text": "{{variable54}}",
+                                "style": "app-table-value",
+                                "alignment": "left",
+                                "border": [
+                                    true,
+                                    false,
+                                    false,
+                                    false
+                                ]
+                            },
+                            {
+                                "text": "{{variable55}}",
+                                "style": "app-table-value",
+                                "alignment": "left",
+                                "border": [
+                                    false,
+                                    false,
+                                    false,
+                                    false
+                                ]
+                            },
+                            {
+                                "text": "{{variable56}}",
+                                "style": "app-table-value",
+                                "alignment": "left",
+                                "border": [
+                                    false,
+                                    false,
+                                    true,
+                                    false
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "text": "House No",
+                                "style": "app-table-label",
+                                "alignment": "left",
+                                "border": [
+                                    true,
+                                    false,
+                                    false,
+                                    false
+                                ]
+                            },
+                            {
+                                "text": "Complete Address",
+                                "style": "app-table-label",
+                                "alignment": "left",
+                                "border": [
+                                    false,
+                                    false,
+                                    false,
+                                    false
+                                ]
+                            },
+                            {
+                                "text": "Locality",
+                                "style": "app-table-label",
+                                "alignment": "left",
+                                "border": [
+                                    false,
+                                    false,
+                                    true,
+                                    false
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "text": "{{variable57}}",
+                                "style": "app-table-value",
+                                "alignment": "left",
+                                "border": [
+                                    true,
+                                    false,
+                                    false,
+                                    false
+                                ]
+                            },
+                            {
+                                "text": "{{variable58}}",
+                                "style": "app-table-value",
+                                "alignment": "left",
+                                "border": [
+                                    false,
+                                    false,
+                                    false,
+                                    false
+                                ]
+                            },
+                            {
+                                "text": "{{variable59}}",
+                                "style": "app-table-value",
+                                "alignment": "left",
+                                "border": [
+                                    false,
+                                    false,
+                                    true,
+                                    false
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "text": "Residentail/Commercial",
+                                "style": "app-table-label",
+                                "alignment": "left",
+                                "border": [
+                                    true,
+                                    false,
+                                    false,
+                                    false
+                                ]
+                            },
+                            {
+                                "text": "Application Type",
+                                "style": "app-table-label",
+                                "alignment": "left",
+                                "border": [
+                                    false,
+                                    false,
+                                    false,
+                                    false
+                                ]
+                            },
+                            {
+                                "text": "Status",
+                                "style": "app-table-label",
+                                "alignment": "left",
+                                "border": [
+                                    false,
+                                    false,
+                                    true,
+                                    false
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "text": "{{variable60}}",
+                                "style": "app-table-value",
+                                "alignment": "left",
+                                "border": [
+                                    true,
+                                    false,
+                                    false,
+                                    false
+                                ]
+                            },
+                            {
+                                "text": "{{variable75}}",
+                                "style": "app-table-value",
+                                "alignment": "left",
+                                "border": [
+                                    false,
+                                    false,
+                                    false,
+                                    false
+                                ]
+                            },
+                            {
+                                "text": "{{variable76}}",
+                                "style": "app-table-value",
+                                "alignment": "left",
+                                "border": [
+                                    false,
+                                    false,
+                                    true,
+                                    false
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "text": "Date",
+                                "style": "app-table-label",
+                                "alignment": "left",
+                                "border": [
+                                    true,
+                                    false,
+                                    false,
+                                    false
+                                ]
+                            },
+                            {
+                                "text": "Time",
+                                "style": "app-table-label",
+                                "alignment": "left",
+                                "colSpan": 2,
+                                "border": [
+                                    false,
+                                    false,
+                                    true,
+                                    false
+                                ]
+                            },
+                            {}
+                        ],
+                        [
+                            {
+                                "text": "{{variable61}}",
+                                "style": "app-table-value",
+                                "alignment": "left",
+                                "border": [
+                                    true,
+                                    false,
+                                    false,
+                                    true
+                                ]
+                            },
+                            {
+                                "text": "{{variable62}}",
+                                "style": "app-table-value",
+                                "alignment": "left",
+                                "colSpan": 2,
+                                "border": [
+                                    false,
+                                    false,
+                                    true,
+                                    true
+                                ]
+                            },
+                            {}
+                        ]
                     ]
-
+                }
+            },
+            {
+                "style": "table-gap",
+                "table": {
+                    "widths": [
+                        150,
+                        150,
+                        180
+                    ],
+                    "body": [
+                        [
+                            {
+                                "text": "Applicant Details",
+                                "style": "app-table-value",
+                                "alignment": "left",
+                                "colSpan": 3,
+                                "border": [
+                                    true,
+                                    true,
+                                    true,
+                                    false
+                                ]
+                            },
+                            {},
+                            {}
+                        ],
+                        [
+                            {
+                                "text": "Applicant Name",
+                                "style": "app-table-label",
+                                "alignment": "left",
+                                "border": [
+                                    true,
+                                    false,
+                                    false,
+                                    false
+                                ]
+                            },
+                            {
+                                "text": "Applicant Contact",
+                                "style": "app-table-label",
+                                "alignment": "left",
+                                "border": [
+                                    false,
+                                    false,
+                                    false,
+                                    false
+                                ]
+                            },
+                            {
+                                "text": "Father/ Husbands Name",
+                                "style": "app-table-label",
+                                "alignment": "left",
+                                "border": [
+                                    false,
+                                    false,
+                                    true,
+                                    false
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "text": "{{variable63}}",
+                                "style": "app-table-value",
+                                "alignment": "left",
+                                "border": [
+                                    true,
+                                    false,
+                                    false,
+                                    false
+                                ]
+                            },
+                            {
+                                "text": "{{variable64}}",
+                                "style": "app-table-value",
+                                "alignment": "left",
+                                "border": [
+                                    false,
+                                    false,
+                                    false,
+                                    false
+                                ]
+                            },
+                            {
+                                "text": "{{variable68}}",
+                                "style": "app-table-value",
+                                "alignment": "left",
+                                "border": [
+                                    false,
+                                    false,
+                                    true,
+                                    false
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "text": "Date of Birth",
+                                "style": "app-table-label",
+                                "alignment": "left",
+                                "border": [
+                                    true,
+                                    false,
+                                    false,
+                                    false
+                                ]
+                            },
+                            {
+                                "text": "Email",
+                                "style": "app-table-label",
+                                "alignment": "left",
+                                "border": [
+                                    false,
+                                    false,
+                                    false,
+                                    false
+                                ]
+                            },
+                            {
+                                "text": "Applicant Address",
+                                "style": "app-table-label",
+                                "alignment": "left",
+                                "border": [
+                                    false,
+                                    false,
+                                    true,
+                                    false
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "text": "{{variable70}}",
+                                "style": "app-table-value",
+                                "alignment": "left",
+                                "border": [
+                                    true,
+                                    false,
+                                    false,
+                                    true
+                                ]
+                            },
+                            {
+                                "text": "{{variable69}}",
+                                "style": "app-table-value",
+                                "alignment": "left",
+                                "border": [
+                                    false,
+                                    false,
+                                    false,
+                                    true
+                                ]
+                            },
+                            {
+                                "text": "{{variable66}}",
+                                "style": "app-table-value",
+                                "alignment": "left",
+                                "border": [
+                                    false,
+                                    false,
+                                    true,
+                                    true
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            },
+            {
+                "style": "table-gap",
+                "table": {
+                    "widths": [
+                        150,
+                        150,
+                        180
+                    ],
+                    "body": [
+                        [
+                            {
+                                "text": "Fee Details",
+                                "style": "app-table-value",
+                                "alignment": "left",
+                                "colSpan": 3,
+                                "border": [
+                                    true,
+                                    true,
+                                    true,
+                                    false
+                                ]
+                            },
+                            {},
+                            {}
+                        ],
+                        [
+                            {
+                                "text": "Base Charges",
+                                "style": "app-table-label",
+                                "alignment": "left",
+                                "border": [
+                                    true,
+                                    false,
+                                    false,
+                                    false
+                                ]
+                            },
+                            {
+                                "text": "Taxes",
+                                "style": "app-table-label",
+                                "alignment": "left",
+                                "border": [
+                                    false,
+                                    false,
+                                    false,
+                                    false
+                                ]
+                            },
+                            {
+                                "text": "Total Amount (Rs.)",
+                                "style": "app-table-label",
+                                "alignment": "left",
+                                "border": [
+                                    false,
+                                    false,
+                                    true,
+                                    false
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "text": "{{variable71}}",
+                                "style": "app-table-value",
+                                "alignment": "left",
+                                "border": [
+                                    true,
+                                    false,
+                                    false,
+                                    true
+                                ]
+                            },
+                            {
+                                "text": "{{variable72}}",
+                                "style": "app-table-value",
+                                "alignment": "left",
+                                "border": [
+                                    false,
+                                    false,
+                                    false,
+                                    true
+                                ]
+                            },
+                            {
+                                "text": "{{variable73}}",
+                                "style": "app-table-value",
+                                "alignment": "left",
+                                "border": [
+                                    false,
+                                    false,
+                                    true,
+                                    true
+                                ]
+                            }
+                        ]
+                    ]
+                }
+            }
+        ],
+        "footer": [
+            {
+                "text": "* This is computer generated receipt, no signature required.",
+                "style": "footerstyle"
+            }
+        ],
+        "styles": {
+            "pdfheader": {
+                "fontSize": 15,
+                "alignment": "center",
+                "bold": true
+            },
+            "pdfsubheader": {
+                "fontSize": 12,
+                "alignment": "center",
+                "margin": [
+                    0,
+                    0,
+                    0,
+                    20
+                ]
+            },
+            "footerstyle": {
+                "alignment": "center"
+            },
+            "table-gap": {
+                "margin": [
+                    0,
+                    5,
+                    0,
+                    15
+                ]
+            },
+            "app-table-value": {
+                "fontSize": 10,
+                "bold": true,
+                "margin": [
+                    5,
+                    5,
+                    5,
+                    5
+                ]
+            },
+            "app-table-label": {
+                "fontSize": 10,
+                "margin": [
+                    5,
+                    5,
+                    5,
+                    0
                 ]
             }
-        },
-        {
-            "style": "table-gap",
-            "table": {
-                "widths": [150, 150, 180],
-
-                "body": [
-                    [
-                        {
-                            "text": "Applicant Details",
-                            "style": "app-table-value",
-                            "alignment": "left",
-                            "colSpan": 3,
-                            "border": [
-                                true,
-                                true,
-                                true,
-                                false
-                            ]
-                        },
-                        {},
-                        {}
-
-                    ],
-                    [
-                        {
-                            "text": "Applicant Name",
-                            "style": "app-table-label",
-                            "alignment": "left",
-                            "border": [
-                                true,
-                                false,
-                                false,
-                                false
-                            ]
-                        },
-                        {
-                            "text": "Applicant Contact",
-                            "style": "app-table-label",
-                            "alignment": "left",
-                            "border": [
-                                false,
-                                false,
-                                false,
-                                false
-                            ]
-                        },
-                        {
-                            "text": "Father/ Husbands Name",
-                            "style": "app-table-label",
-                            "alignment": "left",
-                            "border": [
-                                false,
-                                false,
-                                true,
-                                false
-                            ]
-                        }
-                    ],
-                    [
-                        {
-                            "text": "{{variable63}}",
-                            "style": "app-table-value",
-                            "alignment": "left",
-                            "border": [
-                                true,
-                                false,
-                                false,
-                                false
-                            ]
-                        },
-                        {
-                            "text": "{{variable64}}",
-                            "style": "app-table-value",
-                            "alignment": "left",
-                            "border": [
-                                false,
-                                false,
-                                false,
-                                false
-                            ]
-                        },
-                        {
-                            "text": "{{variable68}}",
-                            "style": "app-table-value",
-                            "alignment": "left",
-                            "border": [
-                                false,
-                                false,
-                                true,
-                                false
-                            ]
-                        }
-                    ],
-
-                    [
-                        {
-                            "text": "Date of Birth",
-                            "style": "app-table-label",
-                            "alignment": "left",
-                            "border": [
-                                true,
-                                false,
-                                false,
-                                false
-                            ]
-                        },
-                        {
-                            "text": "Email",
-                            "style": "app-table-label",
-                            "alignment": "left",
-                            "border": [
-                                false,
-                                false,
-                                false,
-                                false
-                            ]
-                        },
-                        {
-                            "text": "Applicant Address",
-                            "style": "app-table-label",
-                            "alignment": "left",
-                            "border": [
-                                false,
-                                false,
-                                true,
-                                false
-                            ]
-                        }
-                    ],
-                    [
-                        {
-                            "text": "{{variable70}}",
-                            "style": "app-table-value",
-                            "alignment": "left",
-                            "border": [
-                                true,
-                                false,
-                                false,
-                                true
-                            ]
-                        },
-                        {
-                            "text": "{{variable69}}",
-                            "style": "app-table-value",
-                            "alignment": "left",
-                            "border": [
-                                false,
-                                false,
-                                false,
-                                true
-                            ]
-                        },
-                        {
-                            "text": "{{variable66}}",
-                            "style": "app-table-value",
-                            "alignment": "left",
-                            "border": [
-                                false,
-                                false,
-                                true,
-                                true
-                            ]
-                        }
-                    ]
-
-                ]
-            }
-        },
-        {
-            "style": "table-gap",
-            "table": {
-                "widths": [150, 150, 180],
-
-                "body": [
-                    [
-                        {
-                            "text": "Fee Details",
-                            "style": "app-table-value",
-                            "alignment": "left",
-                            "colSpan": 3,
-                            "border": [
-                                true,
-                                true,
-                                true,
-                                false
-                            ]
-                        },
-                        {},
-                        {}
-
-                    ],
-                    [
-                        {
-                            "text": "Base Charges",
-                            "style": "app-table-label",
-                            "alignment": "left",
-                            "border": [
-                                true,
-                                false,
-                                false,
-                                false
-                            ]
-                        },
-                        {
-                            "text": "Taxes",
-                            "style": "app-table-label",
-                            "alignment": "left",
-                            "border": [
-                                false,
-                                false,
-                                false,
-                                false
-                            ]
-                        },
-                        {
-                            "text": "Total Amount (Rs.)",
-                            "style": "app-table-label",
-                            "alignment": "left",
-                            "border": [
-                                false,
-                                false,
-                                true,
-                                false
-                            ]
-                        }
-                    ],
-                    [
-                        {
-                            "text": "{{variable71}}",
-                            "style": "app-table-value",
-                            "alignment": "left",
-                            "border": [
-                                true,
-                                false,
-                                false,
-                                true
-                            ]
-                        },
-                        {
-                            "text": "{{variable72}}",
-                            "style": "app-table-value",
-                            "alignment": "left",
-                            "border": [
-                                false,
-                                false,
-                                false,
-                                true
-                            ]
-                        },
-                        {
-                            "text": "{{variable73}}",
-                            "style": "app-table-value",
-                            "alignment": "left",
-                            "border": [
-                                false,
-                                false,
-                                true,
-                                true
-                            ]
-                        }
-                    ]
-
-                ]
-            }
-        }
-    ],
-    "footer": [
-        {
-            "text": "* This is computer generated receipt, no signature required.",
-            "style": "footerstyle"
-        }
-    ],
-    "styles": {
-        "pdfheader": {
-            "fontSize": 15,
-            "alignment": "center",
-            "bold": true
-        },
-        "pdfsubheader": {
-            "fontSize": 12,
-            "alignment": "center",
-            "margin": [0, 0, 0, 20]
-        },
-        "footerstyle": {
-            "alignment": "center"
-        },
-        "table-gap": {
-            "margin": [0, 5, 0, 15]
-        },
-
-        "app-table-value": {
-            "fontSize": 10,
-            "bold": true,
-            "margin": [5, 5, 5, 5]
-        },
-        "app-table-label": {
-            "fontSize": 10,
-            "margin": [5, 5, 5, 0]
         }
     }
-}
 }
