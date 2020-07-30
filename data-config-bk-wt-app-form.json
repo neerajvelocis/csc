@@ -70,6 +70,18 @@
                            "path": "$.bookingDetail.time"
                         }
                      },
+                     {
+                        "variable": "variable75",
+                        "value": {
+                           "path": "$.bookingDetail.applicationStatus"
+                        }
+                     },
+                     {
+                        "variable": "variable76",
+                        "value": {
+                           "path": "$.bookingDetail.applicationType"
+                        }
+                     },
 
                      {
                         "variable": "variable63",
