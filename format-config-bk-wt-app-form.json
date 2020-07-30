@@ -230,7 +230,7 @@
                                 ]
                             },
                             {
-                                "text": "{{variable75}}",
+                                "text": "{{variable76}}",
                                 "style": "app-table-value",
                                 "alignment": "left",
                                 "border": [
@@ -241,7 +241,7 @@
                                 ]
                             },
                             {
-                                "text": "{{variable76}}",
+                                "text": "{{variable75}}",
                                 "style": "app-table-value",
                                 "alignment": "left",
                                 "border": [
