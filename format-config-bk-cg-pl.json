@@ -1,0 +1,194 @@
+{
+  "key": "bk-cg-pl",
+  "config": {
+    "pageSize": "A4",
+    
+    "content": [
+      {
+        "text": "Municipal Corporation, Chandigarh",
+        "style": "pdfheader"
+      },
+      {
+        "text": "Permission Letter for Commercial Ground",
+        "style": "pdfsubheader"
+      },
+      {
+        "stack": [
+          {
+            "text": "To,",
+            "style": "app-table-value"
+          },
+          {
+            "text": "{{variable1}}",
+            "style": "app-table-value"
+          },
+          {
+            "text": "{{variable3}}, {{variable4}}",
+            "style": "app-table-value"
+          },
+          {
+            "text": "{{variable5}}, {{variable6}}",
+            "style": "app-table-value"
+          },
+          {
+            "text": "Application No.: {{variable7}}",
+            "style": "app-table-value"
+          },
+          {
+            "text": "Date: {{variable8}}",
+            "style": "app-table-value"
+          },
+          {
+            "text": "Subject: Permission of ground for commercial purpose in {{variable10}}.",
+            "style": "app-table-value"
+          }
+        ]
+      },
+      {
+        "text": "You are here by granted a permission to use ground for commercial purpose in {{variable10}}, {{variable6}} on dated {{variable9}} on following conditions:",
+        "style": "app-table-label",
+        "margin": [
+          5,
+          20,
+          5,
+          5
+        ]
+      },
+      {
+        "ol": [
+          {
+            "text": "Area shall be used for the purposes for which the permission is being granted above and shall not be used for any other purpose.",
+            "style": "app-table-label",
+            "margin": [
+              20,
+              10,
+              0,
+              0
+            ]
+          },
+          {
+            "text": "No Banner/Hoardings shall be allowed. ",
+            "style": "app-table-label",
+            "margin": [
+              20,
+              10,
+              0,
+              0
+            ]
+          },
+          {
+            "text": "No damage shall be caused to the M.C. property / flooring / parkings etc. In case of any damage of Municipal property the recovery shall be made from the applicant.",
+            "style": "app-table-label",
+            "margin": [
+              20,
+              10,
+              0,
+              0
+            ]
+          },
+          {
+            "text": "No inconvenience is to be caused to the General Public on account of this permission.",
+            "style": "app-table-label",
+            "margin": [
+              20,
+              10,
+              0,
+              0
+            ]
+          },
+          {
+            "text": "Erection of tentage / erection of poles are allowed without holes.",
+            "style": "app-table-label",
+            "margin": [
+              20,
+              10,
+              0,
+              0
+            ]
+          },
+          {
+            "text": "Advertisement fee shall be charged as per Chandigarh Advertisement Control Order1954 for displaying of banner(s) and any kind of display of advertisement, if any.",
+            "style": "app-table-label",
+            "margin": [
+              20,
+              10,
+              0,
+              0
+            ]
+          },
+          {
+            "text": "The Commissioner, Municipal Corporation, Chd, reserve the right to the cancel the permission without assigning any reason in public interest. ",
+            "style": "app-table-label",
+            "margin": [
+              20,
+              10,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "stack": [
+          {
+            "text": "Officer on Special Duty II,",
+            "style": "app-table-value"
+          },
+          {
+            "text": "Municipal Corporation Chandigarh",
+            "style": "app-table-value"
+          },
+          {
+            "text": "Dated: {{variable8}}",
+            "style": "app-table-value"
+          }
+        ],
+        "margin": [
+          350,
+          20,
+          0,
+          0
+        ]
+      }
+    ],
+    "footer": [
+      {
+        "text": "* This is computer generated receipt, no signature required.",
+        "style": "footerstyle"
+      }
+    ],
+    "styles": {
+      "pdfheader": {
+        "fontSize": 15,
+        "alignment": "center",
+        "bold": true
+      },
+      "pdfsubheader": {
+        "fontSize": 12,
+        "alignment": "center",
+        "margin": [
+          0,
+          0,
+          0,
+          20
+        ]
+      },
+      "footerstyle": {
+        "alignment": "center"
+      },
+      "app-table-value": {
+        "fontSize": 10,
+        "bold": true,
+        "margin": [
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      "app-table-label": {
+        "fontSize": 11
+      }
+    }
+  }
+}
