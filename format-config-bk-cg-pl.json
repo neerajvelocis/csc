@@ -27,7 +27,7 @@
             "style": "app-table-value"
           },
           {
-            "text": "{{variable5}}, {{variable6}}",
+            "text": "sector {{variable5}}, {{variable6}}",
             "style": "app-table-value"
           },
           {
