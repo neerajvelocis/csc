@@ -8,7 +8,7 @@
       "isCommonTableBorderRequired": true,
       "mappings": [
          {
-            "topic": "tl-pdf-generation",
+            "topic": "bk-pdf-generation",
             
             "mappings": [
                {
