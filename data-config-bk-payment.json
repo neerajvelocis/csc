@@ -108,6 +108,11 @@
                         "value": {
                            "path": "$.paymentInfo.paymentItemExtraColumnLabel"
                         }
+                     },
+                     {
+                        "variable": "variable76",                        
+                        "url":"https://s3.ap-south-1.amazonaws.com/pb-egov-assets/pb.amritsar/logo.png",
+                        "type":"image"
                      }
                   ]
                }
