@@ -1,123 +1,153 @@
 {
-   "key": "bk-payment-receipt",
-   "DataConfigs": {
-      "serviceName": "rainmaker-tl",
-      "version": "1.0.0",
-      "baseKeyPath": "$.BookingInfo.*",
-      "entityIdPath": "$.booking.bkApplicationNumber",
-      "isCommonTableBorderRequired": true,
-      "mappings": [
-         {
-            "topic": "tl-pdf-generation",
-            "staticConfigPath": "https://raw.githubusercontent.com/egovernments/egov-services/vishal-feature-filestore/core/egov-indexer/src/main/resources/rainmaker-pgr-indexer.yml",
-            "mappings": [
-               {
-                  "direct": [
-                     {
-                        "variable": "variable1",
+    "key": "bk-payment-receipt",
+    "DataConfigs": {
+       "serviceName": "rainmaker-tl",
+       "version": "1.0.0",
+       "baseKeyPath": "$.BookingInfo.*",
+       "entityIdPath": "$.booking.bkApplicationNumber",
+       "isCommonTableBorderRequired": true,
+       "mappings": [
+          {
+             "topic": "tl-pdf-generation",
+             "staticConfigPath": "https://raw.githubusercontent.com/egovernments/egov-services/vishal-feature-filestore/core/egov-indexer/src/main/resources/rainmaker-pgr-indexer.yml",
+             "mappings": [
+                {
+                   "direct": [
+                      {
+                         "variable": "variable1",
+                         "value": {
+                            "path": "$.applicantDetail.name"
+                         }
+                      },
+                      {
+                         "variable": "variable2",
+                         "value": {
+                            "path": "$.applicantDetail.mobileNumber"
+                         }
+                      },
+                      {
+                         "variable": "variable3",
+                         "value": {
+                            "path": "$.applicantDetail.houseNo"
+                         }
+                      },
+                      {
+                         "variable": "variable4",
+                         "value": {
+                            "path": "$.applicantDetail.permanentAddress"
+                         }
+                      },
+                      {
+                         "variable": "variable5",
+                         "value": {
+                            "path": "$.applicantDetail.sector"
+                         }
+                      },
+                      {
+                         "variable": "variable6",
+                         "value": {
+                            "path": "$.booking.bkApplicationNumber"
+                         }
+                      },
+                      {
+                         "variable": "variable7",
+                         "value": {
+                            "path": "$.paymentInfo.paymentDate"
+                         }
+                      },
+                      {
+                         "variable": "variable8",
+                         "value": {
+                            "path": "$.paymentInfo.transactionId"
+                         }
+                      },
+                      {
+                         "variable": "variable8",
+                         "value": {
+                            "path": "$.paymentInfo.transactionId"
+                         }
+                      },
+                      {
+                         "variable": "variable9",
+                         "value": {
+                            "path": "$.paymentInfo.bookingPeriod"
+                         }
+                      },
+                      {
+                         "variable": "variable10",
+                         "value": {
+                            "path": "$.paymentInfo.bookingItem"
+                         }
+                      },
+                      {
+                         "variable": "variable11",
+                         "value": {
+                            "path": "$.paymentInfo.amount"
+                         }
+                      },
+                      {
+                         "variable": "variable12",
+                         "value": {
+                            "path": "$.paymentInfo.tax"
+                         }
+                      },
+                      {
+                         "variable": "variable13",
+                         "value": {
+                            "path": "$.paymentInfo.grandTotal"
+                         }
+                      },
+                      {
+                         "variable": "variable14",
+                         "value": {
+                            "path": "$.paymentInfo.amountInWords"
+                         }
+                      },
+                      {
+                         "variable": "variable75",
+                         "value": {
+                            "path": "$.paymentInfo.paymentItemExtraColumnLabel"
+                         }
+                      },
+                      {
+                         "variable": "variable76",                        
+                         "url":"https://s3.ap-south-1.amazonaws.com/pb-egov-assets/pb.amritsar/logo.png",
+                         "type":"image"
+                      },
+                      {
+                         "variable": "receiptNo",
+                         "value": {
+                            "path": "$.paymentInfo.receiptNo"
+                         }
+                      },
+                      {
+                         "variable": "paymentMode",
+                         "value": {
+                            "path": "$.paymentInfo.paymentMode"
+                         }
+                      },
+                      {
+                         "variable": "payerName",
+                         "value": {
+                            "path": "$.payerInfo.payerName"
+                         }
+                      },
+                      {
+                         "variable": "payerMobile",
+                         "value": {
+                            "path": "$.payerInfo.payerMobile"
+                         }
+                      },
+                      {
+                        "variable": "generatedBy",
                         "value": {
-                           "path": "$.applicantDetail.name"
+                           "path": "$.BookingInfo.generatedBy"
                         }
-                     },
-                     {
-                        "variable": "variable2",
-                        "value": {
-                           "path": "$.applicantDetail.mobileNumber"
-                        }
-                     },
-                     {
-                        "variable": "variable3",
-                        "value": {
-                           "path": "$.applicantDetail.houseNo"
-                        }
-                     },
-                     {
-                        "variable": "variable4",
-                        "value": {
-                           "path": "$.applicantDetail.permanentAddress"
-                        }
-                     },
-                     {
-                        "variable": "variable5",
-                        "value": {
-                           "path": "$.applicantDetail.sector"
-                        }
-                     },
-                     {
-                        "variable": "variable6",
-                        "value": {
-                           "path": "$.booking.bkApplicationNumber"
-                        }
-                     },
-                     {
-                        "variable": "variable7",
-                        "value": {
-                           "path": "$.paymentInfo.paymentDate"
-                        }
-                     },
-                     {
-                        "variable": "variable8",
-                        "value": {
-                           "path": "$.paymentInfo.transactionId"
-                        }
-                     },
-                     {
-                        "variable": "variable8",
-                        "value": {
-                           "path": "$.paymentInfo.transactionId"
-                        }
-                     },
-                     {
-                        "variable": "variable9",
-                        "value": {
-                           "path": "$.paymentInfo.bookingPeriod"
-                        }
-                     },
-                     {
-                        "variable": "variable10",
-                        "value": {
-                           "path": "$.paymentInfo.bookingItem"
-                        }
-                     },
-                     {
-                        "variable": "variable11",
-                        "value": {
-                           "path": "$.paymentInfo.amount"
-                        }
-                     },
-                     {
-                        "variable": "variable12",
-                        "value": {
-                           "path": "$.paymentInfo.tax"
-                        }
-                     },
-                     {
-                        "variable": "variable13",
-                        "value": {
-                           "path": "$.paymentInfo.grandTotal"
-                        }
-                     },
-                     {
-                        "variable": "variable14",
-                        "value": {
-                           "path": "$.paymentInfo.amountInWords"
-                        }
-                     },
-                     {
-                        "variable": "variable75",
-                        "value": {
-                           "path": "$.paymentInfo.paymentItemExtraColumnLabel"
-                        }
-                     },
-                     {
-                        "variable": "variable76",                        
-                        "url":"https://s3.ap-south-1.amazonaws.com/pb-egov-assets/pb.amritsar/logo.png",
-                        "type":"image"
                      }
-                  ]
-               }
-            ]
-         }
-      ]
-   }
-}
+                   ]
+                }
+             ]
+          }
+       ]
+    }
+ }
