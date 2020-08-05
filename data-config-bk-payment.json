@@ -141,7 +141,7 @@
                       {
                         "variable": "generatedBy",
                         "value": {
-                           "path": "$.BookingInfo.generatedBy"
+                           "path": "$.generatedBy.generatedBy"
                         }
                      }
                    ]
