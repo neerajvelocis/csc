@@ -3,6 +3,17 @@
   "config": {
     "content": [
       {
+                  "image": "{{variable76}}",
+                  "width": 50,
+                  "height": 61.25,
+                  "margin": [
+                    45,
+                    12,
+                    10,
+                    10
+                  ]
+      },
+      {
         "text": "Municipal Corporation, Chandigarh",
         "style": "pdfheader"
       },
