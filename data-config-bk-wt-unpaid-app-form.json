@@ -1,7 +1,7 @@
 {
    "key": "bk-wt-unpaid-app-form",
    "DataConfigs": {
-      "serviceName": "rainmaker-tl",
+      "serviceName": "rainmaker-bk",
       "version": "1.0.0",
       "baseKeyPath": "$.BookingInfo.*",
       "entityIdPath": "$.bookingDetail.applicationNumber",
@@ -147,6 +147,17 @@
                         "value": {
                            "path": "$.feeDetail.totalAmount"
                         }
+                     },
+                     {
+                        "variable": "generatedBy",
+                        "value": {
+                           "path": "$.generatedBy.generatedBy"
+                        }
+                     },
+                     {
+                        "variable": "pdfLogo",                        
+                        "url":"http://mcchandigarh.gov.in/sites/default/files/mc-chandigardh-logo.png",
+                        "type":"image"
                      }
                      
                   ]
