@@ -158,7 +158,7 @@
                      },
                      {
                         "variable": "pdfLogo",                        
-                        "url":"https://s3.ap-south-1.amazonaws.com/pb-egov-assets/pb.amritsar/logo.png",
+                        "url":"http://mcchandigarh.gov.in/sites/default/files/mc-chandigardh-logo.png",
                         "type":"image"
                      }
                    ]
