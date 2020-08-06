@@ -207,8 +207,8 @@
                     "widths": [
                         "auto",
                         200,
-                        "auto",
-                        "auto"
+                        175,
+                        100
                     ],
                     "headerRows": 1,
                     "body": [
