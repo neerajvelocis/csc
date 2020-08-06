@@ -1,84 +1,95 @@
 {
-   "key": "bk-cg-pl",
-   "DataConfigs": {
-      "serviceName": "rainmaker-tl",
-      "version": "1.0.0",
-      "baseKeyPath": "$.BookingInfo.*",
-      "entityIdPath": "$.bookingDetail.applicationNumber",
-      "isCommonTableBorderRequired": true,
-      "mappings": [
-         {
-            "topic": "bk-pdf-generation",
-            
-            "mappings": [
-               {
-                  "direct": [
-                     {
-                        "variable": "variable1",
-                        "value": {
-                           "path": "$.applicantDetail.name"
-                        }
-                     },
-                     {
-                        "variable": "variable2",
-                        "value": {
-                           "path": "$.applicantDetail.mobileNumber"
-                        }
-                     },
-                     {
-                        "variable": "variable3",
-                        "value": {
-                           "path": "$.applicantDetail.houseNo"
-                        }
-                     },
-                     {
-                        "variable": "variable4",
-                        "value": {
-                           "path": "$.applicantDetail.permanentAddress"
-                        }
-                     },
-                     {
-                        "variable": "variable5",
-                        "value": {
-                           "path": "$.applicantDetail.sector"
-                        }
-                     },
-                     {
-                        "variable": "variable6",
-                        "value": {
-                           "path": "$.applicantDetail.permanentCity"
-                        }
-                     },
-                     
-                     {
-                        "variable": "variable7",
-                        "value": {
-                           "path": "$.bookingDetail.applicationNumber"
-                        }
-                     },
-                     {
-                        "variable": "variable8",
-                        "value": {
-                           "path": "$.bookingDetail.applicationDate"
-                        }
-                     },
-                     
-                     {
-                        "variable": "variable9",
-                        "value": {
-                           "path": "$.bookingDetail.bookingPeriod"
-                        }
-                     },
-                     {
-                        "variable": "variable10",
-                        "value": {
-                           "path": "$.bookingDetail.groundName"
-                        }
-                     }
-                  ]
-               }
-            ]
-         }
-      ]
-   }
-}
+    "key": "bk-cg-pl",
+    "DataConfigs": {
+       "serviceName": "rainmaker-bk",
+       "version": "1.0.0",
+       "baseKeyPath": "$.BookingInfo.*",
+       "entityIdPath": "$.bookingDetail.applicationNumber",
+       "isCommonTableBorderRequired": true,
+       "mappings": [
+          {
+             "topic": "bk-pdf-generation",
+             
+             "mappings": [
+                {
+                   "direct": [
+                      {
+                         "variable": "variable1",
+                         "value": {
+                            "path": "$.applicantDetail.name"
+                         }
+                      },
+                      {
+                         "variable": "variable2",
+                         "value": {
+                            "path": "$.applicantDetail.mobileNumber"
+                         }
+                      },
+                      {
+                         "variable": "variable3",
+                         "value": {
+                            "path": "$.applicantDetail.houseNo"
+                         }
+                      },
+                      {
+                         "variable": "variable4",
+                         "value": {
+                            "path": "$.applicantDetail.permanentAddress"
+                         }
+                      },
+                      {
+                         "variable": "variable5",
+                         "value": {
+                            "path": "$.applicantDetail.sector"
+                         }
+                      },
+                      {
+                         "variable": "variable6",
+                         "value": {
+                            "path": "$.applicantDetail.permanentCity"
+                         }
+                      },
+                      
+                      {
+                         "variable": "variable7",
+                         "value": {
+                            "path": "$.bookingDetail.applicationNumber"
+                         }
+                      },
+                      {
+                         "variable": "variable8",
+                         "value": {
+                            "path": "$.bookingDetail.applicationDate"
+                         }
+                      },
+                      
+                      {
+                         "variable": "variable9",
+                         "value": {
+                            "path": "$.bookingDetail.bookingPeriod"
+                         }
+                      },
+                      {
+                         "variable": "variable10",
+                         "value": {
+                            "path": "$.bookingDetail.groundName"
+                         }
+                      },
+                      {
+                         "variable": "generatedBy",
+                         "value": {
+                            "path": "$.generatedBy.generatedBy"
+                         }
+                      },
+                      {
+                         "variable": "pdfLogo",                        
+                         "url":"http://mcchandigarh.gov.in/sites/default/files/mc-chandigardh-logo.png",
+                         "type":"image"
+                      }
+                   ]
+                }
+             ]
+          }
+       ]
+    }
+ }
