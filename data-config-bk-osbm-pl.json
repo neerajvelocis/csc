@@ -1,14 +1,14 @@
 {
    "key": "bk-osbm-pl",
    "DataConfigs": {
-      "serviceName": "rainmaker-tl",
+      "serviceName": "rainmaker-bk",
       "version": "1.0.0",
       "baseKeyPath": "$.BookingInfo.*",
       "entityIdPath": "$.bookingDetail.applicationNumber",
       "isCommonTableBorderRequired": true,
       "mappings": [
          {
-            "topic": "tl-pdf-generation",
+            "topic": "bk-pdf-generation",
             "staticConfigPath": "https://raw.githubusercontent.com/egovernments/egov-services/vishal-feature-filestore/core/egov-indexer/src/main/resources/rainmaker-pgr-indexer.yml",
             "mappings": [
                {
