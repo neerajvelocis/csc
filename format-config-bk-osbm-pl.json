@@ -32,7 +32,8 @@
         {
           "text": "Permission Letter to Store Building Material",
           "style": "pdfsubheader",
-          "margin": [0, 0, 0, 50]
+          "margin": [0, 0, 0, 50],
+            "bold": true
         },
         {
           "columns": [
