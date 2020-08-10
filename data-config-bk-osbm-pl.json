@@ -1,7 +1,7 @@
 {
     "key": "bk-osbm-pl",
     "DataConfigs": {
-       "serviceName": "rainmaker-tl",
+       "serviceName": "rainmaker-bk",
        "version": "1.0.0",
        "baseKeyPath": "$.BookingInfo.*",
        "entityIdPath": "$.bookingDetail.applicationNumber",
@@ -97,55 +97,19 @@
                             "path": "$.bookingDetail.duration"
                          }
                       },
-                      {
-                         "variable": "variable29",
-                         "url":"$.bookingDetail.categoryImage",
-                         "type":"image"
+                       {
+                         "variable": "generatedBy",
+                         "value": {
+                            "path": "$.generatedBy.generatedBy"
+                         }
                       },
                       {
-                        "variable": "generatedBy",
-                        "value": {
-                           "path": "$.generatedBy.generatedBy"
-                        }
-                     },
-                     {
-                        "variable": "pdfLogo",                        
-                        "url":"http://mcchandigarh.gov.in/sites/default/files/mc-chandigardh-logo.png",
-                        "type":"image"
-                     },
-                     {
-                        "variable": "approvedBy",
-                        "value": {
-                           "path": "$.approvedBy.approvedBy"
-                        }
-                     },
-                     {
-                        "variable": "approvedByRole",
-                        "value": {
-                           "path": "$.approvedBy.role"
-                        }
-                     },
-                     {
-                        "variable": "municipalityName",
-                        "value": {
-                           "path": "$.tenantInfo.municipalityName"
-                        }
-                     },
-                     {
-                        "variable": "municipalityAddress",
-                        "value": {
-                           "path": "$.tenantInfo.address"
-                        }
-                     },
-                     {
-                       "variable": "municipalityContact",
-                       "value": {
-                          "path": "$.tenantInfo.contactNumber"
-                       }
-                    }
+                         "variable": "pdfLogo",                        
+                         "url":"http://mcchandigarh.gov.in/sites/default/files/mc-chandigardh-logo.png",
+                         "type":"image"
+                      }
                    ]
                 }
-                
              ]
           }
        ]
