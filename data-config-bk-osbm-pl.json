@@ -1,7 +1,7 @@
 {
     "key": "bk-osbm-pl",
     "DataConfigs": {
-       "serviceName": "rainmaker-bk",
+       "serviceName": "rainmaker-tl",
        "version": "1.0.0",
        "baseKeyPath": "$.BookingInfo.*",
        "entityIdPath": "$.bookingDetail.applicationNumber",
