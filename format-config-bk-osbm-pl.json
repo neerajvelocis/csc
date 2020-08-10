@@ -3,16 +3,32 @@
     "config": {
       "content": [
         {
-            "image": "{{pdfLogo}}",
-            "width": 65,
-            "height": 65,
-            "margin": [0, -5, 0, 0]
-        },
-        {
-          "text": "Municipal Corporation, Chandigarh",
-          "style": "pdfheader",
-          "margin": [0, -55, 0, 0]
-        },
+                    "image": "{{pdfLogo}}",
+                    "width": 65,
+                    "height": 65,
+                    "margin": [0, -5, 0, 0]
+                },
+                {
+                  "text": "{{municipalityName}}",
+                  "style": "pdfheader",
+                  "margin": [0, -60, 0, 10]
+                },
+                {
+                  "text": "{{municipalityAddress}}",
+                  "style": "tenantinfo",
+                  
+                },
+                {
+                  "text": "{{municipalityContact}}",
+                  "style": "tenantinfo",
+                  "margin": [0, 3, 0, 3]
+                  
+                },
+                {
+                  "text": "{{municipalityWebSite}}",
+                  "style": "tenantinfo",
+                  
+                },
         {
           "text": "Permission Letter to Store Building Material",
           "style": "pdfsubheader",
@@ -296,12 +312,18 @@
       ],
       "styles": {
         "pdfheader": {
-          "fontSize": 15,
+          "fontSize": 18,
           "alignment": "center",
           "bold": true
         },
+        "tenantinfo": {
+          "fontSize": 13,
+          "alignment": "center",
+          "bold": true,
+          "color": "#65666c"
+        },
         "pdfsubheader": {
-          "fontSize": 15,
+          "fontSize": 13,
           "alignment": "center",
           "bold": true,
           "margin": [
