@@ -127,6 +127,12 @@
                           "path": "$.tenantInfo.contactNumber"
                        }
                     },
+                       {
+                       "variable": "municipalityWebSite",
+                       "value": {
+                          "path": "$.tenantInfo.webSite"
+                       }
+                    },
                      {
                         "variable": "approvedBy",
                         "value": {
