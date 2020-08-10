@@ -1,5 +1,5 @@
 {
-    "key": "bk-osbm-pl",
+    "key": "bk-osbm-pl-local",
     "DataConfigs": {
        "serviceName": "rainmaker-bk",
        "version": "1.0.0",
