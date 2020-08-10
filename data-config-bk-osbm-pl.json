@@ -105,7 +105,7 @@
                      },
                      {
                         "variable": "pdfLogo",                        
-                        "url":"http://mcchandigarh.gov.in/sites/default/files/mc-chandigardh-logo.png",
+                        "url":"$.tenantInfo.logoUrl",
                         "type":"image"
                      },
                      {
