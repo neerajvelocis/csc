@@ -30,7 +30,7 @@
                         "style": "app-table-value"
                     },
                     {
-                        "text": "{{variable3}}, {{variable4}}",
+                        "text": "{{variable4}}",
                         "style": "app-table-value"
                     },
                     {
