@@ -98,11 +98,6 @@
                          }
                       },
                       {
-                         "variable": "variable29",
-                         "url":"$.bookingDetail.categoryImage",
-                         "type":"image"
-                      },
-                      {
                         "variable": "generatedBy",
                         "value": {
                            "path": "$.generatedBy.generatedBy"
