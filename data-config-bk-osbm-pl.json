@@ -137,6 +137,12 @@
                        "value": {
                           "path": "$.tenantInfo.contactNumber"
                        }
+                    },
+                       {
+                       "variable": "municipalityWebSite",
+                       "value": {
+                          "path": "$.tenantInfo.webSite"
+                       }
                     }
                    ]
                 }
