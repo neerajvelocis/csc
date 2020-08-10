@@ -4,7 +4,7 @@
        "serviceName": "rainmaker-bk",
        "version": "1.0.0",
        "baseKeyPath": "$.BookingInfo.*",
-       "entityIdPath": "$.bookingDetail.applicationNumber",
+       "entityIdPath": "$.booking.bkApplicationNumber",
        "isCommonTableBorderRequired": true,
        "mappings": [
           {
@@ -14,98 +14,104 @@
                 {
                    "direct": [
                       {
-                         "variable": "variable15",
+                         "variable": "variable1",
                          "value": {
                             "path": "$.applicantDetail.name"
                          }
                       },
                       {
-                         "variable": "variable16",
+                         "variable": "variable2",
                          "value": {
                             "path": "$.applicantDetail.mobileNumber"
                          }
                       },
                       {
-                         "variable": "variable17",
+                         "variable": "variable3",
                          "value": {
                             "path": "$.applicantDetail.houseNo"
                          }
                       },
                       {
-                         "variable": "variable18",
+                         "variable": "variable4",
                          "value": {
                             "path": "$.applicantDetail.permanentAddress"
                          }
                       },
                       {
-                         "variable": "variable19",
+                         "variable": "variable5",
                          "value": {
                             "path": "$.applicantDetail.sector"
                          }
                       },
                       {
-                         "variable": "variable20",
+                         "variable": "variable6",
                          "value": {
-                            "path": "$.bookingDetail.applicationNumber"
+                            "path": "$.booking.bkApplicationNumber"
                          }
                       },
                       {
-                         "variable": "variable21",
+                         "variable": "variable7",
                          "value": {
-                            "path": "$.bookingDetail.applicationDate"
+                            "path": "$.paymentInfo.paymentDate"
                          }
                       },
                       {
-                         "variable": "variable22",
+                         "variable": "variable8",
                          "value": {
-                            "path": "$.bookingDetail.villageOrCity"
+                            "path": "$.paymentInfo.transactionId"
                          }
                       },
                       {
-                         "variable": "variable23",
+                         "variable": "variable8",
                          "value": {
-                            "path": "$.bookingDetail.residentialOrCommercial"
+                            "path": "$.paymentInfo.transactionId"
                          }
                       },
                       {
-                         "variable": "variable24",
+                         "variable": "variable9",
                          "value": {
-                            "path": "$.bookingDetail.areaRequired"
+                            "path": "$.paymentInfo.bookingPeriod"
                          }
                       },
                       {
-                         "variable": "variable25",
+                         "variable": "variable10",
                          "value": {
-                            "path": "$.bookingDetail.category"
+                            "path": "$.paymentInfo.bookingItem"
                          }
                       },
                       {
-                         "variable": "variable26",
+                         "variable": "variable11",
                          "value": {
-                            "path": "$.bookingDetail.typeOfConstruction"
+                            "path": "$.paymentInfo.amount"
                          }
                       },
                       {
-                         "variable": "variable27",
+                         "variable": "variable12",
                          "value": {
-                            "path": "$.bookingDetail.permissionPeriod"
+                            "path": "$.paymentInfo.tax"
                          }
                       },
                       {
-                         "variable": "variable28",
+                         "variable": "variable13",
                          "value": {
-                            "path": "$.bookingDetail.duration"
-                         }
-                      },
-                       {
-                         "variable": "generatedBy",
-                         "value": {
-                            "path": "$.generatedBy.generatedBy"
+                            "path": "$.paymentInfo.grandTotal"
                          }
                       },
                       {
-                         "variable": "pdfLogo",                        
-                         "url":"http://mcchandigarh.gov.in/sites/default/files/mc-chandigardh-logo.png",
+                         "variable": "variable14",
+                         "value": {
+                            "path": "$.paymentInfo.amountInWords"
+                         }
+                      },
+                      {
+                         "variable": "variable75",
+                         "value": {
+                            "path": "$.paymentInfo.paymentItemExtraColumnLabel"
+                         }
+                      },
+                      {
+                         "variable": "variable76",                        
+                         "url":"https://s3.ap-south-1.amazonaws.com/pb-egov-assets/pb.amritsar/logo.png",
                          "type":"image"
                       }
                    ]
@@ -115,4 +121,3 @@
        ]
     }
  }
- 
