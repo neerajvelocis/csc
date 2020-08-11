@@ -17,7 +17,8 @@
             {
                 "text": "Permission Letter for Commercial Ground",
                 "style": "pdfsubheader",
-                "margin": [0, 0, 0, 50]
+                "margin": [0, 0, 0, 50],
+                "bold": true
             },
             {
                 "stack": [
@@ -192,12 +193,6 @@
           0
         ]
       }
-        ],
-        "footer": [
-            {
-                "text": "* This is computer generated receipt, no signature required.",
-                "style": "footerstyle"
-            }
         ],
         "styles": {
             "pdfheader": {
