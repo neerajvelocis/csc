@@ -72,7 +72,7 @@
                 "bookingPeriod": "21th Dec 2020 to 25th Dec 2020",
                 "venueName": "Sector 17 Circus Ground",
                 "sector": "sector 17",
-                "bookingPupose": "Family Gathering"
+                "bookingPurpose": "Family Gathering"
             },
             "feeDetail":{
                 "baseCharge": 4000,
