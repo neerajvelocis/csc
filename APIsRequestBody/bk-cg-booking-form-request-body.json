@@ -1,0 +1,95 @@
+{
+    "RequestInfo": {
+        "apiId": "Rainmaker",
+        "action": "",
+        "did": 1,
+        "key": "",
+        "msgId": "20170310130900|en_IN",
+        "requesterId": "",
+        "ts": "",
+        "ver": ".01",
+        "authToken": "e7b63783-435f-4982-9b76-44e3226a3b44",
+        "userInfo": {
+            "id": 100,
+            "userName": "9138912806",
+            "salutation": null,
+            "name": "Sumit Kumar",
+            "gender": null,
+            "mobileNumber": "9138912806",
+            "houseNo": "555",
+            "emailId": null,
+            "altContactNumber": null,
+            "pan": null,
+            "aadhaarNumber": null,
+            "permanentAddress": null,
+            "permanentCity": "ch.chandigarh",
+            "permanentPinCode": null,
+            "correspondenceAddress": null,
+            "correspondenceCity": null,
+            "correspondencePinCode": null,
+            "sector": "7",
+            "active": true,
+            "locale": null,
+            "type": "CITIZEN",
+            "accountLocked": false,
+            "accountLockedDate": 0,
+            "fatherOrHusbandName": null,
+            "signature": null,
+            "bloodGroup": null,
+            "photo": null,
+            "identificationMark": null,
+            "createdBy": 0,
+            "lastModifiedBy": 0,
+            "tenantId": "ch",
+            "roles": [
+                {
+                    "code": "CITIZEN",
+                    "name": "Citizen",
+                    "tenantId": "ch"
+                }
+            ],
+            "uuid": "e101ff2e-f6f3-43c3-8a7c-17482b438d70",
+            "createdDate": "21-07-2020 09:32:30",
+            "lastModifiedDate": "21-07-2020 09:32:30",
+            "dob": null,
+            "pwdExpiryDate": "19-10-2020 09:32:30"
+        }
+    },
+    "BookingInfo": [
+        {
+            "applicantDetail": {
+                "name": "Sumit Kumar",
+                "mobileNumber": "9138912806",
+                "houseNo": "555",
+                "permanentAddress": null,
+                "permanentCity": "ch.chandigarh",
+                "sector": "7",
+                "fatherName": null,
+                "DOB": null,
+                "email": "s.kumar@gmail.com"
+            },
+            "bookingDetail": {
+                "applicationNumber": "CH-BK-2020-07-25-000183",
+                "venue": "Sector 12",
+                "bookingCategory": "Individual",
+                "bookingPeriod": "13th Sep 2020 To 20th Sep 2020",
+                "bookingPurpose": "To celebrate son marriage Aniversory"
+            },
+            "feeDetail":{
+                "baseCharge": 4000,
+                "taxes": 440,
+                "totalAmount": 4400
+            },
+            "generatedBy": {
+                "generatedBy": "Anil Chauhan clerk"
+            },
+            "tenantInfo":{
+                "municipalityName": "Municipal Corporation Chandigarh",
+                "address": "New Deluxe Building, Sector 17, Chandigarh",
+                "contactNumber": "+91-172-2541002, 0172-2541003",
+                "logoUrl": "https://chstage.blob.core.windows.net/fileshare/logo.png",
+                "webSite": "http://mcchandigarh.gov.in"
+            }
+        }
+    ]
+}
