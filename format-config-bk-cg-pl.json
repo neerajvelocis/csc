@@ -49,7 +49,7 @@
                     0,
                     10,
                     0,
-                    50
+                    10
                 ],
                 "bold": true
             },
@@ -68,7 +68,7 @@
                         "style": "app-table-value"
                     },
                     {
-                        "text": "sector {{variable5}}, {{variable6}}",
+                        "text": "{{variable5}}, {{variable6}}",
                         "style": "app-table-value"
                     },
                     {
@@ -86,7 +86,13 @@
                 ]
             },
             {
-                "text": "You are here by granted a permission to use ground for commercial purpose in {{variable10}}, {{variable6}} on dated {{variable9}} on following conditions:",
+                "text": [
+                    "You are here by granted a permission to use ground for commercial purpose in ",
+                    { "text": "{{variable10}}, {{variable6}} ", "bold": true },
+                    "on dated ",
+                    { "text": "{{variable9}} ", "bold": true },
+                    "on following conditions:"
+                  ],
                 "style": "app-table-label",
                 "margin": [
                     5,
