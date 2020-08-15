@@ -256,6 +256,17 @@
                 "style": "app-table-label",
                 "alignment": "left",
                 "border": [
+                  true,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "text": "Address",
+                "style": "app-table-label",
+                "alignment": "left",
+                "border": [
                   false,
                   false,
                   false,
@@ -263,25 +274,14 @@
                 ]
               },
               {
-                "text": "Owner Address",
+                "text": "City",
                 "style": "app-table-label",
                 "alignment": "left",
                 "border": [
                   false,
                   false,
-                  true,
-                  false
-                ]
-              },
-              {
-                "text": "Date of Birth",
-                "style": "app-table-label",
-                "alignment": "left",
-                "border": [
-                  true,
                   false,
-                  false,
-                  false
+                  true
                 ]
               }
             ],
@@ -291,7 +291,7 @@
                 "style": "app-table-value",
                 "alignment": "left",
                 "border": [
-                  false,
+                  true,
                   false,
                   false,
                   true
@@ -304,7 +304,7 @@
                 "border": [
                   false,
                   false,
-                  true,
+                  false,
                   true
                 ]
               },
@@ -313,9 +313,9 @@
                 "style": "app-table-value",
                 "alignment": "left",
                 "border": [
+                  false,
+                  false,
                   true,
-                  false,
-                  false,
                   true
                 ]
               }
