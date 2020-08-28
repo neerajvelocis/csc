@@ -23,8 +23,156 @@
                         "value": {
                            "path": "$.applicantDetail.mobileNumber"
                         }
+                     },
+                     {
+                        "variable": "variable3",
+                        "value": {
+                           "path": "$.applicantDetail.houseNo"
+                        }
+                     },
+                     {
+                        "variable": "variable4",
+                        "value": {
+                           "path": "$.applicantDetail.permanentAddress"
+                        }
+                     },
+                     {
+                        "variable": "variable5",
+                        "value": {
+                           "path": "$.applicantDetail.sector"
+                        }
+                     },
+                     {
+                        "variable": "variable6",
+                        "value": {
+                           "path": "$.booking.bkApplicationNumber"
+                        }
+                     },
+                     {
+                        "variable": "variable7",
+                        "value": {
+                           "path": "$.paymentInfo.paymentDate"
+                        }
+                     },
+                     {
+                        "variable": "variable8",
+                        "value": {
+                           "path": "$.paymentInfo.transactionId"
+                        }
+                     },
+                     {
+                        "variable": "variable8",
+                        "value": {
+                           "path": "$.paymentInfo.transactionId"
+                        }
+                     },
+                     {
+                        "variable": "variable9",
+                        "value": {
+                           "path": "$.paymentInfo.bookingPeriod"
+                        }
+                     },
+                     {
+                        "variable": "variable10",
+                        "value": {
+                           "path": "$.paymentInfo.bookingItem"
+                        }
+                     },
+                     {
+                        "variable": "baseCharge",
+                        "value": {
+                           "path": "$.paymentInfo.baseCharge"
+                        }
+                     },
+                     {
+                        "variable": "cleaningCharge",
+                        "value": {
+                           "path": "$.paymentInfo.cleaningCharge"
+                        }
+                     },
+                     {
+                        "variable": "surcharges",
+                        "value": {
+                           "path": "$.paymentInfo.surcharges"
+                        }
+                     },
+                     {
+                        "variable": "FacilitationCharge",
+                        "value": {
+                           "path": "$.paymentInfo.FacilitationCharge"
+                        }
+                     },
+                     {
+                        "variable": "UTGST",
+                        "value": {
+                           "path": "$.paymentInfo.UTGST"
+                        }
+                     },
+                     {
+                        "variable": "CGST",
+                        "value": {
+                           "path": "$.paymentInfo.CGST"
+                        }
+                     },
+                     {
+                        "variable": "GST",
+                        "value": {
+                           "path": "$.paymentInfo.GST"
+                        }
+                     },
+                     {
+                        "variable": "totalAmount",
+                        "value": {
+                           "path": "$.paymentInfo.totalAmount"
+                        }
+                     },
+                     {
+                        "variable": "variable14",
+                        "value": {
+                           "path": "$.paymentInfo.amountInWords"
+                        }
+                     },
+                     {
+                        "variable": "variable75",
+                        "value": {
+                           "path": "$.paymentInfo.paymentItemExtraColumnLabel"
+                        }
+                     },
+                     {
+                        "variable": "variable76",
+                        "url": "http://mcchandigarh.gov.in/sites/default/files/mc-chandigardh-logo.png",
+                        "type": "image"
+                     },
+                     {
+                        "variable": "receiptNo",
+                        "value": {
+                           "path": "$.paymentInfo.receiptNo"
+                        }
+                     },
+                     {
+                        "variable": "paymentMode",
+                        "value": {
+                           "path": "$.paymentInfo.paymentMode"
+                        }
+                     },
+                     {
+                        "variable": "payerName",
+                        "value": {
+                           "path": "$.payerInfo.payerName"
+                        }
+                     },
+                     {
+                        "variable": "payerMobile",
+                        "value": {
+                           "path": "$.payerInfo.payerMobile"
+                        }
+                     },
+                     {
+                        "variable": "generatedBy",
+                        "value": {
+                           "path": "$.generatedBy.generatedBy"
+                        }
                      }
-
                   ]
                }
             ]
