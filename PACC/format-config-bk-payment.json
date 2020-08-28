@@ -3,7 +3,7 @@
     "config": {
         "content": [
             {
-                "image": img,
+                "image": "{{pdfLogo}}",
                 "width": 65,
                 "height": 65,
                 "margin": [
