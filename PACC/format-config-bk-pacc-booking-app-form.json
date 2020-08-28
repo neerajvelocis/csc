@@ -534,24 +534,8 @@
                   false
                 ]
               },
-              {
-                "text": "",
-                "border": [
-                  false,
-                  false,
-                  false,
-                  false
-                ]
-              },
-              {
-                "text": "",
-                "border": [
-                  false,
-                  false,
-                  true,
-                  false
-                ]
-              }
+              {},
+              {}
             ],
             [
               {
@@ -565,24 +549,8 @@
                   true
                 ]
               },
-              {
-                "text": "",
-                "border": [
-                  false,
-                  false,
-                  false,
-                  true
-                ]
-              },
-              {
-                "text": "",
-                "border": [
-                  false,
-                  false,
-                  true,
-                  true
-                ]
-              }
+              {},
+              {}
             ]
           ]
         }
