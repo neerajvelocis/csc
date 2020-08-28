@@ -78,66 +78,7 @@
                            "path": "$.paymentInfo.bookingItem"
                         }
                      },
-                     {
-                        "variable": "baseCharge",
-                        "value": {
-                           "path": "$.paymentInfo.baseCharge"
-                        }
-                     },
-                     {
-                        "variable": "cleaningCharge",
-                        "value": {
-                           "path": "$.paymentInfo.cleaningCharge"
-                        }
-                     },
-                     {
-                        "variable": "surcharges",
-                        "value": {
-                           "path": "$.paymentInfo.surcharges"
-                        }
-                     },
-                     {
-                        "variable": "FacilitationCharge",
-                        "value": {
-                           "path": "$.paymentInfo.FacilitationCharge"
-                        }
-                     },
-                     {
-                        "variable": "UTGST",
-                        "value": {
-                           "path": "$.paymentInfo.UTGST"
-                        }
-                     },
-                     {
-                        "variable": "CGST",
-                        "value": {
-                           "path": "$.paymentInfo.CGST"
-                        }
-                     },
-                     {
-                        "variable": "GST",
-                        "value": {
-                           "path": "$.paymentInfo.GST"
-                        }
-                     },
-                     {
-                        "variable": "totalAmount",
-                        "value": {
-                           "path": "$.paymentInfo.totalAmount"
-                        }
-                     },
-                     {
-                        "variable": "variable14",
-                        "value": {
-                           "path": "$.paymentInfo.amountInWords"
-                        }
-                     },
-                     {
-                        "variable": "variable75",
-                        "value": {
-                           "path": "$.paymentInfo.paymentItemExtraColumnLabel"
-                        }
-                     },
+                     
                      {
                         "variable": "variable76",
                         "url": "http://mcchandigarh.gov.in/sites/default/files/mc-chandigardh-logo.png",
