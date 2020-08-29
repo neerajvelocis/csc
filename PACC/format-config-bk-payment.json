@@ -281,7 +281,7 @@
                                 "alignment": "right"
                             },
                             {
-                                "text": "{{variable12}}",
+                                "text": "{{cleaningCharges}}",
                                 "style": "horizontalcontentstyle",
                                 "alignment": "right"
                             }

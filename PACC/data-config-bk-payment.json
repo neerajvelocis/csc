@@ -127,6 +127,12 @@
                         }
                      },
                      {
+                        "variable": "cleaningCharges",
+                        "value": {
+                           "path": "$.paymentInfo.cleaningCharges"
+                        }
+                     },
+                     {
                         "variable": "payerName",
                         "value": {
                            "path": "$.payerInfo.payerName"
