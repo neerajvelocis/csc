@@ -263,6 +263,56 @@
                             },
                             {},
                             {
+                                "text": "Cleaning charge",
+                                "style": "horizontalcontentstyle",
+                                "alignment": "right"
+                            },
+                            {
+                                "text": "{{cleaningCharge}}",
+                                "style": "horizontalcontentstyle",
+                                "alignment": "right"
+                            }
+                        ],
+                        [
+                            {
+                                "text": {},
+                                "colSpan": 2
+                            },
+                            {},
+                            {
+                                "text": "Surcharges",
+                                "style": "horizontalcontentstyle",
+                                "alignment": "right"
+                            },
+                            {
+                                "text": "{{surcharges}}",
+                                "style": "horizontalcontentstyle",
+                                "alignment": "right"
+                            }
+                        ],
+                        [
+                            {
+                                "text": {},
+                                "colSpan": 2
+                            },
+                            {},
+                            {
+                                "text": "Facilitation Charge",
+                                "style": "horizontalcontentstyle",
+                                "alignment": "right"
+                            },
+                            {
+                                "text": "{{facilitationCharge}}",
+                                "style": "horizontalcontentstyle",
+                                "alignment": "right"
+                            }
+                        ],[
+                            {
+                                "text": {},
+                                "colSpan": 2
+                            },
+                            {},
+                            {
                                 "text": "GST @18%",
                                 "style": "horizontalcontentstyle",
                                 "alignment": "right"
