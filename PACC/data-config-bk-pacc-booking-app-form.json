@@ -115,21 +115,21 @@
                         }
                      },
                      {
-                        "variable": "UTGST",
+                        "variable": "utgst",
                         "value": {
-                           "path": "$.feeDetail.UTGST"
+                           "path": "$.feeDetail.utgst"
                         }
                      },
                      {
-                        "variable": "CGST",
+                        "variable": "cgst",
                         "value": {
-                           "path": "$.feeDetail.CGST"
+                           "path": "$.feeDetail.cgst"
                         }
                      },
                      {
-                        "variable": "GST",
+                        "variable": "gst",
                         "value": {
-                           "path": "$.feeDetail.GST"
+                           "path": "$.feeDetail.gst"
                         }
                      },
                      {

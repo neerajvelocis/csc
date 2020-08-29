@@ -489,7 +489,7 @@
             ],
             [
               {
-                "text": "{{FacilitationCharge}}",
+                "text": "{{facilitationCharge}}",
                 "style": "app-table-value",
                 "alignment": "left",
                 "border": [
@@ -500,7 +500,7 @@
                 ]
               },
               {
-                "text": "{{UTGST}}",
+                "text": "{{utgst}}",
                 "style": "app-table-value",
                 "alignment": "left",
                 "border": [
@@ -511,7 +511,7 @@
                 ]
               },
               {
-                "text": "{{CGST}}",
+                "text": "{{cgst}}",
                 "style": "app-table-value",
                 "alignment": "left",
                 "border": [
