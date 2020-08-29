@@ -268,25 +268,7 @@
                                 "style": "horizontalcontentstyle",
                                 "alignment": "right"
                             }
-                        ],
-                        [
-                            {
-                                "text": {},
-                                "colSpan": 2
-                            },
-                            {},
-                            {
-                                "text": "Cleaning charge",
-                                "style": "horizontalcontentstyle",
-                                "alignment": "right"
-                            },
-                            {
-                                "text": "Hello",
-                                "style": "horizontalcontentstyle",
-                                "alignment": "right"
-                            }
-                        ],
-                        
+                        ],                        
                         [
                             {
                                 "text": {},
