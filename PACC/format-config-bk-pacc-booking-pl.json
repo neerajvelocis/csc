@@ -87,7 +87,7 @@
             },
             {
                 "text": [
-                    "You are here by granted a permission to use",
+                    "You are here by granted a permission to use ",
                     {
                         "text": "{{variable10}}",
                         "bold": true
