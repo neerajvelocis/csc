@@ -144,10 +144,11 @@
                 "text": "Purpose",
                 "style": "app-table-label",
                 "alignment": "left",
+                "colSpan": 2,
                 "border": [
                   false,
                   false,
-                  false,
+                  true,
                   false
                 ]
               },
@@ -169,10 +170,11 @@
                 "text": "{{bookingPurpose}}",
                 "style": "app-table-value",
                 "alignment": "left",
+                "colSpan": 2,
                 "border": [
                   false,
                   false,
-                  false,
+                  true,
                   true
                 ]
               },
@@ -281,10 +283,11 @@
                 "text": "Email",
                 "style": "app-table-label",
                 "alignment": "left",
+                "colSpan": 3,
                 "border": [
                   true,
                   false,
-                  false,
+                  true,
                   false
                 ]
               },
@@ -296,10 +299,11 @@
                 "text": "{{applicantEmail}}",
                 "style": "app-table-value",
                 "alignment": "left",
+                "colSpan": 3,
                 "border": [
                   true,
                   false,
-                  false,
+                  true,
                   true
                 ]
               },
@@ -479,10 +483,11 @@
                 "text": "Total Amount",
                 "style": "app-table-label",
                 "alignment": "left",
+                "colSpan": 3,
                 "border": [
                   true,
                   false,
-                  false,
+                  true,
                   false
                 ]
               },
@@ -494,10 +499,11 @@
                 "text": "{{totalAmount}}",
                 "style": "app-table-value",
                 "alignment": "left",
+                "colSpan": 3,
                 "border": [
                   true,
                   false,
-                  false,
+                  true,
                   true
                 ]
               },
