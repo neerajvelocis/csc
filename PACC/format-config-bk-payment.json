@@ -3,25 +3,16 @@
     "config": {
         "content": [
             {
-                "image": "{{pdfLogo}}",
+                "image": "{{variable76}}",
                 "width": 65,
                 "height": 65,
-                "margin": [
-                    0,
-                    -5,
-                    0,
-                    0
-                ]
+                "margin": [0, -5, 0, 0]
             },
             {
                 "text": "Municipal Corporation, Chandigarh",
                 "style": "pdfheader",
-                "margin": [
-                    0,
-                    -55,
-                    0,
-                    0
-                ]
+                "margin": [0, -55, 0, 0]
+                
             },
             {
                 "text": "Receipt Number",
@@ -30,7 +21,7 @@
                 "bold": true
             },
             {
-                "text": "08/2020-21/000304",
+                "text": "{{receiptNo}}",
                 "alignment": "right",
                 "fontSize": "8",
                 "bold": true
@@ -38,18 +29,14 @@
             {
                 "text": "Payment Receipt",
                 "style": "pdfsubheader",
-                "margin": [
-                    0,
-                    -10,
-                    0,
-                    50
-                ]
+                "margin": [0, -10, 0, 50]
             },
+
             {
                 "columns": [
                     {
                         "width": "auto",
-                        "style": "tableExample",
+                        "style": "tableExample",                            
                         "table": {
                             "widths": [
                                 100,
@@ -175,7 +162,7 @@
                                         "style": "verticalcolumnsheader"
                                     },
                                     {
-                                        "text": "Online",
+                                        "text": "{{paymentMode}}",
                                         "style": "verticalcontentstyle"
                                     }
                                 ],
@@ -194,7 +181,7 @@
                                         "style": "verticalcolumnsheader"
                                     },
                                     {
-                                        "text": "AmarDeep Kushwaha",
+                                        "text": "{{payerName}}",
                                         "style": "verticalcontentstyle"
                                     }
                                 ],
@@ -204,7 +191,7 @@
                                         "style": "verticalcolumnsheader"
                                     },
                                     {
-                                        "text": "9878987898",
+                                        "text": "{{payerMobile}}",
                                         "style": "verticalcontentstyle"
                                     }
                                 ]
@@ -264,58 +251,7 @@
                                 "alignment": "right"
                             },
                             {
-                                "text": "{{baseCharge}}",
-                                "style": "horizontalcontentstyle",
-                                "alignment": "right"
-                            }
-                        ],
-                        [
-                            {
-                                "text": {},
-                                "colSpan": 2
-                            },
-                            {},
-                            {
-                                "text": "Cleaning charges",
-                                "style": "horizontalcontentstyle",
-                                "alignment": "right"
-                            },
-                            {
-                                "text": "{{cleaningCharge}}",
-                                "style": "horizontalcontentstyle",
-                                "alignment": "right"
-                            }
-                        ],
-                        [
-                            {
-                                "text": {},
-                                "colSpan": 2
-                            },
-                            {},
-                            {
-                                "text": "Surcharges",
-                                "style": "horizontalcontentstyle",
-                                "alignment": "right"
-                            },
-                            {
-                                "text": "{{surcharges}}",
-                                "style": "horizontalcontentstyle",
-                                "alignment": "right"
-                            }
-                        ],
-                        [
-                            {
-                                "text": {},
-                                "colSpan": 2
-                            },
-                            {},
-                            {
-                                "text": "FacilitationCharge",
-                                "style": "horizontalcontentstyle",
-                                "alignment": "right"
-                            },
-                            {
-                                "text": "{{FacilitationCharge}}",
+                                "text": "{{variable11}}",
                                 "style": "horizontalcontentstyle",
                                 "alignment": "right"
                             }
@@ -332,7 +268,7 @@
                                 "alignment": "right"
                             },
                             {
-                                "text": "{{GST}}",
+                                "text": "{{variable12}}",
                                 "style": "horizontalcontentstyle",
                                 "alignment": "right"
                             }
@@ -349,7 +285,7 @@
                                 "alignment": "right"
                             },
                             {
-                                "text": "{{totalAmount}}",
+                                "text": "{{variable13}}",
                                 "style": "horizontalcontentstyle",
                                 "alignment": "right"
                             }
@@ -369,24 +305,10 @@
                     ]
                 }
             },
-            {
-                "text": "Generated by",
-                "alignment": "left",
-                "fontSize": "10",
-                "bold": true,
-                "margin": [
-                    0,
-                    50,
-                    0,
-                    0
-                ]
-            },
-            {
-                "text": "Anil Clerk",
-                "alignment": "left",
-                "fontSize": "10"
-            }
+            { "text": "Generated by", "alignment": "left", "fontSize": "10", "bold": true, "margin": [0, 50, 0, 0] },
+            { "text": "{{generatedBy}}", "alignment": "left", "fontSize": "10" }
         ],
+
         "footer": [
             {
                 "text": "Note: 1.Payment received by cheque/demand draft shall be subject to realization. 2.This document is not a proof of Property Ownership. 3.This is a computer generated document, hence requires no signature.",
@@ -402,22 +324,12 @@
             "pdfsubheader": {
                 "fontSize": 15,
                 "alignment": "center",
-                "margin": [
-                    0,
-                    -15,
-                    0,
-                    20
-                ]
+                "margin": [0, -15, 0, 20]
             },
             "footerstyle": {
                 "alignment": "center",
                 "fontSize": "8",
-                "margin": [
-                    10,
-                    0,
-                    10,
-                    0
-                ]
+                "margin": [10, 0, 10, 0]
             },
             "verticalcolumnsheader": {
                 "fontSize": 10,
@@ -445,4 +357,4 @@
             }
         }
     }
-}
+  }
