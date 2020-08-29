@@ -133,6 +133,12 @@
                         }
                      },
                      {
+                        "variable": "surcharges",
+                        "value": {
+                           "path": "$.paymentInfo.surcharges"
+                        }
+                     },
+                     {
                         "variable": "payerName",
                         "value": {
                            "path": "$.payerInfo.payerName"
