@@ -302,6 +302,23 @@
                                 "style": "horizontalcontentstyle",
                                 "alignment": "right"
                             }
+                        ],
+                        [
+                            {
+                                "text": {},
+                                "colSpan": 2
+                            },
+                            {},
+                            {
+                                "text": "Facilitation Charge",
+                                "style": "horizontalcontentstyle",
+                                "alignment": "right"
+                            },
+                            {
+                                "text": "{{facilitationCharge}}",
+                                "style": "horizontalcontentstyle",
+                                "alignment": "right"
+                            }
                         ],                        
                         [
                             {

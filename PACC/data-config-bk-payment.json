@@ -139,6 +139,13 @@
                         }
                      },
                      {
+                        "variable": "facilitationCharge",
+                        "value": {
+                           "path": "$.paymentInfo.facilitationCharge"
+                        }
+                     },
+                     
+                     {
                         "variable": "payerName",
                         "value": {
                            "path": "$.payerInfo.payerName"
