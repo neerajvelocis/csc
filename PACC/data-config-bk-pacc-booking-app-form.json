@@ -109,9 +109,9 @@
                         }
                      },
                      {
-                        "variable": "FacilitationCharge",
+                        "variable": "facilitationCharge",
                         "value": {
-                           "path": "$.feeDetail.FacilitationCharge"
+                           "path": "$.feeDetail.facilitationCharge"
                         }
                      },
                      {

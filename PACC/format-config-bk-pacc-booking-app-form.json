@@ -320,7 +320,7 @@
           "body": [
             [
               {
-                "text": "Fee Details(All amounts in Rs.)",
+                "text": "Fee Details",
                 "style": "app-table-value",
                 "alignment": "left",
                 "colSpan": 3,
