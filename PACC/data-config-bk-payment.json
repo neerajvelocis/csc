@@ -82,7 +82,7 @@
                      {
                         "variable": "variable11",
                         "value": {
-                           "path": "$.paymentInfo.amount"
+                           "path": "$.paymentInfo.baseCharge"
                         }
                      },
                      {
@@ -94,7 +94,7 @@
                      {
                         "variable": "variable13",
                         "value": {
-                           "path": "$.paymentInfo.grandTotal"
+                           "path": "$.paymentInfo.totalAmount"
                         }
                      },
                      {
