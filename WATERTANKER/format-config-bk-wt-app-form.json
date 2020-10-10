@@ -373,7 +373,7 @@
                                 ]
                             },
                             {
-                                "text": "Father/ Husbands Name",
+                                "text": "Email",
                                 "style": "app-table-label",
                                 "alignment": "left",
                                 "border": [
@@ -408,84 +408,14 @@
                                 ]
                             },
                             {
-                                "text": "{{variable68}}",
-                                "style": "app-table-value",
-                                "alignment": "left",
-                                "border": [
-                                    false,
-                                    false,
-                                    true,
-                                    false
-                                ]
-                            }
-                        ],
-                        [
-                            {
-                                "text": "Date of Birth",
-                                "style": "app-table-label",
-                                "alignment": "left",
-                                "border": [
-                                    true,
-                                    false,
-                                    false,
-                                    false
-                                ]
-                            },
-                            {
-                                "text": "Email",
-                                "style": "app-table-label",
-                                "alignment": "left",
-                                "border": [
-                                    false,
-                                    false,
-                                    false,
-                                    false
-                                ]
-                            },
-                            {
-                                "text": "Applicant Address",
-                                "style": "app-table-label",
-                                "alignment": "left",
-                                "border": [
-                                    false,
-                                    false,
-                                    true,
-                                    false
-                                ]
-                            }
-                        ],
-                        [
-                            {
-                                "text": "{{variable70}}",
-                                "style": "app-table-value",
-                                "alignment": "left",
-                                "border": [
-                                    true,
-                                    false,
-                                    false,
-                                    true
-                                ]
-                            },
-                            {
                                 "text": "{{variable69}}",
                                 "style": "app-table-value",
                                 "alignment": "left",
                                 "border": [
                                     false,
                                     false,
-                                    false,
-                                    true
-                                ]
-                            },
-                            {
-                                "text": "{{variable66}}",
-                                "style": "app-table-value",
-                                "alignment": "left",
-                                "border": [
-                                    false,
-                                    false,
                                     true,
-                                    true
+                                    false
                                 ]
                             }
                         ]
@@ -606,6 +536,11 @@
                 "text": "{{generatedBy}}",
                 "alignment": "left",
                 "fontSize": "10"
+            },
+            {
+                "text": "{{generatedDateTime}}",
+                "alignment": "left",
+                "fontSize": "8"
             }
         ],
         "footer": [

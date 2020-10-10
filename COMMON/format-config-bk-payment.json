@@ -12,7 +12,7 @@
                 "text": "Municipal Corporation, Chandigarh",
                 "style": "pdfheader",
                 "margin": [0, -55, 0, 0]
-                
+
             },
             {
                 "text": "Receipt Number",
@@ -36,7 +36,7 @@
                 "columns": [
                     {
                         "width": "auto",
-                        "style": "tableExample",                            
+                        "style": "tableExample",
                         "table": {
                             "widths": [
                                 100,
@@ -163,6 +163,16 @@
                                     },
                                     {
                                         "text": "{{paymentMode}}",
+                                        "style": "verticalcontentstyle"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "Bank Name:",
+                                        "style": "verticalcolumnsheader"
+                                    },
+                                    {
+                                        "text": "{{bankName}}",
                                         "style": "verticalcontentstyle"
                                     }
                                 ],
