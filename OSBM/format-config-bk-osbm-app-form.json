@@ -21,6 +21,17 @@
           "margin": [0, -55, 0, 0]
         },
         {
+          "text": "Application for open space to store building materials",
+          "style": "pdfsubheader",
+          "bold": true,
+          "margin": [
+            0,
+            20,
+            0,
+            20
+          ]
+        },
+        {
           "text": "Application No. {{variable34}}",
           "style": "pdfsubheader",
           "margin": [

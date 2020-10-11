@@ -25,6 +25,17 @@
                 ]
             },
             {
+                "text": "Application for water tanker",
+                "style": "pdfsubheader",
+                "bold": true,
+                "margin": [
+                  0,
+                  20,
+                  0,
+                  20
+                ]
+              },
+            {
                 "text": "Application No. {{variable74}}",
                 "style": "pdfsubheader",
                 "margin": [
