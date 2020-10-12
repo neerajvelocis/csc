@@ -149,6 +149,12 @@
                         "value": {
                            "path": "$.generatedBy.generatedBy"
                         }
+                     },
+                     {
+                        "variable": "generatedDateTime",
+                        "value": {
+                           "path": "$.generatedBy.generatedDateTime"
+                        }
                      }
                    ]
                 }
