@@ -29,7 +29,7 @@
         "bold": true,
         "margin": [
           0,
-          20,
+          10,
           0,
           5
         ]
@@ -39,9 +39,9 @@
         "style": "pdfsubheader",
         "margin": [
           0,
-          20,
+          5,
           0,
-          20
+          10
         ]
       },
       {
