@@ -1,15 +1,14 @@
 {
     "key": "bk-payment-receipt",
     "DataConfigs": {
-       "serviceName": "rainmaker-tl",
+       "serviceName": "rainmaker-bk",
        "version": "1.0.0",
        "baseKeyPath": "$.BookingInfo.*",
        "entityIdPath": "$.booking.bkApplicationNumber",
        "isCommonTableBorderRequired": true,
        "mappings": [
           {
-             "topic": "tl-pdf-generation",
-             "staticConfigPath": "https://raw.githubusercontent.com/egovernments/egov-services/vishal-feature-filestore/core/egov-indexer/src/main/resources/rainmaker-pgr-indexer.yml",
+             "topic": "services-pdf-generation",
              "mappings": [
                 {
                    "direct": [

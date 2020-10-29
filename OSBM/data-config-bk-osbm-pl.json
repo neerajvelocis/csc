@@ -9,7 +9,6 @@
        "mappings": [
           {
              "topic": "bk-pdf-generation",
-             "staticConfigPath": "https://raw.githubusercontent.com/egovernments/egov-services/vishal-feature-filestore/core/egov-indexer/src/main/resources/rainmaker-pgr-indexer.yml",
              "mappings": [
                 {
                    "direct": [
@@ -104,7 +103,7 @@
                         }
                      },
                      {
-                        "variable": "pdfLogo",                        
+                        "variable": "pdfLogo",
                         "url":"http://mcchandigarh.gov.in/sites/default/files/mc-chandigardh-logo.png",
                         "type":"image"
                      },
@@ -146,10 +145,10 @@
                     }
                    ]
                 }
-                
+
              ]
           }
        ]
     }
  }
- 
+
