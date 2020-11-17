@@ -552,6 +552,13 @@
                 "text": "{{generatedDateTime}}",
                 "alignment": "left",
                 "fontSize": "8"
+            },
+            {
+                "text": "NOTE: In case of any assistance regarding delivery of water tanker. Please contact 0172 - 2540200",
+                "alignment": "left",
+                "fontSize": "8",
+                "margin": [0, 30, 10, 0]
+
             }
         ],
         "footer": [
