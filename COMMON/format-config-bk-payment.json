@@ -321,7 +321,7 @@
 
         "footer": [
             {
-                "text": "Note: 1.Payment received by cheque/demand draft shall be subject to realization. 2.This document is not a proof of Property Ownership. 3.This is a computer generated document, hence requires no signature.",
+                "text": "Note: 1.Payment received by cheque/demand draft shall be subject to realization. 2.This document is not a proof of Property Ownership. 3.The receipt and permission letter are electronically generated and need no official signature or stamp",
                 "style": "footerstyle"
             }
         ],

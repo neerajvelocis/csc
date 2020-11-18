@@ -354,6 +354,12 @@
         ]
       }
     ],
+    "footer": [
+      {
+          "text": "The receipt and permission letter are electronically generated and need no official signature or stamp",
+          "style": "footerstyle"
+      }
+  ],
     "styles": {
       "pdfheader": {
         "fontSize": 18,
@@ -378,8 +384,10 @@
         ]
       },
       "footerstyle": {
-        "alignment": "center"
-      },
+        "alignment": "center",
+        "fontSize": "8",
+        "margin": [10, 0, 10, 0]
+    },
       "verticalcolumnsheader": {
         "fontSize": 10,
         "bold": true,
