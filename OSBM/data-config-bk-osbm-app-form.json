@@ -151,6 +151,18 @@
                          }
                       },
                       {
+                        "variable": "cgst",
+                        "value": {
+                           "path": "$.feeDetail.cgst"
+                        }
+                     },
+                     {
+                        "variable": "ugst",
+                        "value": {
+                           "path": "$.feeDetail.ugst"
+                        }
+                     },
+                      {
                         "variable": "generatedBy",
                         "value": {
                            "path": "$.generatedBy.generatedBy"
@@ -171,6 +183,12 @@
                         "variable": "documentName",
                         "value": {
                            "path": "$.documentDetail.documentName"
+                        }
+                     },
+                     {
+                        "variable": "document2",
+                        "value": {
+                           "path": "$.documentDetail.document2"
                         }
                      }
                    ]
