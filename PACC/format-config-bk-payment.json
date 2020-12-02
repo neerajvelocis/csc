@@ -181,6 +181,16 @@
                                 ],
                                 [
                                     {
+                                        "text": "Bank Name:",
+                                        "style": "verticalcolumnsheader"
+                                    },
+                                    {
+                                        "text": "{{bankName}}",
+                                        "style": "verticalcontentstyle"
+                                    }
+                                ],
+                                [
+                                    {
                                         "text": "Payer Details",
                                         "style": "tableHeader",
                                         "colSpan": 2,
@@ -319,7 +329,7 @@
                                 "style": "horizontalcontentstyle",
                                 "alignment": "right"
                             }
-                        ],                        
+                        ],
                         [
                             {
                                 "text": {},
