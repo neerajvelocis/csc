@@ -88,8 +88,12 @@
             },
             "tenentInfo": {
                 "mcGSTN": "",
-                "statecode":"",
-                "hsncode":""
+                "statecode": "",
+                "hsncode": "",
+                "municipalityName": "",
+                "address": "",
+                "contactNumber": "",
+                "webSite": ""
             },
             "emp": {
                 "samparkName": "",
