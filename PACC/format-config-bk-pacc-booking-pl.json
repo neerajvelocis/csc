@@ -1,0 +1,293 @@
+{
+    "key": "bk-pacc-booking-pl",
+    "config": {
+        "pageSize": "A4",
+        "content": [
+            {
+                "image": "{{pdfLogo}}",
+                "width": 65,
+                "height": 65,
+                "margin": [
+                    0,
+                    -5,
+                    0,
+                    0
+                ]
+            },
+            {
+                "text": "{{municipalityName}}",
+                "style": "pdfheader",
+                "margin": [
+                    0,
+                    -60,
+                    0,
+                    10
+                ]
+            },
+            {
+                "text": "{{municipalityAddress}}",
+                "style": "tenantinfo"
+            },
+            {
+                "text": "{{municipalityContact}}",
+                "style": "tenantinfo",
+                "margin": [
+                    0,
+                    3,
+                    0,
+                    3
+                ]
+            },
+            {
+                "text": "Website: {{municipalityWebSite}}",
+                "style": "tenantinfo"
+            },
+            {
+                "text": "Permission Letter for {{bookingType}}",
+                "style": "pdfsubheader",
+                "margin": [
+                    0,
+                    10,
+                    0,
+                    10
+                ],
+                "bold": true
+            },
+            {
+                "stack": [
+                    {
+                        "text": "To,",
+                        "style": "app-table-value"
+                    },
+                    {
+                        "text": "{{variable1}}",
+                        "style": "app-table-value"
+                    },
+                    {
+                        "text": "{{variable4}}",
+                        "style": "app-table-value"
+                    },
+                    {
+                        "text": "{{variable5}}, {{variable6}}",
+                        "style": "app-table-value"
+                    },
+                    {
+                        "text": "Application No.: {{variable7}}",
+                        "style": "app-table-value"
+                    },
+                    {
+                        "text": "Date: {{variable8}}",
+                        "style": "app-table-value"
+                    },
+                    {
+                        "text": "Subject: Permission of {{variable10}} for {{variable11}} purpose at in {{variable12}}",
+                        "style": "app-table-value"
+                    }
+                ]
+            },
+            {
+                "text": [
+                    "You are here by granted a permission to use ",
+                    {
+                        "text": "{{variable10}}",
+                        "bold": true
+                    },
+                    " for ",
+                    {
+                        "text": "{{variable11}}",
+                        "bold": true
+                    },
+                    " purpose in ",
+                    {
+                        "text": "{{variable12}}",
+                        "bold": true
+                    },
+                    " for duration ",
+                    {
+                        "text": "{{variable9}}",
+                        "bold": true
+                    },
+                    " on following conditions:"
+                ],
+                "style": "app-table-label",
+                "margin": [
+                    5,
+                    20,
+                    5,
+                    5
+                ]
+            },
+            {
+                "ol": [
+                    {
+                        "text": "Area shall be used for the purposes for which the permission is being granted above and shall not be used for any other purpose.",
+                        "style": "app-table-label",
+                        "margin": [
+                            20,
+                            10,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": "No Banner/Hoardings shall be allowed. ",
+                        "style": "app-table-label",
+                        "margin": [
+                            20,
+                            10,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": "No damage shall be caused to the M.C. property / flooring / parkings etc. In case of any damage of Municipal property the recovery shall be made from the applicant.",
+                        "style": "app-table-label",
+                        "margin": [
+                            20,
+                            10,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": "No inconvenience is to be caused to the General Public on account of this permission.",
+                        "style": "app-table-label",
+                        "margin": [
+                            20,
+                            10,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": "Erection of tentage / erection of poles are allowed without holes.",
+                        "style": "app-table-label",
+                        "margin": [
+                            20,
+                            10,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": "Advertisement fee shall be charged as per Chandigarh Advertisement Control Order1954 for displaying of banner(s) and any kind of display of advertisement, if any.",
+                        "style": "app-table-label",
+                        "margin": [
+                            20,
+                            10,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": "The Commissioner, Municipal Corporation, Chd, reserve the right to the cancel the permission without assigning any reason in public interest. ",
+                        "style": "app-table-label",
+                        "margin": [
+                            20,
+                            10,
+                            0,
+                            0
+                        ]
+                    }
+                ]
+            },
+            {
+                "stack": [
+                    {
+                        "text": "Officer on Special Duty II,",
+                        "style": "app-table-value"
+                    },
+                    {
+                        "text": "Municipal Corporation Chandigarh",
+                        "style": "app-table-value"
+                    },
+                    {
+                        "text": "Dated: {{variable8}}",
+                        "style": "app-table-value"
+                    }
+                ],
+                "margin": [
+                    350,
+                    20,
+                    0,
+                    0
+                ]
+            },
+            {
+                "text": "Approved by",
+                "alignment": "left",
+                "fontSize": "10",
+                "bold": true,
+                "margin": [
+                    0,
+                    50,
+                    0,
+                    5
+                ]
+            },
+            {
+                "text": "Renil Commissioner",
+                "alignment": "left",
+                "fontSize": "10",
+                "margin": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "text": "Additional Commissioner",
+                "alignment": "left",
+                "fontSize": "10",
+                "bold": true,
+                "margin": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        ],
+        "styles": {
+            "pdfheader": {
+                "fontSize": 18,
+                "alignment": "center",
+                "bold": true
+            },
+            "tenantinfo": {
+                "fontSize": 13,
+                "alignment": "center",
+                "bold": true,
+                "color": "#65666c"
+            },
+            "pdfsubheader": {
+                "fontSize": 13,
+                "alignment": "center",
+                "bold": true,
+                "margin": [
+                    0,
+                    0,
+                    0,
+                    20
+                ]
+            },
+            "footerstyle": {
+                "alignment": "center"
+            },
+            "app-table-value": {
+                "fontSize": 10,
+                "bold": true,
+                "margin": [
+                    5,
+                    5,
+                    5,
+                    5
+                ]
+            },
+            "app-table-label": {
+                "fontSize": 11
+            }
+        }
+    }
+}
