@@ -64,7 +64,8 @@
                 "permanentAddress": "Royal Building",
                 "permanentCity": "Chandigarh",
                 "sector": "7",
-                "fatherName": "RamLal"
+                "placeOfService": "Chandigarh",
+                "custGSTN": ""
             },
             "bookingDetail": {
                 "applicationNumber": "CH-GH-2020-07-25-000183",
@@ -75,19 +76,24 @@
                 "sector": "sector 17",
                 "bookingPupose": "Family Gathering"
             },
-            "generatedBy": {
-                "generatedBy": "Anil Clerk"
+            "paymentInfo": {
+                "cleaningCharges": "",
+                "baseCharge": "",
+                "cgst": "",
+                "utgst": "",
+                "totalgst": "",
+                "refundableCharges": "",
+                "totalPayment": "",
+                "paymentDate": ""
             },
-            "approvedBy": {
-                "approvedBy": "Renil Commissioner",
-                "role": "Additional Commissioner"
+            "tenentInfo": {
+                "mcGSTN": "",
+                "statecode": "",
+                "hsncode": ""
             },
-            "tenantInfo": {
-                "municipalityName": "Municipal Corporation Chandigarh",
-                "address": "New Deluxe Building, Sector 17, Chandigarh",
-                "contactNumber": "+91-172-2541002, 0172-2541003",
-                "logoUrl": "https://chstage.blob.core.windows.net/fileshare/logo.png",
-                "webSite": "http://mcchandigarh.gov.in"
+            "emp": {
+                "samparkName": "",
+                "samparkaddress": ""
             }
         }
     ]

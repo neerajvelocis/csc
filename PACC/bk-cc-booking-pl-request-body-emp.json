@@ -1,0 +1,100 @@
+{
+    "RequestInfo": {
+        "apiId": "Rainmaker",
+        "action": "",
+        "did": 1,
+        "key": "",
+        "msgId": "20170310130900|en_IN",
+        "requesterId": "",
+        "ts": "",
+        "ver": ".01",
+        "authToken": "e7b63783-435f-4982-9b76-44e3226a3b44",
+        "userInfo": {
+            "id": 100,
+            "userName": "9138912806",
+            "salutation": null,
+            "name": "Sumit Kumar",
+            "gender": null,
+            "mobileNumber": "9138912806",
+            "houseNo": "555",
+            "emailId": null,
+            "altContactNumber": null,
+            "pan": null,
+            "aadhaarNumber": null,
+            "permanentAddress": null,
+            "permanentCity": "ch.chandigarh",
+            "permanentPinCode": null,
+            "correspondenceAddress": null,
+            "correspondenceCity": null,
+            "correspondencePinCode": null,
+            "sector": "7",
+            "active": true,
+            "locale": null,
+            "type": "CITIZEN",
+            "accountLocked": false,
+            "accountLockedDate": 0,
+            "fatherOrHusbandName": null,
+            "signature": null,
+            "bloodGroup": null,
+            "photo": null,
+            "identificationMark": null,
+            "createdBy": 0,
+            "lastModifiedBy": 0,
+            "tenantId": "ch",
+            "roles": [
+                {
+                    "code": "CITIZEN",
+                    "name": "Citizen",
+                    "tenantId": "ch"
+                }
+            ],
+            "uuid": "e101ff2e-f6f3-43c3-8a7c-17482b438d70",
+            "createdDate": "21-07-2020 09:32:30",
+            "lastModifiedDate": "21-07-2020 09:32:30",
+            "dob": null,
+            "pwdExpiryDate": "19-10-2020 09:32:30"
+        }
+    },
+    "BookingInfo": [
+        {
+            "applicantDetail": {
+                "name": "Sumit Kumar",
+                "mobileNumber": "9138912806",
+                "email": "nero@gmail.com",
+                "permanentAddress": "Royal Building",
+                "permanentCity": "Chandigarh",
+                "sector": "7",
+                "placeOfService": "Chandigarh",
+                "custGSTN": ""
+            },
+            "bookingDetail": {
+                "applicationNumber": "CH-GH-2020-07-25-000183",
+                "applicationDate": "20th Dec 2020",
+                "bookingPeriod": "21th Dec 2020 to 25th Dec 2020",
+                "bookingType": "Park",
+                "venueName": "PARK NO 3 INFRONT OF H NO 53 SEC 9 CHD",
+                "sector": "sector 17",
+                "bookingPupose": "Family Gathering"
+            },
+            "paymentInfo": {
+                "cleaningCharges": "",
+                "baseCharge": "",
+                "cgst": "",
+                "utgst": "",
+                "totalgst": "",
+                "refundableCharges": "",
+                "totalPayment": "",
+                "paymentDate": ""
+            },
+            "tenentInfo": {
+                "mcGSTN": "",
+                "statecode":"",
+                "hsncode":""
+            },
+            "emp": {
+                "samparkName": "",
+                "samparkaddress": ""
+            }
+        }
+    ]
+}

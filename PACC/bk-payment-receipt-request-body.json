@@ -60,43 +60,40 @@
             "applicantDetail": {
                 "name": "Sumit Kumar",
                 "mobileNumber": "9138912806",
-                "houseNo": "555",
-                "permanentAddress": "klklkk",
-                "permanentCity": "ch.chandigarh",
-                "sector": "7"
+                "email": "nero@gmail.com",
+                "permanentAddress": "Royal Building",
+                "permanentCity": "Chandigarh",
+                "sector": "7",
+                "placeOfService": "Chandigarh",
+                "custGSTN": ""
             },
-            "booking": {
-                "bkApplicationNumber": "CH-BK-2020-07-25-000183"
+            "bookingDetail": {
+                "applicationNumber": "CH-GH-2020-07-25-000183",
+                "applicationDate": "20th Dec 2020",
+                "bookingPeriod": "21th Dec 2020 to 25th Dec 2020",
+                "bookingType": "Park",
+                "venueName": "PARK NO 3 INFRONT OF H NO 53 SEC 9 CHD",
+                "sector": "sector 17",
+                "bookingPupose": "Family Gathering"
             },
             "paymentInfo": {
-                "paymentDate": "13th Augest 2020",
-                "transactionId": "EDR654GF35",
-                "bookingPeriod": "13th Aug 2020 to 12th Sep 2020",
-                "bookingItem": "Online Payment Against Booking of PARK NO 69 INFRONT OF HNO 3259-60 SEC 44 CHD",
-                "amountInWords": "Three Thousands Five Hundred Fourty Rupees",
-                "paymentItemExtraColumnLabel": "Booking Period",
-                "paymentMode": "Online",
-                "receiptNo": "08/2020-21/000304",
-                "baseCharge": 4000,
-                "cleaningCharge": 345,
-                "surcharges": 100,
-                "FacilitationCharge": 100,
-                "UTGST": 100,
-                "CGST": 100,
-                "GST": 200,
-                "totalAmount": 4400
+                "cleaningCharges": "",
+                "baseCharge": "",
+                "cgst": "",
+                "utgst": "",
+                "totalgst": "",
+                "refundableCharges": "",
+                "totalPayment": "",
+                "paymentDate": ""
             },
-            "payerInfo": {
-                "payerName": "Ramadesh KushWaha",
-                "payerMobile": "9877782389"
+            "tenentInfo": {
+                "mcGSTN": "",
+                "statecode": "",
+                "hsncode": ""
             },
-            "generatedBy": {
-                "generatedBy": "Anil Clerk"
-            },
-            "tenantInfo": {
-                "municipalityName": "Municipal Corporation Chandigarh",
-                "address": "New Deluxe Building, Sector 17, Chandigarh",
-                "contactNumber": "+91-172-2541002, 0172-2541003"
+            "emp": {
+                "samparkName": "",
+                "samparkaddress": ""
             }
         }
     ]
