@@ -507,9 +507,6 @@
                     40
                 ]
             }
-        ],
-        "defaultStyle": {
-            "fontSize": 12
-        }
+        ]
     }
 }

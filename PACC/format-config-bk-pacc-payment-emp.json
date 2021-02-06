@@ -557,9 +557,6 @@
                     " , a resident of Chandigarh and not enrolled yet as voter. Enroll Now"
                 ]
             }
-        ],
-        "defaultStyle": {
-            "fontSize": 11
-        }
+        ]
     }
 }
