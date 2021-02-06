@@ -1,6 +1,7 @@
 {
     "key": "pacc-payment-receipt-emp",
     "config": {
+        "pageSize": "A4",
         "content": [
             {
                 "text": "Chandigarh Administration",

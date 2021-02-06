@@ -1,6 +1,7 @@
 {
   "key": "pacc-booking-app-form",
   "config": {
+    "pageSize": "A4",
     "content": [
       {
         "image": "{{pdfLogo}}",

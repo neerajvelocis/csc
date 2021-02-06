@@ -1,6 +1,7 @@
 {
     "key": "bk-pk-booking-pl-emp",
     "config": {
+        "pageSize": "A4",
         "content": [
             {
                 "text": "FROM"

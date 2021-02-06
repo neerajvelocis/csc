@@ -1,6 +1,7 @@
 {
     "key": "pacc-payment-receipt",
     "config": {
+        "pageSize": "A4",
         "content": [
             {
                 "image": "{{pdfLogo}}",
