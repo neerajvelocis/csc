@@ -5,6 +5,28 @@
         "content": [
             {
                 "text": "FROM"
+            },
+            {
+                "margin": [
+                    150,
+                    5,
+                    0,
+                    0
+                ],
+                "stack": [
+                    {
+                        "text": "{{samparkName}}"
+                    },
+                    {
+                        "text": "{{samparkaddress}}",
+                        "margin": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ]
+                    }
+                ]
             }
         ],
         "defaultStyle": {
