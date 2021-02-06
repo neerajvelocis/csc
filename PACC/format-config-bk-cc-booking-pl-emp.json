@@ -31,7 +31,37 @@
             {
                 "text": "To"
             },
-            
+            {
+                "margin": [
+                    150,
+                    5,
+                    0,
+                    0
+                ],
+                "stack": [
+                    {
+                        "text": "{{applicantName}}"
+                    },
+                    {
+                        "text": "{{applicantAddress1}}",
+                        "margin": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": "{{applicantAddress2}}",
+                        "margin": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ]
+                    }
+                ]
+            },
             {
                 "bold": true,
                 "margin": [
@@ -56,7 +86,7 @@
                 "text": [
                     "Subject :",
                     "Permission to use the ",
-                    "{{venueName}} ",
+                    "{{venueName}}",
                     "{{venueSector}}",
                     "Chandigarh."
                 ]
