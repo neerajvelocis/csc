@@ -446,6 +446,9 @@
                     }
                 ]
             }
-        ]
+        ],
+        "defaultStyle": {
+            "fontSize": 11
+        }
     }
 }

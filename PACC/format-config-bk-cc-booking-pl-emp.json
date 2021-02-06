@@ -450,6 +450,9 @@
                     }
                 ]
             }
-        ]
+        ],
+        "defaultStyle": {
+            "fontSize": 11
+        }
     }
 }
