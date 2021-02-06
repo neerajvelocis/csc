@@ -405,7 +405,7 @@
                     {
                         "stack": [
                             {
-                                "text": "You are directed to comply with the quidlines(attached) pertaining to pervention of fire.",
+                                "text": "You are directed to comply with the guidlines(attached) pertaining to pervention of fire.",
                                 "margin": [
                                     0,
                                     5,
@@ -428,19 +428,19 @@
                                 "text": "A sum of Rs. "
                             },
                             {
-                                "text": "{{charge}}"
+                                "text": "{{clchargeforwest}}"
                             },
                             {
                                 "text": " for "
                             },
                             {
-                                "text": "{{commAdd}}"
+                                "text": "{{westaddress}}"
                             },
                             {
                                 "text": " and Rs. "
                             },
                             {
-                                "text": "{{othComChrge}}"
+                                "text": "{{clchargeforother}}"
                             },
                             {
                                 "text": " for other community center needs to be deposited with the supervisor community Center as cleaning Charges security."
