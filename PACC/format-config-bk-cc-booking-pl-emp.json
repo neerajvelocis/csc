@@ -72,7 +72,9 @@
                 ],
                 "text": [
                     "Receipt No :",
-                    "{{receiptNo}}"
+                    {
+                        "text": "{{receiptNo}}"
+                    }
                 ]
             },
             {
@@ -86,8 +88,12 @@
                 "text": [
                     "Subject :",
                     "Permission to use the ",
-                    "{{venueName}}",
-                    "{{venueSector}}",
+                    {
+                        "text": "{{venueName}}"
+                    },
+                    {
+                        "text": "{{venueSector}}"
+                    },
                     "Chandigarh."
                 ]
             },
@@ -100,9 +106,13 @@
                 ],
                 "text": [
                     "Ref: Permission is herby accorded to use the ",
-                    "{{venueName}}",
+                    {
+                        "text": "{{venueName}}"
+                    },
                     " center by Holding ",
-                    "{{bookingPurpose}}",
+                    {
+                        "text": "{{bookingPurpose}}"
+                    },
                     "mentioned in your letter"
                 ]
             },
@@ -180,7 +190,9 @@
                     {
                         "text": [
                             "Customer GST No ",
-                            "{{custGSTN}}"
+                            {
+                                "text": "{{custGSTN}}"
+                            }
                         ]
                     },
                     {
@@ -188,7 +200,9 @@
                             {
                                 "text": [
                                     "MIC GST No :",
-                                    "{{mcGSTN}}",
+                                    {
+                                        "text": "{{mcGSTN}}"
+                                    },
                                     " (MUNICIPAL CORPORATION CHANDIGARH)"
                                 ]
                             }
@@ -247,19 +261,25 @@
                     {
                         "text": [
                             "Area /Accommodation Booked :- ",
-                            "{{venueName}}"
+                            {
+                                "text": "{{venueName}}"
+                            }
                         ]
                     },
                     {
                         "text": [
                             "Date Of Booking :- ",
-                            "{{paymentDate}}"
+                            {
+                                "text": "{{paymentDate}}"
+                            }
                         ]
                     },
                     {
                         "text": [
                             "Period of Booking from :- ",
-                            "{{bookingPeriod}}"
+                            {
+                                "text": "{{bookingPeriod}}"
+                            }
                         ]
                     }
                 ]
