@@ -163,12 +163,6 @@
                         }
                      },
                      {
-                        "variable": "variable8",
-                        "value": {
-                           "path": "$.bookingDetail.applicationDate"
-                        }
-                     },
-                     {
                         "variable": "bookingPeriod",
                         "value": {
                            "path": "$.bookingDetail.bookingPeriod"
