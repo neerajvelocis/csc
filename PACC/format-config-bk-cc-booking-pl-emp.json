@@ -63,6 +63,208 @@
                 ]
             },
             {
+                "bold": true,
+                "margin": [
+                    0,
+                    5,
+                    0,
+                    0
+                ],
+                "text": [
+                    "Receipt No :",
+                    "{{receiptNo}}"
+                ]
+            },
+            {
+                "bold": true,
+                "margin": [
+                    0,
+                    5,
+                    0,
+                    0
+                ],
+                "text": [
+                    "Subject :",
+                    "Permission to use the ",
+                    "{{venueName}} ",
+                    "{{venueSector}}",
+                    "Chandigarh."
+                ]
+            },
+            {
+                "margin": [
+                    0,
+                    5,
+                    0,
+                    0
+                ],
+                "text": [
+                    "Ref: Permission is herby accorded to use the ",
+                    "{{venueName}}",
+                    " center by Holding ",
+                    "{{bookingPurpose}}",
+                    "mentioned in your letter"
+                ]
+            },
+            {
+                "margin": [
+                    0,
+                    5,
+                    0,
+                    0
+                ],
+                "text": [
+                    "Detailed Amount :- ",
+                    {
+                        "text": [
+                            {
+                                "text": "Cleaning Charges :- "
+                            },
+                            {
+                                "text": "{{clCharge}",
+                                "bold": true
+                            },
+                            {
+                                "text": " Rent :-",
+                                "margin": [
+                                    0,
+                                    5,
+                                    0,
+                                    0
+                                ]
+                            },
+                            {
+                                "text": "{{baseCharge}",
+                                "bold": true
+                            },
+                            {
+                                "text": " UTGST :- "
+                            },
+                            {
+                                "text": "{{utgst}}",
+                                "bold": true
+                            },
+                            {
+                                "text": " CGST :- "
+                            },
+                            {
+                                "text": "{{cgst}}",
+                                "bold": true
+                            },
+                            {
+                                "text": "Total GST :- "
+                            },
+                            {
+                                "text": "{{tgst}}",
+                                "bold": true
+                            },
+                            {
+                                "text": " Refundable Security :- "
+                            },
+                            {
+                                "text": "{{refundableCharges}}",
+                                "bold": true
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "margin": [
+                    0,
+                    15,
+                    0,
+                    10
+                ],
+                "columns": [
+                    {
+                        "text": [
+                            "Customer GST No ",
+                            "{{custGSTN}}"
+                        ]
+                    },
+                    {
+                        "stack": [
+                            {
+                                "text": [
+                                    "MIC GST No :",
+                                    "{{mcGSTN}}",
+                                    " (MUNICIPAL CORPORATION CHANDIGARH)"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "margin": [
+                    0,
+                    5,
+                    0,
+                    0
+                ],
+                "text": [
+                    "Place of Service ",
+                    {
+                        "text": "{{placeOfService}}",
+                        "bold": true
+                    },
+                    " State Code ",
+                    {
+                        "text": "{{stateCode}}",
+                        "bold": true
+                    },
+                    " HSN Code ",
+                    {
+                        "text": "{{hsnCode}}",
+                        "bold": true
+                    }
+                ]
+            },
+            {
+                "margin": [
+                    0,
+                    5,
+                    0,
+                    0
+                ],
+                "text": [
+                    "Total Amount :- ",
+                    {
+                        "text": "{{totalPayment}}",
+                        "bold": true
+                    }
+                ]
+            },
+            {
+                "margin": [
+                    0,
+                    5,
+                    0,
+                    0
+                ],
+                "ol": [
+                    {
+                        "text": [
+                            "Area /Accommodation Booked :- ",
+                            "{{venueName}}"
+                        ]
+                    },
+                    {
+                        "text": [
+                            "Date Of Booking :- ",
+                            "{{paymentDate}}"
+                        ]
+                    },
+                    {
+                        "text": [
+                            "Period of Booking from :- ",
+                            "{{bookingPeriod}}"
+                        ]
+                    }
+                ]
+            },
+            {
                 "text": "The permission is accorded at following term and conditions:-",
                 "alignment": "center",
                 "bold": true,
@@ -210,6 +412,44 @@
                                     0,
                                     0
                                 ]
+                            }
+                        ]
+                    },
+                    {
+                        "alignment": "justify",
+                        "margin": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ],
+                        "text": [
+                            {
+                                "text": "A sum of Rs. "
+                            },
+                            {
+                                "text": "{{charge}}"
+                            },
+                            {
+                                "text": " for "
+                            },
+                            {
+                                "text": "{{commAdd}}"
+                            },
+                            {
+                                "text": " and Rs. "
+                            },
+                            {
+                                "text": "{{othComChrge}}"
+                            },
+                            {
+                                "text": " for other community center needs to be deposited with the supervisor community Center as cleaning Charges security."
+                            },
+                            {
+                                "text": " In case the permission holder wants to get the community Center celaned at hiscost the cleaning charges security shall be refunded by supervisor, to the permission holder."
+                            },
+                            {
+                                "text": " Other wise the supervisor are authorized to use these cleaning charges security to get the community center cleaned."
                             }
                         ]
                     },

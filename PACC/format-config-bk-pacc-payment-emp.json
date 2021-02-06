@@ -552,9 +552,15 @@
                 "alignment": "justify",
                 "bold": true,
                 "text": [
-                    "Thanks for visiting e-Sampark. Before leaving the counter, please check receipt & the balance amount. Payment through cheque subject to realisation of cheque. This is receipt on thermal paper. Please keep a photocopy of this receipt for your future reference. If You are 18 years or above as on ",
-                    "{{currentDate}}",
-                    " , a resident of Chandigarh and not enrolled yet as voter. Enroll Now"
+                    {
+                        "text": "Thanks for visiting e-Sampark. Before leaving the counter, please check receipt & the balance amount. Payment through cheque subject to realisation of cheque. This is receipt on thermal paper. Please keep a photocopy of this receipt for your future reference. If You are 18 years or above as on "
+                    },
+                    {
+                        "text": "{{currentDate}}"
+                    },
+                    {
+                        "text": " , a resident of Chandigarh and not enrolled yet as voter. Enroll Now"
+                    }
                 ]
             }
         ],
