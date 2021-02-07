@@ -145,14 +145,14 @@
                         "text": "Cleaning Charges :- "
                     },
                     {
-                        "text": "{{clCharge}",
+                        "text": "{{clCharge}}",
                         "bold": true
                     },
                     {
                         "text": " Rent :-"
                     },
                     {
-                        "text": "{{baseCharge}",
+                        "text": "{{baseCharge}}",
                         "bold": true
                     },
                     {
