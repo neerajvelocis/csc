@@ -133,61 +133,6 @@
             {
                 "margin": [
                     0,
-                    5,
-                    0,
-                    0
-                ],
-                "text": [
-                    {
-                        "text": "Detailed Amount :- "
-                    },
-                    {
-                        "text": "Cleaning Charges :- "
-                    },
-                    {
-                        "text": "{{clCharge}",
-                        "bold": true
-                    },
-                    {
-                        "text": " Rent :-"
-                    },
-                    {
-                        "text": "{{baseCharge}",
-                        "bold": true
-                    },
-                    {
-                        "text": " UTGST :- "
-                    },
-                    {
-                        "text": "{{utgst}}",
-                        "bold": true
-                    },
-                    {
-                        "text": " CGST :- "
-                    },
-                    {
-                        "text": "{{cgst}}",
-                        "bold": true
-                    },
-                    {
-                        "text": "Total GST :- "
-                    },
-                    {
-                        "text": "{{tgst}}",
-                        "bold": true
-                    },
-                    {
-                        "text": " Refundable Security :- "
-                    },
-                    {
-                        "text": "{{refundableCharges}}",
-                        "bold": true
-                    }
-                ]
-            },
-            {
-                "margin": [
-                    0,
                     15,
                     0,
                     10
