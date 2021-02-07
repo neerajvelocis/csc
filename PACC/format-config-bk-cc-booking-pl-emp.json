@@ -197,6 +197,23 @@
                         "bold": true
                     }
                 ]
+            },
+            {
+                "margin": [
+                    0,
+                    5,
+                    0,
+                    0
+                ],
+                "text": [
+                    {
+                        "text": "Total Amount :- "
+                    },
+                    {
+                        "text": "{{totalPayment}}",
+                        "bold": true
+                    }
+                ]
             }
         ],
         "defaultStyle": {
