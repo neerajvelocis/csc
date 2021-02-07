@@ -192,6 +192,43 @@
                                 "bold": true
                             }
                         ]
+                    },
+                    {
+                        "margin": [
+                            0,
+                            15,
+                            0,
+                            10
+                        ],
+                        "columns": [
+                            {
+                                "text": [
+                                    {
+                                        "text": "Customer GST No "
+                                    },
+                                    {
+                                        "text": "{{custGSTN}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "stack": [
+                                    {
+                                        "text": [
+                                            {
+                                                "text": "MIC GST No :"
+                                            },
+                                            {
+                                                "text": "{{mcGSTN}}"
+                                            },
+                                            {
+                                                "text": " (MUNICIPAL CORPORATION CHANDIGARH)"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
