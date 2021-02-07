@@ -78,6 +78,32 @@
                         "text": "{{receiptNo}}"
                     }
                 ]
+            },
+            {
+                "bold": true,
+                "margin": [
+                    0,
+                    5,
+                    0,
+                    0
+                ],
+                "text": [
+                    {
+                        "text": "Subject :"
+                    },
+                    {
+                        "text": "Permission to use the "
+                    },
+                    {
+                        "text": "{{venueName}}"
+                    },
+                    {
+                        "text": "{{venueSector}}"
+                    },
+                    {
+                        "text": "Chandigarh."
+                    }
+                ]
             }
         ],
         "defaultStyle": {
