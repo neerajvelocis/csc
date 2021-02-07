@@ -104,6 +104,31 @@
                         "text": "Chandigarh."
                     }
                 ]
+            },
+            {
+                "margin": [
+                    0,
+                    5,
+                    0,
+                    0
+                ],
+                "text": [
+                    {
+                        "text": "Ref: Permission is herby accorded to use the "
+                    },
+                    {
+                        "text": "{{venueName}}"
+                    },
+                    {
+                        "text": " center by Holding "
+                    },
+                    {
+                        "text": "{{bookingPurpose}}"
+                    },
+                    {
+                        "text": "mentioned in your letter"
+                    }
+                ]
             }
         ],
         "defaultStyle": {
