@@ -223,6 +223,201 @@
                     0,
                     5
                 ]
+            },
+            {
+                "ol": [
+                    {
+                        "stack": [
+                            {
+                                "text": "Tentage etc. is permitted to be erected to be erected/removed only within the booking period. In case of use before after the booking period penal rate at double the normal rate will be charged.",
+                                "margin": [
+                                    0,
+                                    5,
+                                    0,
+                                    0
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "stack": [
+                            {
+                                "text": "The Municipal Corporation reserve the right to cancel the booking of the above said area in public interest in the exigencies of exceptional circumstances.",
+                                "margin": [
+                                    0,
+                                    5,
+                                    0,
+                                    0
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "stack": [
+                            {
+                                "text": "In case the Cancellation is required the refund shall be as follow",
+                                "margin": [
+                                    0,
+                                    5,
+                                    0,
+                                    0
+                                ]
+                            },
+                            {
+                                "separator": [
+                                    "(",
+                                    ")"
+                                ],
+                                "type": "lower-roman",
+                                "bold": true,
+                                "ol": [
+                                    {
+                                        "stack": [
+                                            {
+                                                "text": "If the request for cancellation is received one month in advance than the date of booking. 50%",
+                                                "margin": [
+                                                    0,
+                                                    5,
+                                                    0,
+                                                    0
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "stack": [
+                                            {
+                                                "text": "If the request for cancellation is received less one month ans more than 15 days than date of booking. 25%",
+                                                "margin": [
+                                                    0,
+                                                    5,
+                                                    0,
+                                                    0
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "stack": [
+                                            {
+                                                "text": "If the request for cancellation is received less than 15 days than the date of booking. Nll% ",
+                                                "margin": [
+                                                    0,
+                                                    5,
+                                                    0,
+                                                    0
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "stack": [
+                            {
+                                "text": "Permission to use Music System/Loud speakers/Fire has to be obtained separately from the Estate Office.",
+                                "margin": [
+                                    0,
+                                    5,
+                                    0,
+                                    0
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "stack": [
+                            {
+                                "text": "In case of Lawn of community senter/janj ghar the electricity connection is to be arranged by the consumer.",
+                                "margin": [
+                                    0,
+                                    5,
+                                    0,
+                                    0
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "stack": [
+                            {
+                                "text": "Permission for serving liquor has to be obtained separately from Excise & Taxation Department.",
+                                "margin": [
+                                    0,
+                                    5,
+                                    0,
+                                    0
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "stack": [
+                            {
+                                "text": "You are directed to comply with the guidlines(attached) pertaining to pervention of fire.",
+                                "margin": [
+                                    0,
+                                    5,
+                                    0,
+                                    0
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "alignment": "justify",
+                        "margin": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ],
+                        "text": [
+                            {
+                                "text": "A sum of Rs. "
+                            },
+                            {
+                                "text": "{{clchargeforwest}}"
+                            },
+                            {
+                                "text": " for "
+                            },
+                            {
+                                "text": "{{westaddress}}"
+                            },
+                            {
+                                "text": " and Rs. "
+                            },
+                            {
+                                "text": "{{clchargeforother}}"
+                            },
+                            {
+                                "text": " for other community center needs to be deposited with the supervisor community Center as cleaning Charges security."
+                            },
+                            {
+                                "text": " In case the permission holder wants to get the community Center celaned at hiscost the cleaning charges security shall be refunded by supervisor, to the permission holder."
+                            },
+                            {
+                                "text": " Other wise the supervisor are authorized to use these cleaning charges security to get the community center cleaned."
+                            }
+                        ]
+                    },
+                    {
+                        "stack": [
+                            {
+                                "text": "In case of bouncing of DD, the applicant will be criminally prosecuted as per law.  ",
+                                "margin": [
+                                    0,
+                                    5,
+                                    0,
+                                    0
+                                ]
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "defaultStyle": {
