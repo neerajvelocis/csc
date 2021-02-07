@@ -166,6 +166,37 @@
                         ]
                     }
                 ]
+            },
+            {
+                "margin": [
+                    0,
+                    5,
+                    0,
+                    0
+                ],
+                "text": [
+                    {
+                        "text": "Place of Service "
+                    },
+                    {
+                        "text": "{{placeOfService}}",
+                        "bold": true
+                    },
+                    {
+                        "text": " State Code "
+                    },
+                    {
+                        "text": "{{stateCode}}",
+                        "bold": true
+                    },
+                    {
+                        "text": " HSN Code "
+                    },
+                    {
+                        "text": "{{hsnCode}}",
+                        "bold": true
+                    }
+                ]
             }
         ],
         "defaultStyle": {
