@@ -162,6 +162,24 @@
                         }
                      },
                      {
+                        "variable": "clchargeforwest",
+                        "value": {
+                           "path": "$.OtherDetails.clchargeforwest"
+                        }
+                     },
+                     {
+                        "variable": "westaddress",
+                        "value": {
+                           "path": "$.OtherDetails.westaddress"
+                        }
+                     },
+                     {
+                        "variable": "clchargeforother",
+                        "value": {
+                           "path": "$.OtherDetails.clchargeforother"
+                        }
+                     },
+                     {
                         "variable": "bookingPeriod",
                         "value": {
                            "path": "$.bookingDetail.bookingPeriod"
