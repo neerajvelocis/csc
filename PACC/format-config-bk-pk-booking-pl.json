@@ -67,8 +67,12 @@
                     0
                 ],
                 "text": [
-                    "Receipt No :",
-                    "{{receiptNo}}"
+                    {
+                        "text": "Receipt No :"
+                    },
+                    {
+                        "text": "{{receiptNo}}"
+                    }
                 ]
             },
             {
@@ -80,89 +84,103 @@
                     0
                 ],
                 "text": [
-                    "Subject :",
-                    "Permission to use the ",
-                    "{{venueName}}",
-                    " ",
-                    "{{venueSector}}",
-                    " Chandigarh."
-                ]
-            },
-            {
-                "margin": [
-                    0,
-                    5,
-                    0,
-                    0
-                ],
-                "text": [
-                    "Ref: Permission is herby accorded to use the ",
-                    "{{venueName}}",
-                    " center by Holding ",
-                    "{{bookingPurpose}}",
-                    "mentioned in your letter"
-                ]
-            },
-            {
-                "margin": [
-                    0,
-                    5,
-                    0,
-                    0
-                ],
-                "text": [
-                    "Detailed Amount :- ",
                     {
-                        "text": [
-                            {
-                                "text": "Cleaning Charges :- "
-                            },
-                            {
-                                "text": "{{clCharge}}",
-                                "bold": true
-                            },
-                            {
-                                "text": " Rent :-",
-                                "margin": [
-                                    0,
-                                    5,
-                                    0,
-                                    0
-                                ]
-                            },
-                            {
-                                "text": "{{baseCharge}}",
-                                "bold": true
-                            },
-                            {
-                                "text": " UTGST :- "
-                            },
-                            {
-                                "text": "{{utgst}}",
-                                "bold": true
-                            },
-                            {
-                                "text": " CGST :- "
-                            },
-                            {
-                                "text": "{{cgst}}",
-                                "bold": true
-                            },
-                            {
-                                "text": "Total GST :- "
-                            },
-                            {
-                                "text": "{{tgst}}",
-                                "bold": true
-                            },
-                            {
-                                "text": " Refundable Security :- "
-                            },
-                            {
-                                "text": "{{refundableCharges}}",
-                                "bold": true
-                            }
-                        ]
+                        "text": "Subject :"
+                    },
+                    {
+                        "text": "Permission to use the "
+                    },
+                    {
+                        "text": "{{venueName}} "
+                    },
+                    {
+                        "text": " "
+                    },
+                    {
+                        "text": "{{venueSector}}"
+                    },
+                    {
+                        "text": " Chandigarh."
+                    }
+                ]
+            },
+            {
+                "margin": [
+                    0,
+                    5,
+                    0,
+                    0
+                ],
+                "text": [
+                    {
+                        "text": "Ref: Permission is herby accorded to use the "
+                    },
+                    {
+                        "text": "{{venueName}}"
+                    },
+                    {
+                        "text": " center by Holding "
+                    },
+                    {
+                        "text": "{{bookingPurpose}}"
+                    },
+                    {
+                        "text": "mentioned in your letter"
+                    }
+                ]
+            },
+            {
+                "margin": [
+                    0,
+                    5,
+                    0,
+                    0
+                ],
+                "text": [
+                    {
+                        "text": "Detailed Amount :- "
+                    },
+                    {
+                        "text": "Cleaning Charges :- "
+                    },
+                    {
+                        "text": "{{clCharge}}",
+                        "bold": true
+                    },
+                    {
+                        "text": " Rent :-"
+                    },
+                    {
+                        "text": "{{baseCharge}}",
+                        "bold": true
+                    },
+                    {
+                        "text": " UTGST :- "
+                    },
+                    {
+                        "text": "{{utgst}}",
+                        "bold": true
+                    },
+                    {
+                        "text": " CGST :- "
+                    },
+                    {
+                        "text": "{{cgst}}",
+                        "bold": true
+                    },
+                    {
+                        "text": "Total GST :- "
+                    },
+                    {
+                        "text": "{{tgst}}",
+                        "bold": true
+                    },
+                    {
+                        "text": " Refundable Security :- "
+                    },
+                    {
+                        "text": "{{refundableCharges}}",
+                        "bold": true
                     }
                 ]
             },
@@ -176,17 +194,27 @@
                 "columns": [
                     {
                         "text": [
-                            "Customer GST No ",
-                            "{{custGSTN}}"
+                            {
+                                "text": "Customer GST No "
+                            },
+                            {
+                                "text": "{{custGSTN}}"
+                            }
                         ]
                     },
                     {
                         "stack": [
                             {
                                 "text": [
-                                    "MIC GST No :",
-                                    "{{mcGSTN}}",
-                                    " (MUNICIPAL CORPORATION CHANDIGARH)"
+                                    {
+                                        "text": "MIC GST No :"
+                                    },
+                                    {
+                                        "text": "{{mcGSTN}}"
+                                    },
+                                    {
+                                        "text": " (MUNICIPAL CORPORATION CHANDIGARH)"
+                                    }
                                 ]
                             }
                         ]
@@ -201,17 +229,23 @@
                     0
                 ],
                 "text": [
-                    "Place of Service ",
+                    {
+                        "text": "Place of Service "
+                    },
                     {
                         "text": "{{placeOfService}}",
                         "bold": true
                     },
-                    " State Code ",
+                    {
+                        "text": " State Code "
+                    },
                     {
                         "text": "{{stateCode}}",
                         "bold": true
                     },
-                    " HSN Code ",
+                    {
+                        "text": " HSN Code "
+                    },
                     {
                         "text": "{{hsnCode}}",
                         "bold": true
@@ -226,7 +260,9 @@
                     0
                 ],
                 "text": [
-                    "Total Amount :- ",
+                    {
+                        "text": "Total Amount :- "
+                    },
                     {
                         "text": "{{totalPayment}}",
                         "bold": true
@@ -249,8 +285,12 @@
                             0
                         ],
                         "text": [
-                            "Area /Accommodation Booked :- ",
-                            "{{venueName}}"
+                            {
+                                "text": "Area /Accommodation Booked :- "
+                            },
+                            {
+                                "text": "{{venueName}}"
+                            }
                         ]
                     },
                     {
@@ -261,8 +301,12 @@
                             0
                         ],
                         "text": [
-                            "Date Of Booking :- ",
-                            "{{applicationDate}}"
+                            {
+                                "text": "Date Of Booking :- "
+                            },
+                            {
+                                "text": "{{applicationDate}}"
+                            }
                         ]
                     },
                     {
@@ -273,8 +317,12 @@
                             0
                         ],
                         "text": [
-                            "Period of Booking from :- ",
-                            "{{bookingPeriod}}"
+                            {
+                                "text": "Period of Booking from :- "
+                            },
+                            {
+                                "text": "{{bookingPeriod}}"
+                            }
                         ]
                     }
                 ]
