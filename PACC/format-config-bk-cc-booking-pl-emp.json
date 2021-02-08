@@ -66,7 +66,7 @@
                 "bold": true,
                 "margin": [
                     0,
-                    5,
+                    10,
                     0,
                     0
                 ],
@@ -98,10 +98,13 @@
                         "text": "{{venueName}}"
                     },
                     {
+                        "text": " "
+                    },
+                    {
                         "text": "{{venueSector}}"
                     },
                     {
-                        "text": "Chandigarh."
+                        "text": " Chandigarh."
                     }
                 ]
             },
@@ -126,7 +129,7 @@
                         "text": "{{bookingPurpose}}"
                     },
                     {
-                        "text": "mentioned in your letter"
+                        "text": " mentioned in your letter"
                     }
                 ]
             },
@@ -149,7 +152,7 @@
                         "bold": true
                     },
                     {
-                        "text": " Rent :-"
+                        "text": " Rent :- "
                     },
                     {
                         "text": "{{baseCharge}}",
@@ -170,7 +173,7 @@
                         "bold": true
                     },
                     {
-                        "text": "Total GST :- "
+                        "text": " Total GST :- "
                     },
                     {
                         "text": "{{tgst}}",
@@ -196,7 +199,7 @@
                     {
                         "text": [
                             {
-                                "text": "Customer GST No "
+                                "text": "Customer GST No : "
                             },
                             {
                                 "text": "{{custGSTN}}"
@@ -208,7 +211,7 @@
                             {
                                 "text": [
                                     {
-                                        "text": "MIC GST No :"
+                                        "text": "MIC GST No : "
                                     },
                                     {
                                         "text": "{{mcGSTN}}"
@@ -231,21 +234,21 @@
                 ],
                 "text": [
                     {
-                        "text": "Place of Service "
+                        "text": "Place of Service : "
                     },
                     {
                         "text": "{{placeOfService}}",
                         "bold": true
                     },
                     {
-                        "text": " State Code "
+                        "text": " State Code : "
                     },
                     {
                         "text": "{{stateCode}}",
                         "bold": true
                     },
                     {
-                        "text": " HSN Code "
+                        "text": " HSN Code : "
                     },
                     {
                         "text": "{{hsnCode}}",
@@ -274,6 +277,7 @@
                 "text": "The permission is accorded at following term and conditions:-",
                 "alignment": "center",
                 "bold": true,
+                "fontSize":12,
                 "margin": [
                     0,
                     5
@@ -476,7 +480,7 @@
             }
         ],
         "defaultStyle": {
-            "fontSize": 11
+            "fontSize": 10
         }
     }
 }

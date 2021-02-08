@@ -68,7 +68,7 @@
                 ],
                 "text": [
                     {
-                        "text": "Receipt No :"
+                        "text": "Receipt No : "
                     },
                     {
                         "text": "{{receiptNo}}"
@@ -91,13 +91,15 @@
                         "text": "Permission to use the "
                     },
                     {
-                        "text": "{{venueName}} "
+                        "text": "{{venueName}} ",
+                        "bold": true
                     },
                     {
                         "text": " "
                     },
                     {
-                        "text": "{{venueSector}}"
+                        "text": "{{venueSector}}",
+                        "bold": true
                     },
                     {
                         "text": " Chandigarh."
@@ -116,16 +118,18 @@
                         "text": "Ref: Permission is herby accorded to use the "
                     },
                     {
-                        "text": "{{venueName}}"
+                        "text": "{{venueName}}",
+                        "bold": true
                     },
                     {
                         "text": " center by Holding "
                     },
                     {
-                        "text": "{{bookingPurpose}}"
+                        "text": "{{bookingPurpose}}",
+                        "bold": true
                     },
                     {
-                        "text": "mentioned in your letter"
+                        "text": " mentioned in your letter"
                     }
                 ]
             },
@@ -148,7 +152,7 @@
                         "bold": true
                     },
                     {
-                        "text": " Rent :-"
+                        "text": " Rent :- "
                     },
                     {
                         "text": "{{baseCharge}}",
@@ -169,7 +173,7 @@
                         "bold": true
                     },
                     {
-                        "text": "Total GST :- "
+                        "text": " Total GST :- "
                     },
                     {
                         "text": "{{tgst}}",
@@ -195,7 +199,7 @@
                     {
                         "text": [
                             {
-                                "text": "Customer GST No "
+                                "text": "Customer GST No : "
                             },
                             {
                                 "text": "{{custGSTN}}"
@@ -207,7 +211,7 @@
                             {
                                 "text": [
                                     {
-                                        "text": "MIC GST No :"
+                                        "text": "MIC GST No : "
                                     },
                                     {
                                         "text": "{{mcGSTN}}"
@@ -230,21 +234,21 @@
                 ],
                 "text": [
                     {
-                        "text": "Place of Service "
+                        "text": "Place of Service : "
                     },
                     {
                         "text": "{{placeOfService}}",
                         "bold": true
                     },
                     {
-                        "text": " State Code "
+                        "text": " State Code : "
                     },
                     {
                         "text": "{{stateCode}}",
                         "bold": true
                     },
                     {
-                        "text": " HSN Code "
+                        "text": " HSN Code : "
                     },
                     {
                         "text": "{{hsnCode}}",
@@ -330,10 +334,11 @@
             {
                 "text": "The permission is accorded at following term and conditions:-",
                 "alignment": "center",
+                "fontSize": 12,
                 "bold": true,
                 "margin": [
                     0,
-                    8
+                    15
                 ]
             },
             {
@@ -370,7 +375,7 @@
                                 "text": "In case the Cancellation is required the refund shall be as follow",
                                 "margin": [
                                     0,
-                                    5,
+                                    6,
                                     0,
                                     0
                                 ]
@@ -389,7 +394,7 @@
                                                 "text": "If the request is made 15 days in advance to the date of use 50%",
                                                 "margin": [
                                                     0,
-                                                    5,
+                                                    6,
                                                     0,
                                                     0
                                                 ]
@@ -402,7 +407,7 @@
                                                 "text": "Between 15 days to 7 days in advance 25%",
                                                 "margin": [
                                                     0,
-                                                    5,
+                                                    6,
                                                     0,
                                                     0
                                                 ]
@@ -415,7 +420,7 @@
                                                 "text": "Within 7 days Nll%",
                                                 "margin": [
                                                     0,
-                                                    5,
+                                                    6,
                                                     0,
                                                     0
                                                 ]
@@ -432,7 +437,7 @@
                                 "text": "Permission to use Music System/Loud speakers/Fire has to be obtained separately from the Estate Office.",
                                 "margin": [
                                     0,
-                                    5,
+                                    6,
                                     0,
                                     0
                                 ]
@@ -445,7 +450,7 @@
                                 "text": "In case of Lawn of community senter/janj ghar the electricity connection is to be arranged by the consumer.",
                                 "margin": [
                                     0,
-                                    5,
+                                    6,
                                     0,
                                     0
                                 ]
@@ -458,7 +463,7 @@
                                 "text": "Permission for serving liquor has to be obtained separately from Excise & Taxation Department.",
                                 "margin": [
                                     0,
-                                    5,
+                                    6,
                                     0,
                                     0
                                 ]
@@ -471,7 +476,7 @@
                                 "text": "You are directed to comply with the quidlines(attached) pertaining to pervention of fire.",
                                 "margin": [
                                     0,
-                                    5,
+                                    6,
                                     0,
                                     0
                                 ]
@@ -484,7 +489,7 @@
                                 "text": "In case of bouncing of DD, the applicant will be criminally prosecuted as per law.  ",
                                 "margin": [
                                     0,
-                                    5,
+                                    6,
                                     0,
                                     0
                                 ]
@@ -494,7 +499,7 @@
                     {
                         "margin": [
                             0,
-                            5,
+                            6,
                             0,
                             0
                         ],
@@ -503,7 +508,7 @@
                     {
                         "margin": [
                             0,
-                            5,
+                            6,
                             0,
                             0
                         ],
@@ -512,7 +517,7 @@
                     {
                         "margin": [
                             0,
-                            5,
+                            6,
                             0,
                             0
                         ],
@@ -521,7 +526,7 @@
                     {
                         "margin": [
                             0,
-                            5,
+                            6,
                             0,
                             0
                         ],
@@ -530,7 +535,7 @@
                     {
                         "margin": [
                             0,
-                            5,
+                            6,
                             0,
                             0
                         ],
@@ -539,7 +544,7 @@
                     {
                         "margin": [
                             0,
-                            5,
+                            6,
                             0,
                             0
                         ],
@@ -552,12 +557,12 @@
                 "alignment": "right",
                 "margin": [
                     0,
-                    40
+                    10
                 ]
             }
         ],
         "defaultStyle": {
-            "fontSize": 12
+            "fontSize": 11
         }
     }
 }
