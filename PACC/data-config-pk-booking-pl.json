@@ -62,7 +62,7 @@
                      {
                         "variable": "receiptNo",
                         "value": {
-                           "path": "$.bookingDetail.applicationNumber"
+                           "path": "$.paymentInfo.receiptNo"
                         }
                      },
                      {
