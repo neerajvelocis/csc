@@ -1,7 +1,6 @@
 {
     "key": "pacc-payment-receipt",
     "config": {
-        "pageSize": "A4",
         "content": [
             {
                 "image": "{{variable76}}",

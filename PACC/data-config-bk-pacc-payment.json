@@ -1,5 +1,5 @@
 {
-   "key": "pacc-payment-receipt",
+   "key": "pacc-payment-receipt-new",
    "DataConfigs": {
       "serviceName": "rainmaker-tl",
       "version": "1.0.0",

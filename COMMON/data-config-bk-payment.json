@@ -49,6 +49,12 @@
                          }
                       },
                       {
+                        "variable": "paymentreceiptfor",
+                        "value": {
+                           "path": "$.booking.paymentreceiptfor"
+                        }
+                     },
+                      {
                          "variable": "variable7",
                          "value": {
                             "path": "$.paymentInfo.paymentDate"
