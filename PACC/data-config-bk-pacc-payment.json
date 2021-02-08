@@ -167,6 +167,12 @@
                         "value": {
                            "path": "$.paymentInfo.totalPaymentInWords"
                         }
+                     },
+                     {
+                        "variable": "currentDate",
+                        "value": {
+                           "path": "$.paymentInfo.currentDate"
+                        }
                      }
                   ]
                }
