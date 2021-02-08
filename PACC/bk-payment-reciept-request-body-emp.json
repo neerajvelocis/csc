@@ -74,7 +74,7 @@
                 "bookingType": "Park",
                 "venueName": "PARK NO 3 INFRONT OF H NO 53 SEC 9 CHD",
                 "sector": "sector 17",
-                "bookingPupose": "Family Gathering"
+                "bookingPurpose": "Family Gathering"
             },
             "paymentInfo": {
                 "cleaningCharges": "",
@@ -84,16 +84,35 @@
                 "totalgst": "",
                 "refundableCharges": "",
                 "totalPayment": "",
-                "paymentDate": ""
+                "paymentDate": "",
+                "paymentTime": "",
+                "receiptNo": "ASD/asd/1254"
             },
             "tenentInfo": {
                 "mcGSTN": "",
                 "statecode": "",
-                "hsncode": ""
+                "hsncode": "",
+                "municipalityName": "",
+                "address": "",
+                "contactNumber": "",
+                "webSite": ""
             },
             "emp": {
                 "samparkName": "",
                 "samparkaddress": ""
+            },
+            "OtherDetails": {
+                "clchargeforwest": "",
+                "westaddress": "",
+                "clchargeforother": ""
+            },
+            "generatedBy": {
+                "generatedBy": "",
+                "generatedDateTime": ""
+            },
+            "approvedBy": {
+                "approvedBy": "",
+                "role": ""
             }
         }
     ]
