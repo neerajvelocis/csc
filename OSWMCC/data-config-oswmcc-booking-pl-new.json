@@ -51,7 +51,7 @@
                             {
                                 "variable": "bklocationAddress",
                                 "value": {
-                                    "path": "$.bookingDetail.location"
+                                    "path": "$.bookingDetail.bklocationAddress"
                                 }
                             },
                             {
