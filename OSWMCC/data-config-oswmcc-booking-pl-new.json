@@ -1,0 +1,134 @@
+{
+    "key": "bk-oswmcc-booking-pl-new",
+    "DataConfigs": {
+        "serviceName": "rainmaker-bk",
+        "version": "1.0.0",
+        "baseKeyPath": "$.BookingInfo.*",
+        "entityIdPath": "$.bookingDetail.applicationNumber",
+        "isCommonTableBorderRequired": true,
+        "mappings": [
+            {
+                "topic": "bk-pdf-generation",
+                "mappings": [
+                    {
+                        "direct": [
+                            {
+                                "variable": "tenantName",
+                                "value": {
+                                    "path": "$.tenantInfo.tenantName"
+                                }
+                            },
+                            {
+                                "variable": "tenantAddress",
+                                "value": {
+                                    "path": "$.tenantInfo.tenantAddress"
+                                }
+                            },
+                            {
+                                "variable": "tenantSector",
+                                "value": {
+                                    "path": "$.tenantInfo.tenantSector"
+                                }
+                            },
+                            {
+                                "variable": "memoNumber",
+                                "value": {
+                                    "path": "$.paymentInfo.memoNumber"
+                                }
+                            },
+                            {
+                                "variable": "paymentDate",
+                                "value": {
+                                    "path": "$.paymentInfo.paymentDate"
+                                }
+                            },
+                            {
+                                "variable": "bklocation",
+                                "value": {
+                                    "path": "$.bookingDetail.location"
+                                }
+                            },
+                            {
+                                "variable": "bklocationAddress",
+                                "value": {
+                                    "path": "$.bookingDetail.location"
+                                }
+                            },
+                            {
+                                "variable": "endstNo",
+                                "value": {
+                                    "path": "$.paymentInfo.endstNo"
+                                }
+                            },
+                            {
+                                "variable": "applicationDate",
+                                "value": {
+                                    "path": "$.bookingDetail.applicationDate"
+                                }
+                            },
+                            {
+                                "variable": "areaBookedSize",
+                                "value": {
+                                    "path": "$.bookingDetail.areaBookedSize"
+                                }
+                            },
+                            {
+                                "variable": "bookingPeriod",
+                                "value": {
+                                    "path": "$.bookingDetail.bookingPeriod"
+                                }
+                            },
+                            {
+                                "variable": "grNo",
+                                "value": {
+                                    "path": "$.bookingDetail.grNo"
+                                }
+                            },
+                            {
+                                "variable": "generatedBy",
+                                "value": {
+                                    "path": "$.generatedBy.generatedBy"
+                                }
+                            },
+                            {
+                                "variable": "genrationDateTime",
+                                "value": {
+                                    "path": "$.generatedBy.genrationDateTime"
+                                }
+                            },
+                            {
+                                "variable": "pdfLogo",
+                                "url": "http://mcchandigarh.gov.in/sites/default/files/mc-chandigardh-logo.png",
+                                "type": "image"
+                            },
+                            {
+                                "variable": "approvedBy",
+                                "value": {
+                                    "path": "$.approvedBy.approvedBy"
+                                }
+                            },
+                            {
+                                "variable": "approvedByRole",
+                                "value": {
+                                    "path": "$.approvedBy.role"
+                                }
+                            },
+                            {
+                                "variable": "municipalityContact",
+                                "value": {
+                                    "path": "$.tenantInfo.contactNumber"
+                                }
+                            },
+                            {
+                                "variable": "municipalityWebSite",
+                                "value": {
+                                    "path": "$.tenantInfo.webSite"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

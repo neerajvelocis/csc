@@ -1,0 +1,348 @@
+{
+    "key": "bk-oswmcc-booking-pl-new",
+    "config": {
+        "pageSize": "A4",
+        "content": [
+            {
+                "margin": [
+                    55,
+                    0,
+                    0,
+                    0
+                ],
+                "fontSize": 14,
+                "stack": [
+                    {
+                        "text": [
+                            "{{tenantName}}",
+                            ","
+                        ]
+                    },
+                    {
+                        "text": [
+                            "{{tenantAddress}}",
+                            ","
+                        ]
+                    },
+                    {
+                        "text": [
+                            "{{tenantSector}}",
+                            ","
+                        ]
+                    }
+                ]
+            },
+            {
+                "margin": [
+                    55,
+                    20,
+                    0,
+                    0
+                ],
+                "bold": true,
+                "stack": [
+                    {
+                        "text": [
+                            {
+                                "text": "Memo No. "
+                            },
+                            {
+                                "text": "{{memoNumber}}"
+                            }
+                        ]
+                    },
+                    {
+                        "text": [
+                            {
+                                "text": "Dated Chandigarh the, "
+                            },
+                            {
+                                "text": "{{paymentDate}}"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "margin": [
+                    0,
+                    20,
+                    0,
+                    0
+                ],
+                "columns": [
+                    {
+                        "text": "Subject:",
+                        "width": 55,
+                        "bold": true
+                    },
+                    {
+                        "stack": [
+                            {
+                                "bold": true,
+                                "text": [
+                                    {
+                                        "text": "Permission for setup for open space  "
+                                    },
+                                    {
+                                        "text": "{{bklocation}}"
+                                    },
+                                    {
+                                        "text": "{{bklocationAddress}}"
+                                    },
+                                    {
+                                        "text": " on dated "
+                                    },
+                                    {
+                                        "text": "{{applicationDate}}"
+                                    },
+                                    {
+                                        "text": "."
+                                    }
+                                ]
+                            },
+                            {
+                                "text": [
+                                    {
+                                        "text": "Your are hereby granted a permission to use the area "
+                                    },
+                                    {
+                                        "text": "{{areaBookedSize}}"
+                                    },
+                                    {
+                                        "text": " for Activity space for "
+                                    }
+                                ],
+                                "margin": [
+                                    0,
+                                    10,
+                                    0,
+                                    0
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "text": [
+                    {
+                        "text": "open space in "
+                    },
+                    {
+                        "text": "{{bklocation}}"
+                    },
+                    {
+                        "text": " on dated "
+                    },
+                    {
+                        "text": "{{bookingPeriod}}"
+                    },
+                    {
+                        "text": " Vide Gr. No. "
+                    },
+                    {
+                        "text": "{{grNo}}"
+                    },
+                    {
+                        "text": " dated "
+                    },
+                    {
+                        "text": "{{applicationDate}}"
+                    },
+                    {
+                        "text": " on the following terms and condition:-"
+                    }
+                ]
+            },
+            {
+                "margin": [
+                    0,
+                    10,
+                    0,
+                    0
+                ],
+                "ol": [
+                    {
+                        "text": "Area shall be used for the purpose of which the permission is being granted above and shall not be used for any other purpose",
+                        "margin": [
+                            0,
+                            10,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": "No Banners/Holdings shall be allowed.",
+                        "margin": [
+                            0,
+                            10,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": "No damage  shall be caused to the M.C. property/ flooring/ parking etc. In case of any damage og Municipal property the recovery shall be made from applicant/ tent owner on the basic of Rs. 500/- per pole and tent will be removed and seized by the Enforcement.",
+                        "margin": [
+                            0,
+                            10,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": "No Inconvenience is to be caused to the General Public on account of the permission",
+                        "margin": [
+                            0,
+                            10,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": "Erection of tentage/ erection of pole are allowed without hole.",
+                        "margin": [
+                            0,
+                            10,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": "Permission from District Magistrate/ Police authorities will be sought separately. If any",
+                        "margin": [
+                            0,
+                            10,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": "Applicant responsible for getting the area clean after completion of the above function.",
+                        "margin": [
+                            0,
+                            10,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": "Separate permission for sound system etc, shall have to be obtained from the competent authority",
+                        "margin": [
+                            0,
+                            10,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": "Any commercial  advertisement/logo/banner/flex etc . put up on the backdrop of the event will not be allowed without permission of the competent authority",
+                        "margin": [
+                            0,
+                            10,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": "Advertisement fee shall also be charged as per Chandigarh Advertisement COntrol Order-1954 for display of banner(s) and any kind of display of advertisement ,If any",
+                        "margin": [
+                            0,
+                            10,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": "The Commissioner, Municipal Corporation, Chd. reserve the right to cancel the permission without assigning any reason  in public interest.",
+                        "margin": [
+                            0,
+                            10,
+                            0,
+                            0
+                        ]
+                    }
+                ]
+            },
+            {
+                "margin": [
+                    0,
+                    20,
+                    0,
+                    0
+                ],
+                "stack": [
+                    {
+                        "columns": [
+                            {
+                                "margin": [
+                                    10,
+                                    45,
+                                    0,
+                                    0
+                                ],
+                                "text": [
+                                    {
+                                        "text": "Endst No. "
+                                    },
+                                    {
+                                        "text": "{{endstNo}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "alignment": "right",
+                                "bold": true,
+                                "text": [
+                                    {
+                                        "text": "Officer on Speecial Duty-||,\n"
+                                    },
+                                    {
+                                        "text": "Muncipal Corporation\n"
+                                    },
+                                    {
+                                        "text": "Chandigarh.\n"
+                                    },
+                                    {
+                                        "text": "Dated "
+                                    },
+                                    {
+                                        "text": "{{genrationDateTime}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "margin": [
+                            10,
+                            20,
+                            0,
+                            0
+                        ],
+                        "text": "Copy is forward to the following for the information and necessary action please:"
+                    },
+                    {
+                        "margin": [
+                            20,
+                            10,
+                            0,
+                            0
+                        ],
+                        "ol": [
+                            {
+                                "text": "PA to SCMC, Municipal Corporation, Chandigarh."
+                            },
+                            {
+                                "text": "E E Road Divison1/2/3, Municipal Corporation, Chandigarh."
+                            },
+                            {
+                                "text": "Inspector (Enforcement), Municipal Corporation, Chandigarh."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
