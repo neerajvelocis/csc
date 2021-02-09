@@ -507,6 +507,14 @@
                         ]
                     }
                 ]
+            },
+            {
+                "text": "Authorized Signatory",
+                "alignment": "right",
+                "margin": [
+                    0,
+                    40
+                ]
             }
         ],
         "defaultStyle": {
