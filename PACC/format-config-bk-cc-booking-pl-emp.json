@@ -13,6 +13,7 @@
                     0,
                     0
                 ],
+                "fontSize": 13,
                 "stack": [
                     {
                         "text": "{{samparkName}}"
@@ -38,6 +39,7 @@
                     0,
                     0
                 ],
+                "fontSize": 13,
                 "stack": [
                     {
                         "text": "{{applicantName}}"
