@@ -111,7 +111,7 @@
                      {
                         "variable": "mcGSTN",
                         "value": {
-                           "path": "$.tenentInfo.mcGSTN"
+                           "path": "$.tenantInfo.mcGSTN"
                         }
                      },
                      {
@@ -123,13 +123,13 @@
                      {
                         "variable": "stateCode",
                         "value": {
-                           "path": "$.tenentInfo.statecode"
+                           "path": "$.tenantInfo.statecode"
                         }
                      },
                      {
                         "variable": "hsnCode",
                         "value": {
-                           "path": "$.tenentInfo.hsncode"
+                           "path": "$.tenantInfo.hsncode"
                         }
                      },
                      {
