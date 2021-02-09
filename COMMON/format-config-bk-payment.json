@@ -36,16 +36,6 @@
                 "bold": true
             },
             {
-                "text": "{{paymentreceiptfor}}",
-                "style": "pdfsubheader",
-                "margin": [
-                    0,
-                    -10,
-                    0,
-                    20
-                ]
-            },
-            {
                 "text": "Payment Receipt",
                 "style": "pdfsubheader",
                 "margin": [
