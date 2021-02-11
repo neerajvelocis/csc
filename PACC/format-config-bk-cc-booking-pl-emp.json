@@ -68,9 +68,7 @@
                 "bold": true,
                 "margin": [
                     0,
-                    10,
-                    0,
-                    0
+                    7
                 ],
                 "text": [
                     {
@@ -85,9 +83,7 @@
                 "bold": true,
                 "margin": [
                     0,
-                    5,
-                    0,
-                    0
+                    7
                 ],
                 "text": [
                     {
@@ -97,7 +93,7 @@
                         "text": "Permission to use the "
                     },
                     {
-                        "text": "{{venueName}}"
+                        "text": "{{venueName}} "
                     },
                     {
                         "text": " "
@@ -113,22 +109,22 @@
             {
                 "margin": [
                     0,
-                    5,
-                    0,
-                    0
+                    7
                 ],
                 "text": [
                     {
                         "text": "Ref: Permission is herby accorded to use the "
                     },
                     {
-                        "text": "{{venueName}}"
+                        "text": "{{venueName}}",
+                        "bold": true
                     },
                     {
                         "text": " center by Holding "
                     },
                     {
-                        "text": "{{bookingPurpose}}"
+                        "text": "{{bookingPurpose}}",
+                        "bold": true
                     },
                     {
                         "text": " mentioned in your letter"
@@ -138,9 +134,7 @@
             {
                 "margin": [
                     0,
-                    5,
-                    0,
-                    0
+                    7
                 ],
                 "text": [
                     {
@@ -154,7 +148,7 @@
                         "bold": true
                     },
                     {
-                        "text": " Rent :- "
+                        "text": " Rent :-"
                     },
                     {
                         "text": "{{baseCharge}}",
@@ -230,9 +224,7 @@
             {
                 "margin": [
                     0,
-                    5,
-                    0,
-                    0
+                    7
                 ],
                 "text": [
                     {
@@ -261,9 +253,7 @@
             {
                 "margin": [
                     0,
-                    5,
-                    0,
-                    0
+                    7
                 ],
                 "text": [
                     {
@@ -278,27 +268,55 @@
             {
                 "margin": [
                     0,
-                    5,
-                    0,
-                    0
+                    7
                 ],
                 "ol": [
                     {
+                        "margin": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ],
                         "text": [
-                            "Area /Accommodation Booked :- ",
-                            "{{venueName}}"
+                            {
+                                "text": "Area /Accommodation Booked :- "
+                            },
+                            {
+                                "text": "{{venueName}}"
+                            }
                         ]
                     },
                     {
+                        "margin": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ],
                         "text": [
-                            "Date Of Booking :- ",
-                            "{{paymentDate}}"
+                            {
+                                "text": "Date Of Booking :- "
+                            },
+                            {
+                                "text": "{{applicationDate}}"
+                            }
                         ]
                     },
                     {
+                        "margin": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ],
                         "text": [
-                            "Period of Booking from :- ",
-                            "{{bookingPeriod}}"
+                            {
+                                "text": "Period of Booking from :- "
+                            },
+                            {
+                                "text": "{{bookingPeriod}}"
+                            }
                         ]
                     }
                 ]
@@ -310,7 +328,7 @@
                 "fontSize": 12,
                 "margin": [
                     0,
-                    5
+                    8
                 ]
             },
             {
@@ -363,7 +381,7 @@
                                     {
                                         "stack": [
                                             {
-                                                "text": "If the request for cancellation is received one month in advance than the date of booking. 50%",
+                                                "text": "If the request is made 15 days in advance to the date of use 50%",
                                                 "margin": [
                                                     0,
                                                     5,
@@ -376,7 +394,7 @@
                                     {
                                         "stack": [
                                             {
-                                                "text": "If the request for cancellation is received less one month ans more than 15 days than date of booking. 25%",
+                                                "text": "Between 15 days to 7 days in advance 25%",
                                                 "margin": [
                                                     0,
                                                     5,
@@ -389,7 +407,7 @@
                                     {
                                         "stack": [
                                             {
-                                                "text": "If the request for cancellation is received less than 15 days than the date of booking. Nll% ",
+                                                "text": "Within 7 days Nll%",
                                                 "margin": [
                                                     0,
                                                     5,
@@ -445,51 +463,13 @@
                     {
                         "stack": [
                             {
-                                "text": "You are directed to comply with the guidlines(attached) pertaining to pervention of fire.",
+                                "text": "You are directed to comply with the quidlines(attached) pertaining to pervention of fire.",
                                 "margin": [
                                     0,
                                     5,
                                     0,
                                     0
                                 ]
-                            }
-                        ]
-                    },
-                    {
-                        "alignment": "justify",
-                        "margin": [
-                            0,
-                            5,
-                            0,
-                            0
-                        ],
-                        "text": [
-                            {
-                                "text": "A sum of Rs. "
-                            },
-                            {
-                                "text": "{{clchargeforwest}}"
-                            },
-                            {
-                                "text": " for "
-                            },
-                            {
-                                "text": "{{westaddress}}"
-                            },
-                            {
-                                "text": " and Rs. "
-                            },
-                            {
-                                "text": "{{clchargeforother}}"
-                            },
-                            {
-                                "text": " for other community center needs to be deposited with the supervisor community Center as cleaning Charges security."
-                            },
-                            {
-                                "text": " In case the permission holder wants to get the community Center celaned at hiscost the cleaning charges security shall be refunded by supervisor, to the permission holder."
-                            },
-                            {
-                                "text": " Other wise the supervisor are authorized to use these cleaning charges security to get the community center cleaned."
                             }
                         ]
                     },
@@ -505,6 +485,60 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "margin": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ],
+                        "text": "Organsiers/Applicant ensure the compliance of Model of Conduct rule general Election og Lock Sabha 2019."
+                    },
+                    {
+                        "margin": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ],
+                        "text": "Organsiers/Applicant shall no political issue is involved & this for Nobel cause."
+                    },
+                    {
+                        "margin": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ],
+                        "text": "In case any violation of Model conduct rule is found, I shall be liable for action."
+                    },
+                    {
+                        "margin": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ],
+                        "text": "The Organisers will ensure that gathering shall not exceed to 50 person in case marriage and  20 persons in case of last rites ceremony"
+                    },
+                    {
+                        "margin": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ],
+                        "text": "The Organisers will also compliance the guidelines and orders issued by MOHFW or any other Competent Authority regarding COVID-19 or implementing of Law & Orders."
+                    },
+                    {
+                        "margin": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ],
+                        "text": "The Commissioner Municipal Corporation Chandigarh reserve the right to cancel the booking at any time. If the accommodation is required for isolation home & quarantine center of any other purpose pertaining to COVID-19."
                     }
                 ]
             },
@@ -518,7 +552,7 @@
             }
         ],
         "defaultStyle": {
-            "fontSize": 10
+            "fontSize": 11
         }
     }
 }

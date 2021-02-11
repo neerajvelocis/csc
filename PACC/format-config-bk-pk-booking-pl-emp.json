@@ -13,7 +13,7 @@
                     0,
                     0
                 ],
-                "fontSize":12,
+                "fontSize": 12,
                 "stack": [
                     {
                         "text": "{{samparkName}}"
@@ -39,7 +39,7 @@
                     0,
                     0
                 ],
-                "fontSize":12,
+                "fontSize": 12,
                 "stack": [
                     {
                         "text": "{{applicantName}}"
@@ -68,9 +68,7 @@
                 "bold": true,
                 "margin": [
                     0,
-                    10,
-                    0,
-                    0
+                    7
                 ],
                 "text": [
                     {
@@ -85,9 +83,7 @@
                 "bold": true,
                 "margin": [
                     0,
-                    5,
-                    0,
-                    0
+                    7
                 ],
                 "text": [
                     {
@@ -97,7 +93,7 @@
                         "text": "Permission to use the "
                     },
                     {
-                        "text": "{{venueName}} "
+                        "text": "{{venueName}}"
                     },
                     {
                         "text": " "
@@ -113,24 +109,20 @@
             {
                 "margin": [
                     0,
-                    5,
-                    0,
-                    0
+                    7
                 ],
                 "text": [
                     {
                         "text": "Ref: Permission is herby accorded to use the "
                     },
                     {
-                        "text": "{{venueName}}",
-                        "bold": true
+                        "text": "{{venueName}}"
                     },
                     {
-                        "text": " center by Holding "
+                        "text": " "
                     },
                     {
-                        "text": "{{bookingPurpose}}",
-                        "bold": true
+                        "text": "{{bookingPurpose}}"
                     },
                     {
                         "text": " mentioned in your letter"
@@ -156,7 +148,7 @@
                         "bold": true
                     },
                     {
-                        "text": " Rent :-"
+                        "text": " Rent :- "
                     },
                     {
                         "text": "{{baseCharge}}",
@@ -232,9 +224,7 @@
             {
                 "margin": [
                     0,
-                    5,
-                    0,
-                    0
+                    7
                 ],
                 "text": [
                     {
@@ -263,9 +253,7 @@
             {
                 "margin": [
                     0,
-                    5,
-                    0,
-                    0
+                    7
                 ],
                 "text": [
                     {
@@ -280,57 +268,25 @@
             {
                 "margin": [
                     0,
-                    5,
-                    0,
-                    0
+                    7
                 ],
                 "ol": [
                     {
-                        "margin": [
-                            0,
-                            5,
-                            0,
-                            0
-                        ],
                         "text": [
-                            {
-                                "text": "Area /Accommodation Booked :- "
-                            },
-                            {
-                                "text": "{{venueName}}"
-                            }
+                            "Area /Accommodation Booked :- ",
+                            "{{venueName}}"
                         ]
                     },
                     {
-                        "margin": [
-                            0,
-                            5,
-                            0,
-                            0
-                        ],
                         "text": [
-                            {
-                                "text": "Date Of Booking :- "
-                            },
-                            {
-                                "text": "{{applicationDate}}"
-                            }
+                            "Date Of Booking :- ",
+                            "{{paymentDate}}"
                         ]
                     },
                     {
-                        "margin": [
-                            0,
-                            5,
-                            0,
-                            0
-                        ],
                         "text": [
-                            {
-                                "text": "Period of Booking from :- "
-                            },
-                            {
-                                "text": "{{bookingPeriod}}"
-                            }
+                            "Period of Booking from :- ",
+                            "{{bookingPeriod}}"
                         ]
                     }
                 ]
@@ -339,10 +295,10 @@
                 "text": "The permission is accorded at following term and conditions:-",
                 "alignment": "center",
                 "bold": true,
-                "fontSize":12,
+                "fontSize": 12,
                 "margin": [
                     0,
-                    8
+                    7
                 ]
             },
             {
@@ -395,7 +351,7 @@
                                     {
                                         "stack": [
                                             {
-                                                "text": "If the request is made 15 days in advance to the date of use 50%",
+                                                "text": "If the request for cancellation is received one month in advance than the date of booking. 50%",
                                                 "margin": [
                                                     0,
                                                     5,
@@ -408,7 +364,7 @@
                                     {
                                         "stack": [
                                             {
-                                                "text": "Between 15 days to 7 days in advance 25%",
+                                                "text": "If the request for cancellation is received less one month ans more than 15 days than date of booking. 25%",
                                                 "margin": [
                                                     0,
                                                     5,
@@ -421,7 +377,7 @@
                                     {
                                         "stack": [
                                             {
-                                                "text": "Within 7 days Nll%",
+                                                "text": "If the request for cancellation is received less than 15 days than the date of booking. Nll% ",
                                                 "margin": [
                                                     0,
                                                     5,
@@ -477,13 +433,51 @@
                     {
                         "stack": [
                             {
-                                "text": "You are directed to comply with the quidlines(attached) pertaining to pervention of fire.",
+                                "text": "You are directed to comply with the guidlines(attached) pertaining to pervention of fire.",
                                 "margin": [
                                     0,
                                     5,
                                     0,
                                     0
                                 ]
+                            }
+                        ]
+                    },
+                    {
+                        "alignment": "justify",
+                        "margin": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ],
+                        "text": [
+                            {
+                                "text": "A sum of Rs. "
+                            },
+                            {
+                                "text": "{{clchargeforwest}}"
+                            },
+                            {
+                                "text": " for "
+                            },
+                            {
+                                "text": "{{westaddress}}"
+                            },
+                            {
+                                "text": " and Rs. "
+                            },
+                            {
+                                "text": "{{clchargeforother}}"
+                            },
+                            {
+                                "text": " for other community center needs to be deposited with the supervisor community Center as cleaning Charges security."
+                            },
+                            {
+                                "text": " In case the permission holder wants to get the community Center celaned at hiscost the cleaning charges security shall be refunded by supervisor, to the permission holder."
+                            },
+                            {
+                                "text": " Other wise the supervisor are authorized to use these cleaning charges security to get the community center cleaned."
                             }
                         ]
                     },
@@ -566,7 +560,7 @@
             }
         ],
         "defaultStyle": {
-            "fontSize": 11
+            "fontSize": 10
         }
     }
 }
