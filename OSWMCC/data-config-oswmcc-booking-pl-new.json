@@ -61,9 +61,9 @@
                                 }
                             },
                             {
-                                "variable": "applicationDate",
+                                "variable": "dateOfBooking",
                                 "value": {
-                                    "path": "$.bookingDetail.applicationDate"
+                                    "path": "$.bookingDetail.dateOfBooking"
                                 }
                             },
                             {
@@ -73,9 +73,9 @@
                                 }
                             },
                             {
-                                "variable": "bookingPeriod",
+                                "variable": "bookingDates",
                                 "value": {
-                                    "path": "$.bookingDetail.bookingPeriod"
+                                    "path": "$.bookingDetail.bookingDates"
                                 }
                             },
                             {

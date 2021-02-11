@@ -94,7 +94,7 @@
                                         "text": " on dated "
                                     },
                                     {
-                                        "text": "{{applicationDate}}"
+                                        "text": "{{bookingDates}}"
                                     },
                                     {
                                         "text": "."
@@ -122,7 +122,7 @@
                                         "text": " on dated "
                                     },
                                     {
-                                        "text": "{{bookingPeriod}}"
+                                        "text": "{{bookingDates}}"
                                     },
                                     {
                                         "text": " Vide Gr. No. "
@@ -134,7 +134,7 @@
                                         "text": " dated "
                                     },
                                     {
-                                        "text": "{{applicationDate}}"
+                                        "text": "{{dateOfBooking}}"
                                     },
                                     {
                                         "text": " on the following terms and condition:-"
