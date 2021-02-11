@@ -179,6 +179,18 @@
                                 "value": {
                                     "path": "$.paymentInfo.currentDate"
                                 }
+                            },
+                            {
+                                "variable": "samparkAdd",
+                                "value": {
+                                    "path": "$.emp.samparkAdd"
+                                }
+                            },
+                            {
+                                "variable": "OpCode",
+                                "value": {
+                                    "path": "$.emp.OpCode"
+                                }
                             }
                         ]
                     }
