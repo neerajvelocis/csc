@@ -6,7 +6,8 @@
             {
                 "text": "Chandigarh Administration",
                 "bold": true,
-                "alignment": "center"
+                "alignment": "center",
+                "fontSize": 15
             },
             {
                 "margin": [
@@ -36,7 +37,7 @@
                     {
                         "text": "{{OpCode}}",
                         "alignment": "left",
-                        "width": 62
+                        "width": "auto"
                     },
                     {
                         "text": ")",
@@ -55,7 +56,7 @@
                 "columns": [
                     {
                         "text": "Receipt No. : ",
-                        "width": 72,
+                        "width": "auto",
                         "margin": [
                             0,
                             15,
@@ -68,7 +69,7 @@
                         "text": "{{receiptNo}}",
                         "width": 300,
                         "margin": [
-                            0,
+                            5,
                             15,
                             0,
                             0
@@ -102,7 +103,7 @@
                 "columns": [
                     {
                         "text": "Location : ",
-                        "width": 60,
+                        "width": "auto",
                         "margin": [
                             0,
                             15,
@@ -115,7 +116,7 @@
                         "text": "{{bkLocation}}",
                         "width": "auto",
                         "margin": [
-                            0,
+                            5,
                             15,
                             0,
                             0
@@ -127,7 +128,7 @@
                 "columns": [
                     {
                         "text": "Dept : ",
-                        "width": 60,
+                        "width": "auto",
                         "margin": [
                             0,
                             15,
@@ -140,7 +141,7 @@
                         "text": "{{bkDept}}",
                         "width": "auto",
                         "margin": [
-                            0,
+                            5,
                             15,
                             0,
                             0
@@ -152,10 +153,10 @@
                 "columns": [
                     {
                         "text": "Date of booking : ",
-                        "width": 100,
+                        "width": "auto",
                         "margin": [
                             0,
-                            15,
+                            5,
                             0,
                             0
                         ],
@@ -165,8 +166,8 @@
                         "text": "{{bkFromTo}}",
                         "width": "auto",
                         "margin": [
-                            0,
-                            15,
+                            5,
+                            5,
                             0,
                             0
                         ]
@@ -177,7 +178,7 @@
                 "columns": [
                     {
                         "text": "Payment Type : ",
-                        "width": 90,
+                        "width": "auto",
                         "margin": [
                             0,
                             15,
@@ -190,7 +191,7 @@
                         "text": "{{paymentType}}",
                         "width": "auto",
                         "margin": [
-                            0,
+                            5,
                             15,
                             0,
                             0
@@ -202,7 +203,7 @@
                 "columns": [
                     {
                         "text": "Facilitation Charges : ",
-                        "width": 120,
+                        "width": "auto",
                         "margin": [
                             0,
                             15,
@@ -215,7 +216,7 @@
                         "text": "{{facilitationCharge}}",
                         "width": "auto",
                         "margin": [
-                            0,
+                            5,
                             15,
                             0,
                             0
@@ -227,7 +228,7 @@
                 "columns": [
                     {
                         "text": "Refundable Security : ",
-                        "width": 120,
+                        "width": "auto",
                         "margin": [
                             0,
                             15,
@@ -240,7 +241,7 @@
                         "text": "{{refundableCharges}}",
                         "width": "auto",
                         "margin": [
-                            0,
+                            5,
                             15,
                             0,
                             0
@@ -252,7 +253,7 @@
                 "columns": [
                     {
                         "text": "Discount Type : ",
-                        "width": 100,
+                        "width": "auto",
                         "margin": [
                             0,
                             15,
@@ -265,7 +266,7 @@
                         "text": "{{discType}}",
                         "width": "auto",
                         "margin": [
-                            0,
+                            5,
                             15,
                             0,
                             0
@@ -277,7 +278,7 @@
                 "columns": [
                     {
                         "text": "Customer GSTIN : ",
-                        "width": 100,
+                        "width": "auto",
                         "margin": [
                             0,
                             15,
@@ -290,7 +291,7 @@
                         "text": "{{custGSTN}}",
                         "width": "auto",
                         "margin": [
-                            0,
+                            5,
                             15,
                             0,
                             0
@@ -302,7 +303,7 @@
                 "columns": [
                     {
                         "text": "MC GST No. : ",
-                        "width": 80,
+                        "width": "auto",
                         "margin": [
                             0,
                             15,
@@ -315,7 +316,7 @@
                         "text": "{{mcGSTN}}",
                         "width": "auto",
                         "margin": [
-                            0,
+                            5,
                             15,
                             0,
                             0
@@ -327,7 +328,7 @@
                 "columns": [
                     {
                         "text": "Place of Service : ",
-                        "width": 100,
+                        "width": "auto",
                         "margin": [
                             0,
                             15,
@@ -340,7 +341,7 @@
                         "text": "{{placeOfService}}",
                         "width": "auto",
                         "margin": [
-                            0,
+                            5,
                             15,
                             0,
                             0
@@ -461,7 +462,7 @@
                 "columns": [
                     {
                         "text": "Bank Name : ",
-                        "width": 75,
+                        "width": "auto",
                         "margin": [
                             0,
                             15,
@@ -474,7 +475,7 @@
                         "text": "{{bankName}}",
                         "width": "auto",
                         "margin": [
-                            0,
+                            5,
                             15,
                             0,
                             0
@@ -486,7 +487,7 @@
                 "columns": [
                     {
                         "text": "Transaction No : ",
-                        "width": 90,
+                        "width": "auto",
                         "margin": [
                             0,
                             15,
@@ -499,7 +500,7 @@
                         "text": "{{transactionId}}",
                         "width": "auto",
                         "margin": [
-                            0,
+                            5,
                             15,
                             0,
                             0
@@ -511,7 +512,7 @@
                 "columns": [
                     {
                         "text": "{{paymentType}}",
-                        "width": 90,
+                        "width": "auto",
                         "margin": [
                             0,
                             15,
@@ -522,9 +523,9 @@
                     },
                     {
                         "text": "{{totalPayment}}",
-                        "width": 100,
+                        "width": "auto",
                         "margin": [
-                            0,
+                            5,
                             15,
                             0,
                             0
@@ -532,9 +533,9 @@
                     },
                     {
                         "text": "{{totalPaymentInWords}}",
-                        "width": "*",
+                        "width": "auto",
                         "margin": [
-                            0,
+                            2,
                             15,
                             0,
                             0

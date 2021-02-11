@@ -111,6 +111,33 @@
                                     },
                                     {
                                         "text": " for Activity space for "
+                                    },
+                                    {
+                                        "text": "open space in "
+                                    },
+                                    {
+                                        "text": "{{bklocation}}"
+                                    },
+                                    {
+                                        "text": " on dated "
+                                    },
+                                    {
+                                        "text": "{{bookingPeriod}}"
+                                    },
+                                    {
+                                        "text": " Vide Gr. No. "
+                                    },
+                                    {
+                                        "text": "{{grNo}}"
+                                    },
+                                    {
+                                        "text": " dated "
+                                    },
+                                    {
+                                        "text": "{{applicationDate}}"
+                                    },
+                                    {
+                                        "text": " on the following terms and condition:-"
                                     }
                                 ],
                                 "margin": [
@@ -121,37 +148,6 @@
                                 ]
                             }
                         ]
-                    }
-                ]
-            },
-            {
-                "text": [
-                    {
-                        "text": "open space in "
-                    },
-                    {
-                        "text": "{{bklocation}}"
-                    },
-                    {
-                        "text": " on dated "
-                    },
-                    {
-                        "text": "{{bookingPeriod}}"
-                    },
-                    {
-                        "text": " Vide Gr. No. "
-                    },
-                    {
-                        "text": "{{grNo}}"
-                    },
-                    {
-                        "text": " dated "
-                    },
-                    {
-                        "text": "{{applicationDate}}"
-                    },
-                    {
-                        "text": " on the following terms and condition:-"
                     }
                 ]
             },

@@ -62,9 +62,9 @@
                 "bold": true,
                 "margin": [
                     0,
-                    5,
+                    7,
                     0,
-                    0
+                    7
                 ],
                 "text": [
                     {
@@ -79,9 +79,9 @@
                 "bold": true,
                 "margin": [
                     0,
-                    5,
+                    7,
                     0,
-                    0
+                    7
                 ],
                 "text": [
                     {
@@ -107,9 +107,9 @@
             {
                 "margin": [
                     0,
-                    5,
+                    7,
                     0,
-                    0
+                    7
                 ],
                 "text": [
                     {
@@ -132,9 +132,9 @@
             {
                 "margin": [
                     0,
-                    5,
+                    7,
                     0,
-                    0
+                    7
                 ],
                 "text": [
                     "Detailed Amount :- ",
@@ -226,9 +226,9 @@
             {
                 "margin": [
                     0,
-                    5,
+                    7,
                     0,
-                    0
+                    7
                 ],
                 "text": [
                     {
@@ -257,9 +257,9 @@
             {
                 "margin": [
                     0,
-                    5,
+                    7,
                     0,
-                    0
+                    7
                 ],
                 "text": [
                     {
@@ -274,9 +274,9 @@
             {
                 "margin": [
                     0,
-                    5,
+                    7,
                     0,
-                    0
+                    7
                 ],
                 "ol": [
                     {
@@ -306,7 +306,7 @@
                 "fontSize": 12,
                 "margin": [
                     0,
-                    5
+                    15
                 ]
             },
             {
@@ -501,7 +501,69 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "margin": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ],
+                        "text": "Organsiers/Applicant ensure the compliance of Model of Conduct rule general Election og Lock Sabha 2019."
+                    },
+                    {
+                        "margin": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ],
+                        "text": "Organsiers/Applicant shall no political issue is involved & this for Nobel cause."
+                    },
+                    {
+                        "margin": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ],
+                        "text": "In case any violation of Model conduct rule is found, I shall be liable for action."
+                    },
+                    {
+                        "margin": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ],
+                        "text": "The Organisers will ensure that gathering shall not exceed to 50 person in case marriage and  20 persons in case of last rites ceremony"
+                    },
+                    {
+                        "margin": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ],
+                        "text": "The Organisers will also compliance the guidelines and orders issued by MOHFW or any other Competent Authority regarding COVID-19 or implementing of Law & Orders."
+                    },
+                    {
+                        "margin": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ],
+                        "text": "The Commissioner Municipal Corporation Chandigarh reserve the right to cancel the booking at any time. If the accommodation is required for isolation home & quarantine center of any other purpose pertaining to COVID-19."
                     }
+                ]
+            },
+            {
+                "text": "Authorized Signatory",
+                "alignment": "right",
+                "margin": [
+                    0,
+                    40
                 ]
             }
         ],
