@@ -108,6 +108,12 @@
                         }
                      },
                      {
+                        "variable": "generatedDateTime",
+                        "value": {
+                           "path": "$.generatedBy.generatedDateTime"
+                        }
+                     },
+                     {
                         "variable": "pdfLogo",                        
                         "url":"http://mcchandigarh.gov.in/sites/default/files/mc-chandigardh-logo.png",
                         "type":"image"

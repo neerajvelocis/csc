@@ -256,7 +256,7 @@
                 "style": "app-table-label",
                 "alignment": "left",
                 "border": [
-                  false,
+                  true,
                   false,
                   false,
                   false
@@ -269,7 +269,7 @@
                 "border": [
                   false,
                   false,
-                  true,
+                  false,
                   false
                 ]
               },
@@ -278,9 +278,9 @@
                 "style": "app-table-label",
                 "alignment": "left",
                 "border": [
+                  false,
+                  false,
                   true,
-                  false,
-                  false,
                   false
                 ]
               }
@@ -291,7 +291,7 @@
                 "style": "app-table-value",
                 "alignment": "left",
                 "border": [
-                  false,
+                  true,
                   false,
                   false,
                   true
@@ -304,7 +304,7 @@
                 "border": [
                   false,
                   false,
-                  true,
+                  false,
                   true
                 ]
               },
@@ -313,9 +313,9 @@
                 "style": "app-table-value",
                 "alignment": "left",
                 "border": [
+                  false,
+                  false,
                   true,
-                  false,
-                  false,
                   true
                 ]
               }
@@ -437,6 +437,11 @@
         "text": "{{generatedBy}}",
         "alignment": "left",
         "fontSize": "10"
+      },
+      {
+        "text": "{{generatedDateTime}}",
+        "alignment": "left",
+        "fontSize": "8"
       }
     ],
     "footer": [
