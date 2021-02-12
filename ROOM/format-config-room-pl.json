@@ -1,0 +1,607 @@
+{
+    "key": "bk-room-booking-pl",
+    "config": {
+        "pageSize": "A4",
+        "content": [
+            {
+                "margin": [
+                    0,
+                    15,
+                    0,
+                    0
+                ],
+                "text": "FROM"
+            },
+            {
+                "margin": [
+                    150,
+                    5,
+                    0,
+                    0
+                ],
+                "fontSize": 12,
+                "stack": [
+                    {
+                        "text": "{{samparkName}}"
+                    },
+                    {
+                        "text": "{{samparkaddress}}",
+                        "margin": [
+                            0,
+                            2,
+                            0,
+                            0
+                        ]
+                    }
+                ]
+            },
+            {
+                "text": "To"
+            },
+            {
+                "margin": [
+                    150,
+                    2,
+                    0,
+                    0
+                ],
+                "fontSize": 12,
+                "stack": [
+                    {
+                        "text": "{{applicantName}}"
+                    },
+                    {
+                        "text": "{{applicantAddress1}}",
+                        "margin": [
+                            0,
+                            2,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": "{{applicantAddress2}}",
+                        "margin": [
+                            0,
+                            2,
+                            0,
+                            0
+                        ]
+                    }
+                ]
+            },
+            {
+                "bold": true,
+                "margin": [
+                    0,
+                    7,
+                    0,
+                    7
+                ],
+                "text": [
+                    {
+                        "text": "Receipt No :"
+                    },
+                    {
+                        "text": "{{receiptNo}}"
+                    }
+                ]
+            },
+            {
+                "bold": true,
+                "margin": [
+                    0,
+                    7,
+                    0,
+                    7
+                ],
+                "text": [
+                    {
+                        "text": "Subject : "
+                    },
+                    {
+                        "text": "Permission to use "
+                    },
+                    {
+                        "text": " "
+                    },
+                    {
+                        "text": "{{noOfACRooms}}"
+                    },
+                    {
+                        "text": " AC "
+                    },
+                    {
+                        "text": " and "
+                    },
+                    {
+                        "text": "{{noOfNonACRooms}}"
+                    },
+                    {
+                        "text": " Non AC rooms"
+                    },
+                    {
+                        "text": " at "
+                    },
+                    {
+                        "text": "{{venueName}}"
+                    },
+                    {
+                        "text": ", "
+                    },
+                    {
+                        "text": "{{venueSector}}"
+                    },
+                    {
+                        "text": " Chandigarh."
+                    }
+                ]
+            },
+            {
+                "margin": [
+                    0,
+                    7,
+                    0,
+                    7
+                ],
+                "text": [
+                    {
+                        "text": "Ref: Permission is herby accorded to use "
+                    },
+                    {
+                        "text": " "
+                    },
+                    {
+                        "text": "{{noOfACRooms}}"
+                    },
+                    {
+                        "text": " AC "
+                    },
+                    {
+                        "text": " and "
+                    },
+                    {
+                        "text": "{{noOfNonACRooms}}"
+                    },
+                    {
+                        "text": " Non AC rooms"
+                    },
+                    {
+                        "text": " at "
+                    },
+                    {
+                        "text": "{{venueName}}"
+                    },
+                    {
+                        "text": " "
+                    },
+                    {
+                        "text": "{{bookingPurpose}}"
+                    },
+                    {
+                        "text": " mentioned in your letter."
+                    }
+                ]
+            },
+            {
+                "margin": [
+                    0,
+                    5,
+                    0,
+                    0
+                ],
+                "text": [
+                    {
+                        "text": "Detailed Amount :- "
+                    },
+                    {
+                        "text": "Cleaning Charges :- "
+                    },
+                    {
+                        "text": "{{clCharge}}",
+                        "bold": true
+                    },
+                    {
+                        "text": " Rent :- "
+                    },
+                    {
+                        "text": "{{baseCharge}}",
+                        "bold": true
+                    },
+                    {
+                        "text": " UTGST :- "
+                    },
+                    {
+                        "text": "{{utgst}}",
+                        "bold": true
+                    },
+                    {
+                        "text": " CGST :- "
+                    },
+                    {
+                        "text": "{{cgst}}",
+                        "bold": true
+                    },
+                    {
+                        "text": " Total GST :- "
+                    },
+                    {
+                        "text": "{{tgst}}",
+                        "bold": true
+                    },
+                    {
+                        "text": " Refundable Security :- "
+                    },
+                    {
+                        "text": "{{refundableCharges}}",
+                        "bold": true
+                    }
+                ]
+            },
+            {
+                "margin": [
+                    0,
+                    15,
+                    0,
+                    10
+                ],
+                "columns": [
+                    {
+                        "text": [
+                            {
+                                "text": "Customer GST No : "
+                            },
+                            {
+                                "text": "{{custGSTN}}"
+                            }
+                        ]
+                    },
+                    {
+                        "stack": [
+                            {
+                                "text": [
+                                    {
+                                        "text": "MIC GST No : "
+                                    },
+                                    {
+                                        "text": "{{mcGSTN}}"
+                                    },
+                                    {
+                                        "text": " (MUNICIPAL CORPORATION CHANDIGARH)"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "margin": [
+                    0,
+                    7,
+                    0,
+                    7
+                ],
+                "text": [
+                    {
+                        "text": "Place of Service : "
+                    },
+                    {
+                        "text": "{{placeOfService}}",
+                        "bold": true
+                    },
+                    {
+                        "text": " State Code : "
+                    },
+                    {
+                        "text": "{{stateCode}}",
+                        "bold": true
+                    },
+                    {
+                        "text": " HSN Code : "
+                    },
+                    {
+                        "text": "{{hsnCode}}",
+                        "bold": true
+                    }
+                ]
+            },
+            {
+                "margin": [
+                    0,
+                    7,
+                    0,
+                    7
+                ],
+                "text": [
+                    {
+                        "text": "Total Amount :- "
+                    },
+                    {
+                        "text": "{{totalPayment}}",
+                        "bold": true
+                    }
+                ]
+            },
+            {
+                "margin": [
+                    0,
+                    7,
+                    0,
+                    7
+                ],
+                "ol": [
+                    {
+                        "margin": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ],
+                        "text": [
+                            {
+                                "text": "Area /Accommodation Booked :- "
+                            },
+                            {
+                                "text": "{{venueName}}"
+                            }
+                        ]
+                    },
+                    {
+                        "margin": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ],
+                        "text": [
+                            {
+                                "text": "Date Of Booking :- "
+                            },
+                            {
+                                "text": "{{applicationDate}}"
+                            }
+                        ]
+                    },
+                    {
+                        "margin": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ],
+                        "text": [
+                            {
+                                "text": "Period of Booking from :- "
+                            },
+                            {
+                                "text": "{{bookingPeriod}}"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "text": "The permission is accorded at following term and conditions:-",
+                "alignment": "center",
+                "bold": true,
+                "fontSize": 12,
+                "margin": [
+                    0,
+                    15,
+                    0,
+                    15
+                ]
+            },
+            {
+                "ol": [
+                    {
+                        "stack": [
+                            {
+                                "text": "Tentage etc. is permitted to be erected to be erected/removed only within the booking period. In case of use before after the booking period penal rate at double the normal rate will be charged.",
+                                "margin": [
+                                    0,
+                                    5,
+                                    0,
+                                    0
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "stack": [
+                            {
+                                "text": "The Municipal Corporation reserve the right to cancel the booking of the above said area in public interest in the exigencies of exceptional circumstances.",
+                                "margin": [
+                                    0,
+                                    5,
+                                    0,
+                                    0
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "stack": [
+                            {
+                                "text": "In case the Cancellation is required the refund shall be as follow",
+                                "margin": [
+                                    0,
+                                    5,
+                                    0,
+                                    0
+                                ]
+                            },
+                            {
+                                "separator": [
+                                    "(",
+                                    ")"
+                                ],
+                                "type": "lower-roman",
+                                "bold": true,
+                                "ol": [
+                                    {
+                                        "stack": [
+                                            {
+                                                "text": "If the request for cancellation is received one month in advance than the date of booking. 50%",
+                                                "margin": [
+                                                    0,
+                                                    5,
+                                                    0,
+                                                    0
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "stack": [
+                                            {
+                                                "text": "If the request for cancellation is received less one month ans more than 15 days than date of booking. 25%",
+                                                "margin": [
+                                                    0,
+                                                    5,
+                                                    0,
+                                                    0
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "stack": [
+                                            {
+                                                "text": "If the request for cancellation is received less than 15 days than the date of booking. Nll% ",
+                                                "margin": [
+                                                    0,
+                                                    5,
+                                                    0,
+                                                    0
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "stack": [
+                            {
+                                "text": "Permission to use Music System/Loud speakers/Fire has to be obtained separately from the Estate Office.",
+                                "margin": [
+                                    0,
+                                    5,
+                                    0,
+                                    0
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "stack": [
+                            {
+                                "text": "Permission for serving liquor has to be obtained separately from Excise & Taxation Department.",
+                                "margin": [
+                                    0,
+                                    5,
+                                    0,
+                                    0
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "stack": [
+                            {
+                                "text": "You are directed to comply with the guidlines(attached) pertaining to pervention of fire.",
+                                "margin": [
+                                    0,
+                                    5,
+                                    0,
+                                    0
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "stack": [
+                            {
+                                "text": "In case of bouncing of DD, the applicant will be criminally prosecuted as per law.  ",
+                                "margin": [
+                                    0,
+                                    5,
+                                    0,
+                                    0
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "margin": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ],
+                        "text": "Organsiers/Applicant ensure the compliance of Model of Conduct rule general Election og Lock Sabha 2019."
+                    },
+                    {
+                        "margin": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ],
+                        "text": "Organsiers/Applicant shall no political issue is involved & this for Nobel cause."
+                    },
+                    {
+                        "margin": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ],
+                        "text": "In case any violation of Model conduct rule is found, I shall be liable for action."
+                    },
+                    {
+                        "margin": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ],
+                        "text": "The Organisers will ensure that gathering shall not exceed to 50 person in case marriage and  20 persons in case of last rites ceremony"
+                    },
+                    {
+                        "margin": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ],
+                        "text": "The Organisers will also compliance the guidelines and orders issued by MOHFW or any other Competent Authority regarding COVID-19 or implementing of Law & Orders."
+                    },
+                    {
+                        "margin": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ],
+                        "text": "The Commissioner Municipal Corporation Chandigarh reserve the right to cancel the booking at any time. If the accommodation is required for isolation home & quarantine center of any other purpose pertaining to COVID-19."
+                    }
+                ]
+            },
+            {
+                "text": "Authorized Signatory",
+                "alignment": "right",
+                "margin": [
+                    0,
+                    40
+                ]
+            }
+        ],
+        "defaultStyle": {
+            "fontSize": 10
+        }
+    }
+}
