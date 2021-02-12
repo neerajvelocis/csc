@@ -50,7 +50,7 @@
                 "table": {
                     "widths": [
                         150,
-                        150,
+                        160,
                         180
                     ],
                     "body": [
@@ -153,7 +153,7 @@
                                 ]
                             },
                             {
-                                "text": "Complete Address",
+                                "text": "Place of delivery of water tanker",
                                 "style": "app-table-label",
                                 "alignment": "left",
                                 "border": [
