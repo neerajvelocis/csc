@@ -67,6 +67,12 @@
                         }
                      },
                      {
+                        "variable": "bkCancellationReasoon",
+                        "value": {
+                           "path": "$.booking.bkCancellationReasoon"
+                        }
+                     },
+                     {
                         "variable": "totalAmountPaid",
                         "value": {
                            "path": "$.paymentInfo.totalAmountPaid"
