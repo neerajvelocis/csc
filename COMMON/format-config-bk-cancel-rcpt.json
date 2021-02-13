@@ -286,6 +286,11 @@
                 "text": "Anil Clerk",
                 "alignment": "left",
                 "fontSize": "10"
+            },
+            {
+                "text": "{{generatedDateTime}}",
+                "alignment": "left",
+                "fontSize": "8"
             }
         ],
         "styles": {
