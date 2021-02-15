@@ -616,7 +616,7 @@
                         "text": "{{transactionId}}",
                         "width": "auto",
                         "margin": [
-                            0,
+                            5,
                             15,
                             0,
                             0

@@ -74,7 +74,7 @@
                 ],
                 "text": [
                     {
-                        "text": "Receipt No :"
+                        "text": "Receipt No : "
                     },
                     {
                         "text": "{{receiptNo}}"
@@ -91,7 +91,7 @@
                 ],
                 "text": [
                     {
-                        "text": "Subject :"
+                        "text": "Subject : "
                     },
                     {
                         "text": "Permission to use the "
@@ -146,7 +146,7 @@
                 ],
                 "text": [
                     {
-                        "text": "Detailed Amount :- "
+                        "text": "Detailed Amount : "
                     },
                     {
                         "text": "Cleaning Charges :- "
@@ -156,35 +156,35 @@
                         "bold": true
                     },
                     {
-                        "text": " Rent :-"
+                        "text": "    Rent :-"
                     },
                     {
                         "text": "{{baseCharge}}",
                         "bold": true
                     },
                     {
-                        "text": " UTGST :- "
+                        "text": "    UTGST :- "
                     },
                     {
                         "text": "{{utgst}}",
                         "bold": true
                     },
                     {
-                        "text": " CGST :- "
+                        "text": "\nCGST :- "
                     },
                     {
                         "text": "{{cgst}}",
                         "bold": true
                     },
                     {
-                        "text": " Total GST :- "
+                        "text": "    Total GST :- "
                     },
                     {
                         "text": "{{tgst}}",
                         "bold": true
                     },
                     {
-                        "text": " Refundable Security :- "
+                        "text": "    Refundable Security :- "
                     },
                     {
                         "text": "{{refundableCharges}}",
@@ -245,14 +245,14 @@
                         "bold": true
                     },
                     {
-                        "text": " State Code : "
+                        "text": "    State Code : "
                     },
                     {
                         "text": "{{stateCode}}",
                         "bold": true
                     },
                     {
-                        "text": " HSN Code : "
+                        "text": "    HSN Code : "
                     },
                     {
                         "text": "{{hsnCode}}",

@@ -356,111 +356,57 @@
                 ]
             },
             {
-                "columns": [
+                "margin": [
+                    0,
+                    15,
+                    0,
+                    0
+                ],
+                "text": [
                     {
                         "text": "Rent : ",
-                        "width": 30,
-                        "margin": [
-                            0,
-                            15,
-                            0,
-                            0
-                        ],
+                        "width": "auto",
                         "bold": true
                     },
                     {
                         "text": "{{baseCharge}}",
-                        "width": "auto",
-                        "margin": [
-                            0,
-                            15,
-                            2,
-                            0
-                        ]
+                        "width": "auto"
                     },
                     {
-                        "text": "Cleaning Charges : ",
-                        "width": 95,
-                        "margin": [
-                            0,
-                            15,
-                            0,
-                            0
-                        ],
+                        "text": "    Cleaning Charges : ",
+                        "width": "auto",
                         "bold": true
                     },
                     {
                         "text": "{{clCharge}}",
-                        "width": "auto",
-                        "margin": [
-                            0,
-                            15,
-                            2,
-                            0
-                        ]
+                        "width": "auto"
                     },
                     {
-                        "text": "UTGST : ",
-                        "width": 42,
-                        "margin": [
-                            0,
-                            15,
-                            0,
-                            0
-                        ],
+                        "text": "    UTGST : ",
+                        "width": "auto",
                         "bold": true
                     },
                     {
                         "text": "{{utgst}}",
-                        "width": "auto",
-                        "margin": [
-                            0,
-                            15,
-                            2,
-                            0
-                        ]
+                        "width": "auto"
                     },
                     {
-                        "text": "CGST : ",
-                        "width": 36,
-                        "margin": [
-                            0,
-                            15,
-                            0,
-                            0
-                        ],
+                        "text": "    CGST : ",
+                        "width": "auto",
                         "bold": true
                     },
                     {
                         "text": "{{cgst}}",
-                        "width": "auto",
-                        "margin": [
-                            0,
-                            15,
-                            2,
-                            0
-                        ]
+                        "width": "auto"
                     },
                     {
-                        "text": "Total GST : ",
-                        "width": 55,
-                        "margin": [
-                            0,
-                            15,
-                            0,
-                            0
-                        ],
+                        "text": "\nTotal GST : ",
+                        "width": "auto",
                         "bold": true
                     },
                     {
                         "text": "{{tgst}}",
-                        "width": "auto",
-                        "margin": [
-                            0,
-                            15,
-                            0,
-                            0
-                        ]
+                        "width": "auto"
                     }
                 ]
             },

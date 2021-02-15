@@ -340,11 +340,11 @@
                 "columns": [
                     {
                         "text": "Rent : ",
-                        "width": 30,
+                        "width": "auto",
                         "margin": [
                             0,
                             15,
-                            0,
+                            2,
                             0
                         ],
                         "bold": true
@@ -361,11 +361,11 @@
                     },
                     {
                         "text": "Cleaning Charges : ",
-                        "width": 95,
+                        "width": "auto",
                         "margin": [
-                            0,
+                            5,
                             15,
-                            0,
+                            2,
                             0
                         ],
                         "bold": true
@@ -382,11 +382,11 @@
                     },
                     {
                         "text": "UTGST : ",
-                        "width": 42,
+                        "width": "auto",
                         "margin": [
-                            0,
+                            5,
                             15,
-                            0,
+                            2,
                             0
                         ],
                         "bold": true
@@ -403,11 +403,11 @@
                     },
                     {
                         "text": "CGST : ",
-                        "width": 36,
+                        "width": "auto",
                         "margin": [
-                            0,
+                            5,
                             15,
-                            0,
+                            2,
                             0
                         ],
                         "bold": true
@@ -424,11 +424,11 @@
                     },
                     {
                         "text": "Total GST : ",
-                        "width": 55,
+                        "width": "auto",
                         "margin": [
-                            0,
+                            5,
                             15,
-                            0,
+                            2,
                             0
                         ],
                         "bold": true
@@ -439,7 +439,7 @@
                         "margin": [
                             0,
                             15,
-                            0,
+                            2,
                             0
                         ]
                     }
