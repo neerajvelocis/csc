@@ -43,7 +43,13 @@
                     {
                         "text": "{{OpCode}}",
                         "alignment": "left",
-                        "width": "auto"
+                        "width": "auto",
+                        "margin": [
+                            5,
+                            0,
+                            0,
+                            0
+                        ]
                     },
                     {
                         "text": ")",
