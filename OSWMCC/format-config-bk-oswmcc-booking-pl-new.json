@@ -289,21 +289,25 @@
                             {
                                 "alignment": "right",
                                 "bold": true,
-                                "text": [
+                                "stack": [
                                     {
-                                        "text": "Officer on Speecial Duty-||,\n"
+                                        "text": "Officer on Speecial Duty-||,"
                                     },
                                     {
-                                        "text": "Muncipal Corporation\n"
+                                        "text": "Muncipal Corporation"
                                     },
                                     {
-                                        "text": "Chandigarh.\n"
+                                        "text": "Chandigarh. "
                                     },
                                     {
-                                        "text": "Dated "
-                                    },
-                                    {
-                                        "text": "{{genrationDateTime}}"
+                                        "text": [
+                                            {
+                                                "text": "Dated "
+                                            },
+                                            {
+                                                "text": "{{genrationDateTime}}"
+                                            }
+                                        ]
                                     }
                                 ]
                             }

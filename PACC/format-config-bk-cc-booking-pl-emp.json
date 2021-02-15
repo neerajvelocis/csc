@@ -170,7 +170,7 @@
                         "bold": true
                     },
                     {
-                        "text": "\nCGST :- "
+                        "text": "    CGST :- "
                     },
                     {
                         "text": "{{cgst}}",
