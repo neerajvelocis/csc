@@ -214,6 +214,31 @@
             {
                 "columns": [
                     {
+                        "text": "Facilitation Charges : ",
+                        "width": "auto",
+                        "margin": [
+                            0,
+                            15,
+                            0,
+                            0
+                        ],
+                        "bold": true
+                    },
+                    {
+                        "text": "Not Applicable",
+                        "width": "auto",
+                        "margin": [
+                            5,
+                            15,
+                            0,
+                            0
+                        ]
+                    }
+                ]
+            },
+            {
+                "columns": [
+                    {
                         "text": "Refundable Security : ",
                         "width": "auto",
                         "margin": [
@@ -557,17 +582,51 @@
                     0,
                     0
                 ],
-                "alignment": "justify",
-                "bold": true,
                 "text": [
                     {
-                        "text": "Thanks for visiting e-Sampark. Before leaving the counter, please check receipt & the balance amount. Payment through cheque subject to realisation of cheque. This is receipt on thermal paper. Please keep a photocopy of this receipt for your future reference. If You are 18 years or above as on "
+                        "text": "Bank Details for Refund : ",
+                        "width": "auto",
+                        "bold": true
                     },
                     {
-                        "text": "{{currentDate}}"
+                        "text": "   Applicant Name :  ",
+                        "width": "auto",
+                        "bold": true
                     },
                     {
-                        "text": " , a resident of Chandigarh and not enrolled yet as voter. Enroll Now"
+                        "text": "{{accountholderName}}",
+                        "width": "auto"
+                    },
+                    {
+                        "text": "    Bank Name :  ",
+                        "width": "auto",
+                        "bold": true
+                    },
+                    {
+                        "text": "{{rBankName}}",
+                        "width": "auto"
+                    }
+                ]
+            },
+            {
+                "text": [
+                    {
+                        "text": "    Bank A/C No. :  ",
+                        "width": "auto",
+                        "bold": true
+                    },
+                    {
+                        "text": "{{rBankACNo}}",
+                        "width": "auto"
+                    },
+                    {
+                        "text": "     IFSC Code : ",
+                        "width": "auto",
+                        "bold": true
+                    },
+                    {
+                        "text": "{{rIFSCCode}}",
+                        "width": "auto"
                     }
                 ]
             }

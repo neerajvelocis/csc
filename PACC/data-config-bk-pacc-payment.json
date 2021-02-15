@@ -14,6 +14,30 @@
                {
                   "direct": [
                      {
+                        "variable": "accountholderName",
+                        "value": {
+                           "path": "$.bankInfo.accountholderName"
+                        }
+                     },
+                     {
+                        "variable": "rBankName",
+                        "value": {
+                           "path": "$.bankInfo.rBankName"
+                        }
+                     },
+                     {
+                        "variable": "rBankACNo",
+                        "value": {
+                           "path": "$.bankInfo.rBankACNo"
+                        }
+                     },
+                     {
+                        "variable": "rIFSCCode",
+                        "value": {
+                           "path": "$.bankInfo.rIFSCCode"
+                        }
+                     },
+                     {
                         "variable": "pdfLogo",
                         "url": "http://mcchandigarh.gov.in/sites/default/files/mc-chandigardh-logo.png",
                         "type": "image"
@@ -112,6 +136,24 @@
                         "variable": "placeOfService",
                         "value": {
                            "path": "$.applicantDetail.placeOfService"
+                        }
+                     },
+                     {
+                        "variable": "applicantName",
+                        "value": {
+                           "path": "$.applicantDetail.name"
+                        }
+                     },
+                     {
+                        "variable": "applicantAddress1",
+                        "value": {
+                           "path": "$.applicantDetail.permanentAddress"
+                        }
+                     },
+                     {
+                        "variable": "applicantAddress2",
+                        "value": {
+                           "path": "$.applicantDetail.permanentCity"
                         }
                      },
                      {

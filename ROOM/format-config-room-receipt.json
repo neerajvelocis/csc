@@ -688,6 +688,63 @@
             {
                 "margin": [
                     0,
+                    7,
+                    0,
+                    0
+                ],
+                "fontSize": 12,
+                "text": [
+                    {
+                        "text": "Bank Details for Refund : ",
+                        "width": "auto",
+                        "bold": true
+                    },
+                    {
+                        "text": "   Applicant Name :  ",
+                        "width": "auto",
+                        "bold": true
+                    },
+                    {
+                        "text": "{{accountholderName}}",
+                        "width": "auto"
+                    },
+                    {
+                        "text": "    Bank Name :  ",
+                        "width": "auto",
+                        "bold": true
+                    },
+                    {
+                        "text": "{{rBankName}}",
+                        "width": "auto"
+                    }
+                ]
+            },
+            {
+                "fontSize": 12,
+                "text": [
+                    {
+                        "text": "    Bank A/C No. :  ",
+                        "width": "auto",
+                        "bold": true
+                    },
+                    {
+                        "text": "{{rBankACNo}}",
+                        "width": "auto"
+                    },
+                    {
+                        "text": "     IFSC Code : ",
+                        "width": "auto",
+                        "bold": true
+                    },
+                    {
+                        "text": "{{rIFSCCode}}",
+                        "width": "auto"
+                    }
+                ]
+            },
+            {
+                "margin": [
+                    0,
                     15,
                     0,
                     0

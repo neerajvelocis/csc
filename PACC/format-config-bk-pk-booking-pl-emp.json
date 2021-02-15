@@ -68,10 +68,11 @@
                 "bold": true,
                 "margin": [
                     0,
-                    7,
+                    0,
                     0,
                     7
                 ],
+                "fontSize": 12,
                 "text": [
                     {
                         "text": "Receipt No : "
@@ -85,10 +86,11 @@
                 "bold": true,
                 "margin": [
                     0,
-                    7,
+                    0,
                     0,
                     7
                 ],
+                "fontSize": 12,
                 "text": [
                     {
                         "text": "Subject : "
@@ -117,6 +119,7 @@
                     0,
                     7
                 ],
+                "fontSize": 12,
                 "text": [
                     {
                         "text": "Ref : Permission is herby accorded to use the "
@@ -133,7 +136,7 @@
                         "bold": true
                     },
                     {
-                        "text": " mentioned in your letter"
+                        "text": " mentioned in your letter."
                     }
                 ]
             },
@@ -144,6 +147,7 @@
                     0,
                     0
                 ],
+                "fontSize": 12,
                 "text": [
                     {
                         "text": "Detailed Amount :- "
@@ -199,6 +203,7 @@
                     0,
                     10
                 ],
+                "fontSize": 12,
                 "columns": [
                     {
                         "text": [
@@ -236,6 +241,7 @@
                     0,
                     7
                 ],
+                "fontSize": 12,
                 "text": [
                     {
                         "text": "Place of Service : "
@@ -267,6 +273,7 @@
                     0,
                     7
                 ],
+                "fontSize": 12,
                 "text": [
                     {
                         "text": "Total Amount :- "
@@ -282,8 +289,66 @@
                     0,
                     7,
                     0,
+                    0
+                ],
+                "fontSize": 12,
+                "text": [
+                    {
+                        "text": "Bank Details for Refund : ",
+                        "width": "auto",
+                        "bold": true
+                    },
+                    {
+                        "text": "   Applicant Name :  ",
+                        "width": "auto",
+                        "bold": true
+                    },
+                    {
+                        "text": "{{accountholderName}}",
+                        "width": "auto"
+                    },
+                    {
+                        "text": "    Bank Name :  ",
+                        "width": "auto",
+                        "bold": true
+                    },
+                    {
+                        "text": "{{rBankName}}",
+                        "width": "auto"
+                    }
+                ]
+            },
+            {
+                "fontSize": 12,
+                "text": [
+                    {
+                        "text": "    Bank A/C No. :  ",
+                        "width": "auto",
+                        "bold": true
+                    },
+                    {
+                        "text": "{{rBankACNo}}",
+                        "width": "auto"
+                    },
+                    {
+                        "text": "     IFSC Code : ",
+                        "width": "auto",
+                        "bold": true
+                    },
+                    {
+                        "text": "{{rIFSCCode}}",
+                        "width": "auto"
+                    }
+                ]
+            },
+            {
+                "margin": [
+                    0,
+                    7,
+                    0,
                     7
                 ],
+                "fontSize": 12,
                 "ol": [
                     {
                         "margin": [
@@ -486,44 +551,6 @@
                                     0,
                                     0
                                 ]
-                            }
-                        ]
-                    },
-                    {
-                        "alignment": "justify",
-                        "margin": [
-                            0,
-                            5,
-                            0,
-                            0
-                        ],
-                        "text": [
-                            {
-                                "text": "A sum of Rs. "
-                            },
-                            {
-                                "text": "{{clchargeforwest}}"
-                            },
-                            {
-                                "text": " for "
-                            },
-                            {
-                                "text": "{{westaddress}}"
-                            },
-                            {
-                                "text": " and Rs. "
-                            },
-                            {
-                                "text": "{{clchargeforother}}"
-                            },
-                            {
-                                "text": " for other community center needs to be deposited with the supervisor community Center as cleaning Charges security."
-                            },
-                            {
-                                "text": " In case the permission holder wants to get the community Center celaned at hiscost the cleaning charges security shall be refunded by supervisor, to the permission holder."
-                            },
-                            {
-                                "text": " Other wise the supervisor are authorized to use these cleaning charges security to get the community center cleaned."
                             }
                         ]
                     },

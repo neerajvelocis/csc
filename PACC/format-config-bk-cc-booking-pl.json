@@ -55,7 +55,54 @@
                     0,
                     0,
                     0,
-                    50
+                    20
+                ]
+            },
+            {
+                "text": "Permission letter for booking of Park/Community Center/Commercial Ground/Open Space",
+                "alignment": "center",
+                "fontSize": 10,
+                "bold": true
+            },
+            {
+                "text": "To,",
+                "margin": [
+                    0,
+                    20,
+                    0,
+                    0
+                ]
+            },
+            {
+                "margin": [
+                    10,
+                    0,
+                    0,
+                    10
+                ],
+                "fontSize": 12,
+                "stack": [
+                    {
+                        "text": "{{applicantName}}"
+                    },
+                    {
+                        "text": "{{applicantAddress1}}",
+                        "margin": [
+                            0,
+                            2,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": "{{applicantAddress2}}",
+                        "margin": [
+                            0,
+                            2,
+                            0,
+                            0
+                        ]
+                    }
                 ]
             },
             {
@@ -268,6 +315,61 @@
                     {
                         "text": "{{totalPayment}}",
                         "bold": true
+                    }
+                ]
+            },
+            {
+                "margin": [
+                    0,
+                    15,
+                    0,
+                    0
+                ],
+                "text": [
+                    {
+                        "text": "Bank Details for Refund : ",
+                        "width": "auto",
+                        "bold": true
+                    },
+                    {
+                        "text": "   Applicant Name :  ",
+                        "width": "auto",
+                        "bold": true
+                    },
+                    {
+                        "text": "{{accountholderName}}",
+                        "width": "auto"
+                    },
+                    {
+                        "text": "    Bank Name :  ",
+                        "width": "auto",
+                        "bold": true
+                    },
+                    {
+                        "text": "{{rBankName}}",
+                        "width": "auto"
+                    }
+                ]
+            },
+            {
+                "text": [
+                    {
+                        "text": "    Bank A/C No. :  ",
+                        "width": "auto",
+                        "bold": true
+                    },
+                    {
+                        "text": "{{rBankACNo}}",
+                        "width": "auto"
+                    },
+                    {
+                        "text": "     IFSC Code : ",
+                        "width": "auto",
+                        "bold": true
+                    },
+                    {
+                        "text": "{{rIFSCCode}}",
+                        "width": "auto"
                     }
                 ]
             },
@@ -528,15 +630,6 @@
                             0
                         ],
                         "text": "In case any violation of Model conduct rule is found, I shall be liable for action."
-                    },
-                    {
-                        "margin": [
-                            0,
-                            5,
-                            0,
-                            0
-                        ],
-                        "text": "The Organisers will ensure that gathering shall not exceed to 50 person in case marriage and  20 persons in case of last rites ceremony"
                     },
                     {
                         "margin": [

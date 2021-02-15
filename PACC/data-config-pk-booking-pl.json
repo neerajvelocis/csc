@@ -225,6 +225,30 @@
                         "value": {
                            "path": "$.tenantInfo.webSite"
                         }
+                     },
+                     {
+                        "variable": "accountholderName",
+                        "value": {
+                           "path": "$.bankInfo.accountholderName"
+                        }
+                     },
+                     {
+                        "variable": "rBankName",
+                        "value": {
+                           "path": "$.bankInfo.rBankName"
+                        }
+                     },
+                     {
+                        "variable": "rBankACNo",
+                        "value": {
+                           "path": "$.bankInfo.rBankACNo"
+                        }
+                     },
+                     {
+                        "variable": "rIFSCCode",
+                        "value": {
+                           "path": "$.bankInfo.rIFSCCode"
+                        }
                      }
                   ]
                }
