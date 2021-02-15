@@ -1,6 +1,7 @@
 {
     "key": "bk-pk-booking-pl",
     "config": {
+        "pageSize": "A4",
         "content": [
             {
                 "image": "{{pdfLogo}}",
@@ -74,8 +75,8 @@
             },
             {
                 "margin": [
+                    20,
                     10,
-                    0,
                     0,
                     10
                 ],
