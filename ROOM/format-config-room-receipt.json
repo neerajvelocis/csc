@@ -287,7 +287,13 @@
                 ]
             },
             {
-                "columns": [
+                "margin": [
+                    0,
+                    15,
+                    0,
+                    0
+                ],
+                "text": [
                     {
                         "text": "Rooms Rent : ",
                         "width": "auto",
@@ -310,7 +316,7 @@
                         ]
                     },
                     {
-                        "text": "UTGST : ",
+                        "text": "   UTGST : ",
                         "width": "auto",
                         "margin": [
                             3,
@@ -331,7 +337,7 @@
                         ]
                     },
                     {
-                        "text": "CGST : ",
+                        "text": "   CGST : ",
                         "width": "auto",
                         "margin": [
                             3,
@@ -352,7 +358,7 @@
                         ]
                     },
                     {
-                        "text": "Total GST : ",
+                        "text": "   Total GST : ",
                         "width": "auto",
                         "margin": [
                             3,

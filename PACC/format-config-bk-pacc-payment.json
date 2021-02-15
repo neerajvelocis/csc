@@ -519,10 +519,30 @@
                         ]
                     },
                     {
+                        "text": "(",
+                        "width": "auto",
+                        "margin": [
+                            2,
+                            15,
+                            0,
+                            0
+                        ]
+                    },
+                    {
                         "text": "{{totalPaymentInWords}}",
                         "width": "*",
                         "margin": [
                             0,
+                            15,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": ")",
+                        "width": "auto",
+                        "margin": [
+                            2,
                             15,
                             0,
                             0
