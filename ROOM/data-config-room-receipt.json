@@ -141,7 +141,7 @@
                             {
                                 "variable": "placeOfService",
                                 "value": {
-                                    "path": "$.applicantDetail.placeOfService"
+                                    "path": "$.booking.placeOfService"
                                 }
                             },
                             {
