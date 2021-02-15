@@ -93,7 +93,7 @@
                             {
                                 "variable": "genrationDateTime",
                                 "value": {
-                                    "path": "$.generatedBy.genrationDateTime"
+                                    "path": "$.generatedBy.generationDateTime"
                                 }
                             },
                             {

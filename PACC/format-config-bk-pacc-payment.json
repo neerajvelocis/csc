@@ -530,7 +530,7 @@
                     },
                     {
                         "text": "{{totalPaymentInWords}}",
-                        "width": "*",
+                        "width": "auto",
                         "margin": [
                             0,
                             15,
