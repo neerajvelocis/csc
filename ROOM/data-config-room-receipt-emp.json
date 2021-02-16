@@ -14,33 +14,16 @@
                     {
                         "direct": [
                             {
-                                "variable": "accountholderName",
+                                "variable": "samparkAdd",
                                 "value": {
-                                    "path": "$.bankInfo.accountholderName"
+                                    "path": "$.emp.samparkAdd"
                                 }
                             },
                             {
-                                "variable": "rBankName",
+                                "variable": "OpCode",
                                 "value": {
-                                    "path": "$.bankInfo.rBankName"
+                                    "path": "$.emp.OpCode"
                                 }
-                            },
-                            {
-                                "variable": "rBankACNo",
-                                "value": {
-                                    "path": "$.bankInfo.rBankACNo"
-                                }
-                            },
-                            {
-                                "variable": "rIFSCCode",
-                                "value": {
-                                    "path": "$.bankInfo.rIFSCCode"
-                                }
-                            },
-                            {
-                                "variable": "pdfLogo",
-                                "url": "http://mcchandigarh.gov.in/sites/default/files/mc-chandigardh-logo.png",
-                                "type": "image"
                             },
                             {
                                 "variable": "receiptNo",
@@ -205,15 +188,27 @@
                                 }
                             },
                             {
-                                "variable": "samparkAdd",
+                                "variable": "accountholderName",
                                 "value": {
-                                    "path": "$.emp.samparkAdd"
+                                    "path": "$.bankInfo.accountholderName"
                                 }
                             },
                             {
-                                "variable": "OpCode",
+                                "variable": "rBankName",
                                 "value": {
-                                    "path": "$.emp.OpCode"
+                                    "path": "$.bankInfo.rBankName"
+                                }
+                            },
+                            {
+                                "variable": "rBankACNo",
+                                "value": {
+                                    "path": "$.bankInfo.rBankACNo"
+                                }
+                            },
+                            {
+                                "variable": "rIFSCCode",
+                                "value": {
+                                    "path": "$.bankInfo.rIFSCCode"
                                 }
                             }
                         ]
