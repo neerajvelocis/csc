@@ -44,19 +44,19 @@
                             {
                                 "variable": "applicantName",
                                 "value": {
-                                    "path": "$.applicantDetail.name"
+                                    "path": "$.applicantDetails.name"
                                 }
                             },
                             {
                                 "variable": "applicantAddress1",
                                 "value": {
-                                    "path": "$.applicantDetail.permanentAddress"
+                                    "path": "$.applicantDetails.permanentAddress"
                                 }
                             },
                             {
                                 "variable": "applicantAddress2",
                                 "value": {
-                                    "path": "$.applicantDetail.permanentCity"
+                                    "path": "$.applicantDetails.permanentCity"
                                 }
                             },
                             {
@@ -68,31 +68,31 @@
                             {
                                 "variable": "noOfACRooms",
                                 "value": {
-                                    "path": "$.bookingInfo.noOfACRooms"
+                                    "path": "$.bookingDetails.noOfACRooms"
                                 }
                             },
                             {
                                 "variable": "noOfNonACRooms",
                                 "value": {
-                                    "path": "$.bookingInfo.noOfNonACRooms"
+                                    "path": "$.bookingDetails.noOfNonACRooms"
                                 }
                             },
                             {
                                 "variable": "venueName",
                                 "value": {
-                                    "path": "$.bookingDetail.venueName"
+                                    "path": "$.bookingDetails.venueName"
                                 }
                             },
                             {
                                 "variable": "bookingPurpose",
                                 "value": {
-                                    "path": "$.bookingDetail.bookingPurpose"
+                                    "path": "$.bookingDetails.bookingPurpose"
                                 }
                             },
                             {
                                 "variable": "venueSector",
                                 "value": {
-                                    "path": "$.bookingDetail.sector"
+                                    "path": "$.bookingDetails.sector"
                                 }
                             },
                             {
@@ -146,19 +146,19 @@
                             {
                                 "variable": "placeOfService",
                                 "value": {
-                                    "path": "$.applicantDetail.placeOfService"
+                                    "path": "$.applicantDetails.placeOfService"
                                 }
                             },
                             {
                                 "variable": "stateCode",
                                 "value": {
-                                    "path": "$.bookingDetail.statecode"
+                                    "path": "$.tenantInfo.statecode"
                                 }
                             },
                             {
                                 "variable": "hsnCode",
                                 "value": {
-                                    "path": "$.bookingDetail.hsncode"
+                                    "path": "$.tenantInfo.hsncode"
                                 }
                             },
                             {
@@ -176,19 +176,19 @@
                             {
                                 "variable": "applicationDate",
                                 "value": {
-                                    "path": "$.bookingDetail.applicationDate"
+                                    "path": "$.bookingDetails.applicationDate"
                                 }
                             },
                             {
                                 "variable": "bookingPeriod",
                                 "value": {
-                                    "path": "$.bookingDetail.bookingPeriod"
+                                    "path": "$.bookingDetails.bookingPeriod"
                                 }
                             },
                             {
                                 "variable": "bookingType",
                                 "value": {
-                                    "path": "$.bookingDetail.bookingType"
+                                    "path": "$.bookingDetails.bookingType"
                                 }
                             },
                             {
