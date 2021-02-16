@@ -66,6 +66,18 @@
                                 }
                             },
                             {
+                                "variable": "noOfACRooms",
+                                "value": {
+                                    "path": "$.bookingInfo.noOfACRooms"
+                                }
+                            },
+                            {
+                                "variable": "noOfNonACRooms",
+                                "value": {
+                                    "path": "$.bookingInfo.noOfNonACRooms"
+                                }
+                            },
+                            {
                                 "variable": "venueName",
                                 "value": {
                                     "path": "$.bookingDetail.venueName"
