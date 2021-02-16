@@ -63,43 +63,43 @@
                             {
                                 "variable": "bkLocation",
                                 "value": {
-                                    "path": "$.bookingDetails.bkLocation"
+                                    "path": "$.booking.bkLocation"
                                 }
                             },
                             {
                                 "variable": "bkDept",
                                 "value": {
-                                    "path": "$.bookingDetails.bkDept"
+                                    "path": "$.booking.bkDept"
                                 }
                             },
                             {
                                 "variable": "noOfAcRooms",
                                 "value": {
-                                    "path": "$.bookingDetails.noOfAcRooms"
+                                    "path": "$.booking.noOfAcRooms"
                                 }
                             },
                             {
                                 "variable": "noOfNonAcRooms",
                                 "value": {
-                                    "path": "$.bookingDetails.noOfNonAcRooms"
+                                    "path": "$.booking.noOfNonAcRooms"
                                 }
                             },
                             {
                                 "variable": "bookingPurpose",
                                 "value": {
-                                    "path": "$.bookingDetails.bookingPurpose"
+                                    "path": "$.booking.bookingPurpose"
                                 }
                             },
                             {
                                 "variable": "bkStartDate",
                                 "value": {
-                                    "path": "$.bookingDetails.bkStartDate"
+                                    "path": "$.booking.bkStartDate"
                                 }
                             },
                             {
                                 "variable": "bkEndDate",
                                 "value": {
-                                    "path": "$.bookingDetails.bkEndDate"
+                                    "path": "$.booking.bkEndDate"
                                 }
                             },
                             {
@@ -141,7 +141,7 @@
                             {
                                 "variable": "placeOfService",
                                 "value": {
-                                    "path": "$.bookingDetails.placeOfService"
+                                    "path": "$.booking.placeOfService"
                                 }
                             },
                             {
