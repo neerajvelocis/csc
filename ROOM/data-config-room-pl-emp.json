@@ -13,6 +13,18 @@
                     {
                         "direct": [
                             {
+                                "variable": "samparkaddress",
+                                "value": {
+                                    "path": "$.emp.samparkaddress"
+                                }
+                            },
+                            {
+                                "variable": "samparkName",
+                                "value": {
+                                    "path": "$.emp.samparkName"
+                                }
+                            },
+                            {
                                 "variable": "pdfLogo",
                                 "url": "http://mcchandigarh.gov.in/sites/default/files/mc-chandigardh-logo.png",
                                 "type": "image"

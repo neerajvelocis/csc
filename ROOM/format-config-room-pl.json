@@ -4,35 +4,58 @@
         "pageSize": "A4",
         "content": [
             {
+                "image": "{{pdfLogo}}",
+                "width": 65,
+                "height": 65,
                 "margin": [
-                    0,
-                    15,
+                    20,
+                    -5,
                     0,
                     0
-                ],
-                "text": "FROM"
+                ]
             },
             {
+                "text": "{{municipalityName}}",
+                "alignment": "center",
+                "fontSize": 15,
+                "bold": true,
                 "margin": [
-                    150,
-                    5,
                     0,
-                    0
-                ],
+                    -60,
+                    0,
+                    3
+                ]
+            },
+            {
+                "text": "{{municipalityAddress}}",
                 "fontSize": 12,
-                "stack": [
-                    {
-                        "text": "{{samparkName}}"
-                    },
-                    {
-                        "text": "{{samparkaddress}}",
-                        "margin": [
-                            0,
-                            2,
-                            0,
-                            0
-                        ]
-                    }
+                "alignment": "center",
+                "margin": [
+                    0,
+                    0,
+                    0,
+                    3
+                ]
+            },
+            {
+                "text": "{{municipalityContact}}",
+                "fontSize": 12,
+                "alignment": "center",
+                "margin": [
+                    0,
+                    0,
+                    0,
+                    3
+                ]
+            },
+            {
+                "text": "Website: {{municipalityWebSite}}",
+                "alignment": "center",
+                "margin": [
+                    0,
+                    0,
+                    0,
+                    50
                 ]
             },
             {
@@ -40,7 +63,7 @@
             },
             {
                 "margin": [
-                    150,
+                    20,
                     2,
                     0,
                     0
