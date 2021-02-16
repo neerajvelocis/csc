@@ -43,6 +43,30 @@
                                 "type": "image"
                             },
                             {
+                                "variable": "municipalityName",
+                                "value": {
+                                    "path": "$.tenantInfo.municipalityName"
+                                }
+                            },
+                            {
+                                "variable": "municipalityAddress",
+                                "value": {
+                                    "path": "$.tenantInfo.address"
+                                }
+                            },
+                            {
+                                "variable": "municipalityContact",
+                                "value": {
+                                    "path": "$.tenantInfo.contactNumber"
+                                }
+                            },
+                            {
+                                "variable": "municipalityWebSite",
+                                "value": {
+                                    "path": "$.tenantInfo.webSite"
+                                }
+                            },
+                            {
                                 "variable": "receiptNo",
                                 "value": {
                                     "path": "$.paymentInfo.receiptNo"

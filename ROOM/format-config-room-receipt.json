@@ -4,58 +4,58 @@
         "pageSize": "A4",
         "content": [
             {
-                "text": "Chandigarh Administration",
-                "bold": true,
-                "alignment": "center",
-                "fontSize": 15
-            },
-            {
+                "image": "{{pdfLogo}}",
+                "width": 65,
+                "height": 65,
                 "margin": [
-                    100,
-                    10,
+                    20,
+                    -5,
                     0,
                     0
-                ],
-                "columns": [
-                    {
-                        "text": "(e-Smpark ",
-                        "width": 70
-                    },
-                    {
-                        "text": "Center : ",
-                        "width": 43
-                    },
-                    {
-                        "text": "{{samparkAdd}}",
-                        "alignment": "left",
-                        "width": "auto"
-                    },
-                    {
-                        "text": "Operator Code : ",
-                        "width": "auto",
-                        "margin": [
-                            20,
-                            0,
-                            0,
-                            0
-                        ]
-                    },
-                    {
-                        "text": "{{OpCode}}",
-                        "alignment": "left",
-                        "width": "auto",
-                        "margin": [
-                            5,
-                            0,
-                            0,
-                            0
-                        ]
-                    },
-                    {
-                        "text": ")",
-                        "alignment": "left",
-                        "width": "auto"
-                    }
+                ]
+            },
+            {
+                "text": "{{municipalityName}}",
+                "alignment": "center",
+                "fontSize": 15,
+                "bold": true,
+                "margin": [
+                    0,
+                    -60,
+                    0,
+                    3
+                ]
+            },
+            {
+                "text": "{{municipalityAddress}}",
+                "fontSize": 12,
+                "alignment": "center",
+                "margin": [
+                    0,
+                    0,
+                    0,
+                    3
+                ]
+            },
+            {
+                "text": "{{municipalityContact}}",
+                "fontSize": 12,
+                "alignment": "center",
+                "margin": [
+                    0,
+                    0,
+                    0,
+                    3
+                ]
+            },
+            {
+                "text": "Website: {{municipalityWebSite}}",
+                "alignment": "center",
+                "margin": [
+                    0,
+                    0,
+                    0,
+                    10
                 ]
             },
             {
