@@ -330,7 +330,6 @@
                     0,
                     0
                 ],
-                "fontSize": 12,
                 "text": [
                     {
                         "text": "Bank Details for Refund : ",
@@ -358,7 +357,6 @@
                 ]
             },
             {
-                "fontSize": 12,
                 "text": [
                     {
                         "text": "    Bank A/C No. :  ",
