@@ -1,0 +1,176 @@
+{
+   "key": "room-booking-app-form",
+   "DataConfigs": {
+      "serviceName": "rainmaker-bk",
+      "version": "1.0.0",
+      "baseKeyPath": "$.BookingInfo.*",
+      "entityIdPath": "$.bookingDetail.applicationNumber",
+      "isCommonTableBorderRequired": true,
+      "mappings": [
+         {
+            "topic": "bk-pdf-generation",
+            "mappings": [
+               {
+                  "direct": [
+                     {
+                        "variable": "applicantName",
+                        "value": {
+                           "path": "$.applicantDetail.name"
+                        }
+                     },
+                     {
+                        "variable": "applicantMobile",
+                        "value": {
+                           "path": "$.applicantDetail.mobileNumber"
+                        }
+                     },
+                     {
+                        "variable": "applicantAddress",
+                        "value": {
+                           "path": "$.applicantDetail.permanentAddress"
+                        }
+                     },
+                     {
+                        "variable": "applicantSector",
+                        "value": {
+                           "path": "$.applicantDetail.sector"
+                        }
+                     },
+                     {
+                        "variable": "applicantFather",
+                        "value": {
+                           "path": "$.applicantDetail.fatherName"
+                        }
+                     },
+                     {
+                        "variable": "applicantEmail",
+                        "value": {
+                           "path": "$.applicantDetail.email"
+                        }
+                     },
+                     {
+                        "variable": "applicantCity",
+                        "value": {
+                           "path": "$.applicantDetail.permanentCity"
+                        }
+                     },
+                     {
+                        "variable": "bookingNo",
+                        "value": {
+                           "path": "$.bookingDetail.applicationNumber"
+                        }
+                     },
+                     {
+                        "variable": "bookingVenue",
+                        "value": {
+                           "path": "$.bookingDetail.venueName"
+                        }
+                     },
+                     {
+                        "variable": "sector",
+                        "value": {
+                           "path": "$.bookingDetail.sector"
+                        }
+                     },
+                     {
+                        "variable": "bookingPeriod",
+                        "value": {
+                           "path": "$.bookingDetail.bookingPeriod"
+                        }
+                     },
+                     {
+                        "variable": "bookingPurpose",
+                        "value": {
+                           "path": "$.bookingDetail.bookingPurpose"
+                        }
+                     },
+                     {
+                        "variable": "noOfACRooms",
+                        "value": {
+                           "path": "$.bookingDetail.noOfACRooms"
+                        }
+                     },
+                     {
+                        "variable": "noOfNonACRooms",
+                        "value": {
+                           "path": "$.bookingDetail.noOfNonACRooms"
+                        }
+                     },
+                     {
+                        "variable": "baseCharge",
+                        "value": {
+                           "path": "$.feeDetail.baseCharge"
+                        }
+                     },
+                     {
+                        "variable": "cleaningCharge",
+                        "value": {
+                           "path": "$.feeDetail.cleaningCharge"
+                        }
+                     },
+                     {
+                        "variable": "surcharges",
+                        "value": {
+                           "path": "$.feeDetail.surcharges"
+                        }
+                     },
+                     {
+                        "variable": "facilitationCharge",
+                        "value": {
+                           "path": "$.feeDetail.facilitationCharge"
+                        }
+                     },
+                     {
+                        "variable": "utgst",
+                        "value": {
+                           "path": "$.feeDetail.utgst"
+                        }
+                     },
+                     {
+                        "variable": "cgst",
+                        "value": {
+                           "path": "$.feeDetail.cgst"
+                        }
+                     },
+                     {
+                        "variable": "gst",
+                        "value": {
+                           "path": "$.feeDetail.gst"
+                        }
+                     },
+                     {
+                        "variable": "totalAmount",
+                        "value": {
+                           "path": "$.feeDetail.totalAmount"
+                        }
+                     },
+                     {
+                        "variable": "generatedBy",
+                        "value": {
+                           "path": "$.generatedBy.generatedBy"
+                        }
+                     },
+                     {
+                        "variable": "generatedDateTime",
+                        "value": {
+                           "path": "$.generatedBy.generatedDateTime"
+                        }
+                     },
+                     {
+                        "variable": "pdfLogo",
+                        "url": "http://mcchandigarh.gov.in/sites/default/files/mc-chandigardh-logo.png",
+                        "type": "image"
+                     },
+                     {
+                        "variable": "documentName",
+                        "value": {
+                           "path": "$.documentDetail.documentName"
+                        }
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}
