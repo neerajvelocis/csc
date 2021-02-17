@@ -4,6 +4,17 @@
         "pageSize": "A4",
         "content": [
             {
+                "image": "{{pdfLogo}}",
+                "width": 65,
+                "height": 65,
+                "margin": [
+                    0,
+                    -5,
+                    0,
+                    0
+                ]
+            },
+            {
                 "text": "Municipal Corporation, Chandigarh",
                 "style": "pdfheader",
                 "margin": [
