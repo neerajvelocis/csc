@@ -49,9 +49,9 @@
                 "style": "table-gap",
                 "table": {
                     "widths": [
-                        150,
-                        150,
-                        180
+                        160,
+                        200,
+                        120
                     ],
                     "body": [
                         [
@@ -94,7 +94,7 @@
                                 ]
                             },
                             {
-                                "text": "AC Rooms",
+                                "text": "Purpose",
                                 "style": "app-table-label",
                                 "alignment": "left",
                                 "border": [
@@ -129,86 +129,120 @@
                                 ]
                             },
                             {
-                                "text": "{{noOfACRooms}}",
-                                "style": "app-table-value",
-                                "alignment": "left",
-                                "border": [
-                                    false,
-                                    false,
-                                    true,
-                                    false
-                                ]
-                            }
-                        ],
-                        [
-                            {
-                                "text": "Booking period",
-                                "style": "app-table-label",
-                                "alignment": "left",
-                                "border": [
-                                    true,
-                                    false,
-                                    false,
-                                    false
-                                ]
-                            },
-                            {
-                                "text": "Purpose",
-                                "style": "app-table-label",
-                                "alignment": "left",
-                                "border": [
-                                    false,
-                                    false,
-                                    false,
-                                    false
-                                ]
-                            },
-                            {
-                                "text": "Non-AC Rooms",
-                                "style": "app-table-label",
-                                "alignment": "left",
-                                "border": [
-                                    false,
-                                    false,
-                                    true,
-                                    false
-                                ]
-                            }
-                        ],
-                        [
-                            {
-                                "text": "{{bookingPeriod}}",
-                                "style": "app-table-value",
-                                "alignment": "left",
-                                "border": [
-                                    true,
-                                    false,
-                                    false,
-                                    true
-                                ]
-                            },
-                            {
                                 "text": "{{bookingPurpose}}",
                                 "style": "app-table-value",
                                 "alignment": "left",
                                 "border": [
                                     false,
                                     false,
+                                    true,
+                                    false
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "text": "No of AC Rooms",
+                                "style": "app-table-label",
+                                "alignment": "left",
+                                "border": [
+                                    true,
+                                    false,
+                                    false,
+                                    false
+                                ]
+                            },
+                            {
+                                "text": "No of Non-AC Rooms",
+                                "style": "app-table-label",
+                                "alignment": "left",
+                                "colSpan": 2,
+                                "border": [
+                                    false,
+                                    false,
+                                    true,
+                                    false
+                                ]
+                            },
+                            {}
+                        ],
+                        [
+                            {
+                                "text": "{{noOfACRooms}}",
+                                "style": "app-table-value",
+                                "alignment": "left",
+                                "border": [
+                                    true,
+                                    false,
+                                    false,
+                                    false
+                                ]
+                            },
+                            {
+                                "text": "{{NoOfNonACRooms}}",
+                                "style": "app-table-value",
+                                "alignment": "left",
+                                "colSpan": 2,
+                                "border": [
+                                    false,
+                                    false,
+                                    true,
+                                    false
+                                ]
+                            },
+                            {}
+                        ],
+                        [
+                            {
+                                "text": "Booking period for AC Rooms",
+                                "style": "app-table-label",
+                                "alignment": "left",
+                                "border": [
+                                    true,
+                                    false,
+                                    false,
+                                    false
+                                ]
+                            },
+                            {
+                                "text": "Booking period for Non AC Rooms",
+                                "style": "app-table-label",
+                                "alignment": "left",
+                                "colSpan": 2,
+                                "border": [
+                                    false,
+                                    false,
+                                    true,
+                                    false
+                                ]
+                            },
+                            {}
+                        ],
+                        [
+                            {
+                                "text": "{{bookingPeriodOfACRooms}}",
+                                "style": "app-table-value",
+                                "alignment": "left",
+                                "border": [
+                                    true,
+                                    false,
                                     false,
                                     true
                                 ]
                             },
                             {
-                                "text": "{{noOfNonACRooms}}",
+                                "text": "{{bookingPeriodOfNonACRooms}}",
                                 "style": "app-table-value",
                                 "alignment": "left",
+                                "colSpan": 2,
                                 "border": [
                                     false,
                                     false,
                                     true,
                                     true
                                 ]
-                            }
+                            },
+                            {}
                         ]
                     ]
                 }
@@ -217,9 +251,9 @@
                 "style": "table-gap",
                 "table": {
                     "widths": [
-                        150,
-                        150,
-                        180
+                        160,
+                        200,
+                        120
                     ],
                     "body": [
                         [
@@ -347,9 +381,9 @@
                 "style": "table-gap",
                 "table": {
                     "widths": [
-                        150,
-                        150,
-                        180
+                        160,
+                        200,
+                        120
                     ],
                     "body": [
                         [
@@ -547,9 +581,9 @@
                 "style": "table-gap",
                 "table": {
                     "widths": [
-                        150,
-                        150,
-                        180
+                        160,
+                        200,
+                        120
                     ],
                     "body": [
                         [

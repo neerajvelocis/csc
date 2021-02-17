@@ -97,6 +97,18 @@
                         }
                      },
                      {
+                        "variable": "bookingPeriodOfACRooms",
+                        "value": {
+                           "path": "$.bookingDetail.bkPeriodOfACRooms"
+                        }
+                     },
+                     {
+                        "variable": "bookingPeriodOfNonACRooms",
+                        "value": {
+                           "path": "$.bookingDetail.bkPeriodOfNonACRooms"
+                        }
+                     },
+                     {
                         "variable": "baseCharge",
                         "value": {
                            "path": "$.feeDetail.baseCharge"
