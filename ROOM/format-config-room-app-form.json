@@ -179,7 +179,7 @@
                                 ]
                             },
                             {
-                                "text": "{{NoOfNonACRooms}}",
+                                "text": "{{noOfNonACRooms}}",
                                 "style": "app-table-value",
                                 "alignment": "left",
                                 "colSpan": 2,
