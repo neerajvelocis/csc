@@ -59,7 +59,8 @@
                 ]
             },
             {
-                "text": "To"
+                "text": "To,",
+                "fontSize": 12
             },
             {
                 "margin": [
