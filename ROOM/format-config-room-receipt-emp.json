@@ -388,7 +388,7 @@
                         "bold": true
                     },
                     {
-                        "text": "Not Applicable",
+                        "text": "{{facilitationCharge}}",
                         "width": "auto",
                         "margin": [
                             5,
