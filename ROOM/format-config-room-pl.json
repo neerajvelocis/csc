@@ -197,7 +197,7 @@
                         "text": "{{venueName}}"
                     },
                     {
-                        "text": " "
+                        "text": " by holding the "
                     },
                     {
                         "text": "{{bookingPurpose}}"
