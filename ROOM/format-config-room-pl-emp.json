@@ -10,7 +10,8 @@
                     0,
                     0
                 ],
-                "text": "FROM"
+                "text": "FROM",
+                "fontSize": 12
             },
             {
                 "margin": [
@@ -36,7 +37,8 @@
                 ]
             },
             {
-                "text": "To"
+                "text": "To",
+                "fontSize": 12
             },
             {
                 "margin": [
