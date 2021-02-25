@@ -271,12 +271,12 @@
                             {
                                 "text": "{{variable10}}",
                                 "style": "horizontalcontentstyle",
-                                "alignment": "right"
+                                "alignment": "left"
                             },
                             {
                                 "text": "{{variable11}}",
                                 "style": "horizontalcontentstyle",
-                                "alignment": "right"
+                                "alignment": "left"
                             }
                         ],
                         [
@@ -288,12 +288,12 @@
                             {
                                 "text": "GST @18%",
                                 "style": "horizontalcontentstyle",
-                                "alignment": "right"
+                                "alignment": "left"
                             },
                             {
                                 "text": "{{variable12}}",
                                 "style": "horizontalcontentstyle",
-                                "alignment": "right"
+                                "alignment": "left"
                             }
                         ],
                         [
@@ -305,12 +305,12 @@
                             {
                                 "text": "Total Paid Amount",
                                 "style": "horizontalcontentstyle",
-                                "alignment": "right"
+                                "alignment": "left"
                             },
                             {
                                 "text": "{{variable13}}",
                                 "style": "horizontalcontentstyle",
-                                "alignment": "right"
+                                "alignment": "left"
                             }
                         ],
                         [
