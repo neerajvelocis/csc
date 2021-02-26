@@ -390,7 +390,7 @@
             },
             "verticalcontentstyle": {
                 "fontSize": 10,
-                "alignment": "right"
+                "alignment": "left"
             },
             "horizontalcolumnsheader": {
                 "fontSize": 10,
