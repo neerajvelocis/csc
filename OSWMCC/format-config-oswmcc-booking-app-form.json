@@ -47,9 +47,9 @@
         "style": "table-gap",
         "table": {
           "widths": [
+            180,
             150,
-            150,
-            180
+            150
           ],
           "body": [
             [
@@ -215,9 +215,9 @@
         "style": "table-gap",
         "table": {
           "widths": [
+            180,
             150,
-            150,
-            180
+            150
           ],
           "body": [
             [
