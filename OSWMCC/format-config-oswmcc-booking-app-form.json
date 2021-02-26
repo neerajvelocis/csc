@@ -24,7 +24,7 @@
         ]
       },
       {
-        "text": "Application No. {{bookingNo}}",
+        "text": "Open Space within MCC jurisdiction",
         "style": "pdfsubheader",
         "margin": [
           0,
@@ -34,126 +34,14 @@
         ]
       },
       {
-        "style": "table-gap",
-        "table": {
-          "widths": [
-            245,
-            245
-          ],
-          "body": [
-            [
-              {
-                "text": "Application Details",
-                "style": "app-table-value",
-                "alignment": "left",
-                "colSpan": 2,
-                "border": [
-                  true,
-                  true,
-                  true,
-                  false
-                ]
-              },
-              {}
-            ],
-            [
-              {
-                "text": "Venue",
-                "style": "app-table-label",
-                "alignment": "left",
-                "border": [
-                  true,
-                  false,
-                  false,
-                  false
-                ]
-              },
-              {
-                "text": "Locality",
-                "style": "app-table-label",
-                "alignment": "left",
-                "border": [
-                  false,
-                  false,
-                  true,
-                  false
-                ]
-              }
-            ],
-            [
-              {
-                "text": "{{bookingVenue}}",
-                "style": "app-table-value",
-                "alignment": "left",
-                "border": [
-                  true,
-                  false,
-                  false,
-                  false
-                ]
-              },
-              {
-                "text": "{{sector}}",
-                "style": "app-table-value",
-                "alignment": "left",
-                "border": [
-                  false,
-                  false,
-                  true,
-                  false
-                ]
-              }
-            ],
-            [
-              {
-                "text": "Booking Period",
-                "style": "app-table-label",
-                "alignment": "left",
-                "border": [
-                  true,
-                  false,
-                  false,
-                  false
-                ]
-              },
-              {
-                "text": "Booking Purpose",
-                "style": "app-table-label",
-                "alignment": "left",
-                "border": [
-                  false,
-                  false,
-                  true,
-                  false
-                ]
-              }
-            ],
-            [
-              {
-                "text": "{{bookingPeriod}}",
-                "style": "app-table-value",
-                "alignment": "left",
-                "border": [
-                  true,
-                  false,
-                  false,
-                  true
-                ]
-              },
-              {
-                "text": "{{bookingPurpose}}",
-                "style": "app-table-value",
-                "alignment": "left",
-                "border": [
-                  false,
-                  false,
-                  true,
-                  true
-                ]
-              }
-            ]
-          ]
-        }
+        "text": "Application No. {{bookingNo}}",
+        "style": "pdfsubheader",
+        "margin": [
+          0,
+          20,
+          0,
+          20
+        ]
       },
       {
         "style": "table-gap",
@@ -319,6 +207,156 @@
                   true
                 ]
               }
+            ]
+          ]
+        }
+      },
+      {
+        "style": "table-gap",
+        "table": {
+          "widths": [
+            150,
+            150,
+            180
+          ],
+          "body": [
+            [
+              {
+                "text": "Application Details",
+                "style": "app-table-value",
+                "alignment": "left",
+                "colSpan": 3,
+                "border": [
+                  true,
+                  true,
+                  true,
+                  false
+                ]
+              },
+              {},
+              {}
+            ],
+            [
+              {
+                "text": "Venue",
+                "style": "app-table-label",
+                "alignment": "left",
+                "border": [
+                  true,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "text": "Locality",
+                "style": "app-table-label",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "text": "Status",
+                "style": "app-table-label",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  true,
+                  false
+                ]
+              }
+            ],
+            [
+              {
+                "text": "{{bookingVenue}}",
+                "style": "app-table-value",
+                "alignment": "left",
+                "border": [
+                  true,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "text": "{{sector}}",
+                "style": "app-table-value",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "text": "{{applicationStatus}}",
+                "style": "app-table-value",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  true,
+                  false
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Booking Period",
+                "style": "app-table-label",
+                "alignment": "left",
+                "border": [
+                  true,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "text": "Booking Purpose",
+                "style": "app-table-label",
+                "alignment": "left",
+                "colSpan": 2,
+                "border": [
+                  false,
+                  false,
+                  true,
+                  false
+                ]
+              },
+              {}
+            ],
+            [
+              {
+                "text": "{{bookingPeriod}}",
+                "style": "app-table-value",
+                "alignment": "left",
+                "border": [
+                  true,
+                  false,
+                  false,
+                  true
+                ]
+              },
+              {
+                "text": "{{bookingPurpose}}",
+                "style": "app-table-value",
+                "alignment": "left",
+                "colSpan": 2,
+                "border": [
+                  false,
+                  false,
+                  true,
+                  true
+                ]
+              },
+              {}
             ]
           ]
         }
