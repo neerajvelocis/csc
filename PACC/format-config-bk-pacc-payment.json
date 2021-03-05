@@ -114,6 +114,31 @@
             {
                 "columns": [
                     {
+                        "text": "Application No. : ",
+                        "width": "auto",
+                        "margin": [
+                            0,
+                            15,
+                            0,
+                            0
+                        ],
+                        "bold": true
+                    },
+                    {
+                        "text": "{{applicationNumber}}",
+                        "width": "auto",
+                        "margin": [
+                            5,
+                            15,
+                            0,
+                            0
+                        ]
+                    }
+                ]
+            },
+            {
+                "columns": [
+                    {
                         "text": "Location : ",
                         "width": "auto",
                         "margin": [
@@ -609,6 +634,7 @@
                 ]
             },
             {
+                "margin":[121,0,0,0],
                 "text": [
                     {
                         "text": "    Bank A/C No. :  ",

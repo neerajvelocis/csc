@@ -97,6 +97,12 @@
                         }
                      },
                      {
+                        "variable": "applicationNumber",
+                        "value": {
+                           "path": "$.booking.applicationNumber"
+                        }
+                     },
+                     {
                         "variable": "paymentType",
                         "value": {
                            "path": "$.paymentInfo.paymentType"
