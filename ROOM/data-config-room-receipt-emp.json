@@ -145,6 +145,12 @@
                                 }
                             },
                             {
+                                "variable": "applicationNumber",
+                                "value": {
+                                    "path": "$.booking.applicationNumber"
+                                }
+                            },
+                            {
                                 "variable": "baseCharge",
                                 "value": {
                                     "path": "$.paymentInfo.baseCharge"
