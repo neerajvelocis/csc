@@ -1,474 +1,478 @@
 {
-    "key": "bk-cg-app-form",
-    "config": {
-      "content": [
-        {
-            "image": "{{pdfLogo}}",
-            "width": 65,
-            "height": 65,
-            "margin": [0, -5, 0, 0]
-        },
-        {
-          "text": "Municipal Corporation, Chandigarh",
-          "style": "pdfheader",
-          "margin": [0, -55, 0, 0]
-        },
-        {
-          "text": "Application No. {{bookingNo}}",
-          "style": "pdfsubheader",
-          "margin": [
-            0,
-            20,
-            0,
-            20
+  "key": "bk-cg-app-form",
+  "config": {
+    "content": [
+      {
+        "image": "{{pdfLogo}}",
+        "width": 65,
+        "height": 65,
+        "margin": [
+          0,
+          -5,
+          0,
+          0
+        ]
+      },
+      {
+        "text": "Municipal Corporation, Chandigarh",
+        "style": "pdfheader",
+        "margin": [
+          0,
+          -55,
+          0,
+          0
+        ]
+      },
+      {
+        "text": "Application No. {{bookingNo}}",
+        "style": "pdfsubheader",
+        "margin": [
+          0,
+          20,
+          0,
+          20
+        ]
+      },
+      {
+        "style": "table-gap",
+        "table": {
+          "widths": [
+            245,
+            245
+          ],
+          "body": [
+            [
+              {
+                "text": "Application Details",
+                "style": "app-table-value",
+                "alignment": "left",
+                "colSpan": 2,
+                "border": [
+                  true,
+                  true,
+                  true,
+                  false
+                ]
+              },
+              {}
+            ],
+            [
+              {
+                "text": "Venue",
+                "style": "app-table-label",
+                "alignment": "left",
+                "border": [
+                  true,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "text": "Category",
+                "style": "app-table-label",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  true,
+                  false
+                ]
+              }
+            ],
+            [
+              {
+                "text": "{{bookingVenue}}",
+                "style": "app-table-value",
+                "alignment": "left",
+                "border": [
+                  true,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "text": "{{bookingCategory}}",
+                "style": "app-table-value",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  true,
+                  false
+                ]
+              }
+            ],
+            [
+              {
+                "text": "Booking Period",
+                "style": "app-table-label",
+                "alignment": "left",
+                "border": [
+                  true,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "text": "Booking Purpose",
+                "style": "app-table-label",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  true,
+                  false
+                ]
+              }
+            ],
+            [
+              {
+                "text": "{{bookingPeriod}}",
+                "style": "app-table-value",
+                "alignment": "left",
+                "border": [
+                  true,
+                  false,
+                  false,
+                  true
+                ]
+              },
+              {
+                "text": "{{bookingPurpose}}",
+                "style": "app-table-value",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  true,
+                  true
+                ]
+              }
+            ]
           ]
-        },
-        {
-          "style": "table-gap",
-          "table": {
-            "widths": [
-              245,
-              245
+        }
+      },
+      {
+        "style": "table-gap",
+        "table": {
+          "widths": [
+            150,
+            150,
+            180
+          ],
+          "body": [
+            [
+              {
+                "text": "Applicant Details",
+                "style": "app-table-value",
+                "alignment": "left",
+                "colSpan": 3,
+                "border": [
+                  true,
+                  true,
+                  true,
+                  false
+                ]
+              },
+              {},
+              {}
             ],
-            "body": [
-              [
-                {
-                  "text": "Application Details",
-                  "style": "app-table-value",
-                  "alignment": "left",
-                  "colSpan": 2,
-                  "border": [
-                    true,
-                    true,
-                    true,
-                    false
-                  ]
-                },
-                {}
-              ],
-              [
-                {
-                  "text": "Venue",
-                  "style": "app-table-label",
-                  "alignment": "left",
-                  "border": [
-                    true,
-                    false,
-                    false,
-                    false
-                  ]
-                },
-                {
-                  "text": "Category",
-                  "style": "app-table-label",
-                  "alignment": "left",
-                  "border": [
-                    false,
-                    false,
-                    true,
-                    false
-                  ]
-                }
-              ],
-              [
-                {
-                  "text": "{{bookingVenue}}",
-                  "style": "app-table-value",
-                  "alignment": "left",
-                  "border": [
-                    true,
-                    false,
-                    false,
-                    false
-                  ]
-                },
-                {
-                  "text": "{{bookingCategory}}",
-                  "style": "app-table-value",
-                  "alignment": "left",
-                  "border": [
-                    false,
-                    false,
-                    true,
-                    false
-                  ]
-                }
-              ],
-              [
-                {
-                  "text": "Booking Period",
-                  "style": "app-table-label",
-                  "alignment": "left",
-                  "border": [
-                    true,
-                    false,
-                    false,
-                    false
-                  ]
-                },
-                {
-                  "text": "Booking Purpose",
-                  "style": "app-table-label",
-                  "alignment": "left",
-                  "border": [
-                    false,
-                    false,
-                    true,
-                    false
-                  ]
-                }
-              ],
-              [
-                {
-                  "text": "{{bookingPeriod}}",
-                  "style": "app-table-value",
-                  "alignment": "left",
-                  "border": [
-                    true,
-                    false,
-                    false,
-                    true
-                  ]
-                },
-                {
-                  "text": "{{bookingPurpose}}",
-                  "style": "app-table-value",
-                  "alignment": "left",
-                  "border": [
-                    false,
-                    false,
-                    true,
-                    true
-                  ]
-                }
-                
-              ]
-            ]
-          }
-        },
-        {
-          "style": "table-gap",
-          "table": {
-            "widths": [
-              150,
-              150,
-              180
+            [
+              {
+                "text": "Applicant Name",
+                "style": "app-table-label",
+                "alignment": "left",
+                "border": [
+                  true,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "text": "Applicant Contact",
+                "style": "app-table-label",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "text": "Father/ Husbands Name",
+                "style": "app-table-label",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  true,
+                  false
+                ]
+              }
             ],
-            "body": [
-              [
-                {
-                  "text": "Applicant Details",
-                  "style": "app-table-value",
-                  "alignment": "left",
-                  "colSpan": 3,
-                  "border": [
-                    true,
-                    true,
-                    true,
-                    false
-                  ]
-                },
-                {},
-                {}
-              ],
-              [
-                {
-                  "text": "Applicant Name",
-                  "style": "app-table-label",
-                  "alignment": "left",
-                  "border": [
-                    true,
-                    false,
-                    false,
-                    false
-                  ]
-                },
-                {
-                  "text": "Applicant Contact",
-                  "style": "app-table-label",
-                  "alignment": "left",
-                  "border": [
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                },
-                {
-                  "text": "Father/ Husbands Name",
-                  "style": "app-table-label",
-                  "alignment": "left",
-                  "border": [
-                    false,
-                    false,
-                    true,
-                    false
-                  ]
-                }
-              ],
-              [
-                {
-                  "text": "{{applicantName}}",
-                  "style": "app-table-value",
-                  "alignment": "left",
-                  "border": [
-                    true,
-                    false,
-                    false,
-                    false
-                  ]
-                },
-                {
-                  "text": "{{applicantMobile}}",
-                  "style": "app-table-value",
-                  "alignment": "left",
-                  "border": [
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                },
-                {
-                  "text": "{{applicantFather}}",
-                  "style": "app-table-value",
-                  "alignment": "left",
-                  "border": [
-                    false,
-                    false,
-                    true,
-                    false
-                  ]
-                }
-              ],
-              [
-                {
-                  "text": "Date of Birth",
-                  "style": "app-table-label",
-                  "alignment": "left",
-                  "border": [
-                    true,
-                    false,
-                    false,
-                    false
-                  ]
-                },
-                {
-                  "text": "Email",
-                  "style": "app-table-label",
-                  "alignment": "left",
-                  "border": [
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                },
-                {
-                  "text": "Owner Address",
-                  "style": "app-table-label",
-                  "alignment": "left",
-                  "border": [
-                    false,
-                    false,
-                    true,
-                    false
-                  ]
-                }
-              ],
-              [
-                {
-                  "text": "{{applicantDob}}",
-                  "style": "app-table-value",
-                  "alignment": "left",
-                  "border": [
-                    true,
-                    false,
-                    false,
-                    true
-                  ]
-                },
-                {
-                  "text": "{{applicantEmail}}",
-                  "style": "app-table-value",
-                  "alignment": "left",
-                  "border": [
-                    false,
-                    false,
-                    false,
-                    true
-                  ]
-                },
-                {
-                  "text": "{{applicantAddress}}",
-                  "style": "app-table-value",
-                  "alignment": "left",
-                  "border": [
-                    false,
-                    false,
-                    true,
-                    true
-                  ]
-                }
-              ]
-            ]
-          }
-        },
-        {
-          "style": "table-gap",
-          "table": {
-            "widths": [
-              150,
-              150,
-              180
+            [
+              {
+                "text": "{{applicantName}}",
+                "style": "app-table-value",
+                "alignment": "left",
+                "border": [
+                  true,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "text": "{{applicantMobile}}",
+                "style": "app-table-value",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "text": "{{applicantFather}}",
+                "style": "app-table-value",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  true,
+                  false
+                ]
+              }
             ],
-            "body": [
-              [
-                {
-                  "text": "Fee Details",
-                  "style": "app-table-value",
-                  "alignment": "left",
-                  "colSpan": 3,
-                  "border": [
-                    true,
-                    true,
-                    true,
-                    false
-                  ]
-                },
-                {},
-                {}
-              ],
-              [
-                {
-                  "text": "Base Charges",
-                  "style": "app-table-label",
-                  "alignment": "left",
-                  "border": [
-                    true,
-                    false,
-                    false,
-                    false
-                  ]
-                },
-                {
-                  "text": "Taxes",
-                  "style": "app-table-label",
-                  "alignment": "left",
-                  "border": [
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                },
-                {
-                  "text": "Total Amount (Rs.)",
-                  "style": "app-table-label",
-                  "alignment": "left",
-                  "border": [
-                    false,
-                    false,
-                    true,
-                    false
-                  ]
-                }
-              ],
-              [
-                {
-                  "text": "{{baseCharge}}",
-                  "style": "app-table-value",
-                  "alignment": "left",
-                  "border": [
-                    true,
-                    false,
-                    false,
-                    true
-                  ]
-                },
-                {
-                  "text": "{{taxes}}",
-                  "style": "app-table-value",
-                  "alignment": "left",
-                  "border": [
-                    false,
-                    false,
-                    false,
-                    true
-                  ]
-                },
-                {
-                  "text": "{{totalAmount}}",
-                  "style": "app-table-value",
-                  "alignment": "left",
-                  "border": [
-                    false,
-                    false,
-                    true,
-                    true
-                  ]
-                }
-              ]
+            [
+              {
+                "text": "Email",
+                "style": "app-table-label",
+                "alignment": "left",
+                "border": [
+                  true,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "text": "Owner Address",
+                "style": "app-table-label",
+                "alignment": "left",
+                "colSpan": 2,
+                "border": [
+                  false,
+                  false,
+                  true,
+                  false
+                ]
+              },
+              {}
+            ],
+            [
+              {
+                "text": "{{applicantEmail}}",
+                "style": "app-table-value",
+                "alignment": "left",
+                "border": [
+                  true,
+                  false,
+                  false,
+                  true
+                ]
+              },
+              {
+                "text": "{{applicantAddress}}",
+                "style": "app-table-value",
+                "alignment": "left",
+                "colSpan": 2,
+                "border": [
+                  false,
+                  false,
+                  true,
+                  true
+                ]
+              },
+              {}
             ]
-          }
-        },
-        
-        { "text": "Generated by", "alignment": "left", "fontSize": "10", "bold": true, "margin": [0, 50, 0, 0] },
-        { "text": "{{generatedBy}}", "alignment": "left", "fontSize": "10" }
-      ],
-
+          ]
+        }
+      },
+      {
+        "style": "table-gap",
+        "table": {
+          "widths": [
+            150,
+            150,
+            180
+          ],
+          "body": [
+            [
+              {
+                "text": "Fee Details",
+                "style": "app-table-value",
+                "alignment": "left",
+                "colSpan": 3,
+                "border": [
+                  true,
+                  true,
+                  true,
+                  false
+                ]
+              },
+              {},
+              {}
+            ],
+            [
+              {
+                "text": "Base Charges",
+                "style": "app-table-label",
+                "alignment": "left",
+                "border": [
+                  true,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "text": "Taxes",
+                "style": "app-table-label",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  false,
+                  false
+                ]
+              },
+              {
+                "text": "Total Amount (Rs.)",
+                "style": "app-table-label",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  true,
+                  false
+                ]
+              }
+            ],
+            [
+              {
+                "text": "{{baseCharge}}",
+                "style": "app-table-value",
+                "alignment": "left",
+                "border": [
+                  true,
+                  false,
+                  false,
+                  true
+                ]
+              },
+              {
+                "text": "{{taxes}}",
+                "style": "app-table-value",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  false,
+                  true
+                ]
+              },
+              {
+                "text": "{{totalAmount}}",
+                "style": "app-table-value",
+                "alignment": "left",
+                "border": [
+                  false,
+                  false,
+                  true,
+                  true
+                ]
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "text": "Generated by",
+        "alignment": "left",
+        "fontSize": "10",
+        "bold": true,
+        "margin": [
+          0,
+          50,
+          0,
+          0
+        ]
+      },
+      {
+        "text": "{{generatedBy}}",
+        "alignment": "left",
+        "fontSize": "10"
+      }
+    ],
     "footer": [
-        {
-          "text": "* This is computer generated receipt, no signature required.",
-          "style": "footerstyle"
-        }
-      ],
-      "styles": {
-        "pdfheader": {
-          "fontSize": 15,
-          "alignment": "center",
-          "bold": true
-        },
-        "pdfsubheader": {
-          "fontSize": 12,
-          "alignment": "center",
-          "margin": [
-            0,
-            0,
-            0,
-            20
-          ]
-        },
-        "footerstyle": {
-          "alignment": "center"
-        },
-        "table-gap": {
-          "margin": [
-            0,
-            5,
-            0,
-            15
-          ]
-        },
-        "app-table-value": {
-          "fontSize": 10,
-          "bold": true,
-          "margin": [
-            5,
-            5,
-            5,
-            5
-          ]
-        },
-        "app-table-label": {
-          "fontSize": 10,
-          "margin": [
-            5,
-            5,
-            5,
-            0
-          ]
-        }
+      {
+        "text": "* This is computer generated receipt, no signature required.",
+        "style": "footerstyle"
+      }
+    ],
+    "styles": {
+      "pdfheader": {
+        "fontSize": 15,
+        "alignment": "center",
+        "bold": true
+      },
+      "pdfsubheader": {
+        "fontSize": 12,
+        "alignment": "center",
+        "margin": [
+          0,
+          0,
+          0,
+          20
+        ]
+      },
+      "footerstyle": {
+        "alignment": "center"
+      },
+      "table-gap": {
+        "margin": [
+          0,
+          5,
+          0,
+          15
+        ]
+      },
+      "app-table-value": {
+        "fontSize": 10,
+        "bold": true,
+        "margin": [
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      "app-table-label": {
+        "fontSize": 10,
+        "margin": [
+          5,
+          5,
+          5,
+          0
+        ]
       }
     }
   }
+}
