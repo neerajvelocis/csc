@@ -88,13 +88,22 @@
             {
                 "text": [
                     "You are here by granted a permission to use ground for ",
-                    { "text": "{{variable11}} ", "bold": true },
-                     "purpose in ",
-                    { "text": "{{variable10}}, {{variable12}} ", "bold": true },
+                    {
+                        "text": "{{variable11}} ",
+                        "bold": true
+                    },
+                    "purpose in ",
+                    {
+                        "text": "{{variable10}}, {{variable12}} ",
+                        "bold": true
+                    },
                     "on dated ",
-                    { "text": "{{variable9}} ", "bold": true },
+                    {
+                        "text": "{{variable9}} ",
+                        "bold": true
+                    },
                     "on following conditions:"
-                  ],
+                ],
                 "style": "app-table-label",
                 "margin": [
                     5,
@@ -195,41 +204,6 @@
                 "margin": [
                     350,
                     20,
-                    0,
-                    0
-                ]
-            },
-            {
-                "text": "Approved by",
-                "alignment": "left",
-                "fontSize": "10",
-                "bold": true,
-                "margin": [
-                    0,
-                    50,
-                    0,
-                    5
-                ]
-            },
-            {
-                "text": "Renil Commissioner",
-                "alignment": "left",
-                "fontSize": "10",
-                "margin": [
-                    0,
-                    0,
-                    0,
-                    0
-                ]
-            },
-            {
-                "text": "Additional Commissioner",
-                "alignment": "left",
-                "fontSize": "10",
-                "bold": true,
-                "margin": [
-                    0,
-                    0,
                     0,
                     0
                 ]
