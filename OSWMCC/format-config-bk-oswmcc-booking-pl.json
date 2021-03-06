@@ -212,7 +212,7 @@
                 ]
             },
             {
-                "text": "Renil Commissioner",
+                "text": "{{approvedBy}}",
                 "alignment": "left",
                 "fontSize": "10",
                 "margin": [
@@ -223,7 +223,7 @@
                 ]
             },
             {
-                "text": "Additional Commissioner",
+                "text": "{{approvedByRole}}",
                 "alignment": "left",
                 "fontSize": "10",
                 "bold": true,
