@@ -55,14 +55,20 @@
                     0,
                     0,
                     0,
-                    50
+                    30
                 ]
             },
             {
                 "text": "Permission letter for booking of Park/Community Center/Commercial Ground/Open Space",
                 "alignment": "center",
                 "fontSize": 10,
-                "bold": true
+                "bold": true,
+                "margin": [
+                    0,
+                    0,
+                    0,
+                    30
+                ]
             },
             {
                 "text": "FROM",

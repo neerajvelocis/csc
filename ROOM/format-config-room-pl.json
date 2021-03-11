@@ -59,6 +59,18 @@
                 ]
             },
             {
+                "text": "Permission letter for booking of Room",
+                "alignment": "center",
+                "fontSize": 10,
+                "bold": true,
+                "margin": [
+                    0,
+                    0,
+                    0,
+                    30
+                ]
+            },
+            {
                 "text": "To,"
             },
             {
