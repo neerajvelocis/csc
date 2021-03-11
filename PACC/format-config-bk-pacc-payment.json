@@ -630,12 +630,7 @@
                     {
                         "text": "{{rBankName}}",
                         "width": "auto"
-                    }
-                ]
-            },
-            {
-                "margin":[121,0,0,0],
-                "text": [
+                    },
                     {
                         "text": "    Bank A/C No. :  ",
                         "width": "auto",
