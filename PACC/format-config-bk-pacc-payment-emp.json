@@ -4,15 +4,53 @@
         "pageSize": "A4",
         "content": [
             {
-                "text": "Chandigarh Administration",
-                "bold": true,
+                "text": "{{municipalityName}}",
                 "alignment": "center",
-                "fontSize": 15
+                "fontSize": 15,
+                "bold": true,
+                "margin": [
+                    0,
+                    -60,
+                    0,
+                    3
+                ]
+            },
+            {
+                "text": "{{municipalityAddress}}",
+                "fontSize": 12,
+                "alignment": "center",
+                "margin": [
+                    0,
+                    0,
+                    0,
+                    3
+                ]
+            },
+            {
+                "text": "{{municipalityContact}}",
+                "fontSize": 12,
+                "alignment": "center",
+                "margin": [
+                    0,
+                    0,
+                    0,
+                    3
+                ]
+            },
+            {
+                "text": "Website: {{municipalityWebSite}}",
+                "alignment": "center",
+                "margin": [
+                    0,
+                    0,
+                    0,
+                    20
+                ]
             },
             {
                 "margin": [
                     100,
-                    10,
+                    0,
                     0,
                     0
                 ],
@@ -158,7 +196,7 @@
             {
                 "columns": [
                     {
-                        "text": "Dept : ",
+                        "text": "Booking Type : ",
                         "width": "auto",
                         "margin": [
                             0,
@@ -570,12 +608,7 @@
                     {
                         "text": "{{rBankName}}",
                         "width": "auto"
-                    }
-                ]
-            },
-            {
-                "margin":[133,0,0,0],
-                "text": [
+                    },
                     {
                         "text": "    Bank A/C No. :  ",
                         "width": "auto",

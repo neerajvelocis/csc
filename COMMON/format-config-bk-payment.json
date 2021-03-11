@@ -89,16 +89,6 @@
                                 ],
                                 [
                                     {
-                                        "text": "House No/Site No:",
-                                        "style": "verticalcolumnsheader"
-                                    },
-                                    {
-                                        "text": "{{variable3}}",
-                                        "style": "verticalcontentstyle"
-                                    }
-                                ],
-                                [
-                                    {
                                         "text": "Address:",
                                         "style": "verticalcolumnsheader"
                                     },

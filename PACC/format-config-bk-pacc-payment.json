@@ -164,7 +164,7 @@
             {
                 "columns": [
                     {
-                        "text": "Dept : ",
+                        "text": "Booking Type : ",
                         "width": "auto",
                         "margin": [
                             0,

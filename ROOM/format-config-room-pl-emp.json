@@ -4,23 +4,76 @@
         "pageSize": "A4",
         "content": [
             {
+                "image": "{{pdfLogo}}",
+                "width": 65,
+                "height": 65,
+                "margin": [
+                    20,
+                    -5,
+                    0,
+                    0
+                ]
+            },
+            {
+                "text": "{{municipalityName}}",
+                "alignment": "center",
+                "fontSize": 15,
+                "bold": true,
+                "margin": [
+                    0,
+                    -60,
+                    0,
+                    3
+                ]
+            },
+            {
+                "text": "{{municipalityAddress}}",
+                "fontSize": 12,
+                "alignment": "center",
+                "margin": [
+                    0,
+                    0,
+                    0,
+                    3
+                ]
+            },
+            {
+                "text": "{{municipalityContact}}",
+                "fontSize": 12,
+                "alignment": "center",
+                "margin": [
+                    0,
+                    0,
+                    0,
+                    3
+                ]
+            },
+            {
+                "text": "Website: {{municipalityWebSite}}",
+                "alignment": "center",
+                "margin": [
+                    0,
+                    0,
+                    0,
+                    10
+                ]
+            },
+            {
                 "margin": [
                     0,
                     15,
                     0,
                     0
                 ],
-                "text": "FROM",
-                "fontSize": 12
+                "text": "FROM"
             },
             {
                 "margin": [
-                    150,
+                    100,
                     5,
                     0,
                     0
                 ],
-                "fontSize": 12,
                 "stack": [
                     {
                         "text": "{{samparkName}}"
@@ -37,17 +90,15 @@
                 ]
             },
             {
-                "text": "To",
-                "fontSize": 12
+                "text": "To"
             },
             {
                 "margin": [
-                    150,
+                    100,
                     2,
                     0,
                     0
                 ],
-                "fontSize": 12,
                 "stack": [
                     {
                         "text": "{{applicantName}}"
@@ -76,9 +127,9 @@
                 "bold": true,
                 "margin": [
                     0,
-                    7,
+                    20,
                     0,
-                    7
+                    0
                 ],
                 "text": [
                     {
@@ -93,9 +144,9 @@
                 "bold": true,
                 "margin": [
                     0,
-                    7,
+                    10,
                     0,
-                    7
+                    0
                 ],
                 "text": [
                     {
@@ -142,9 +193,9 @@
             {
                 "margin": [
                     0,
-                    7,
+                    10,
                     0,
-                    7
+                    0
                 ],
                 "text": [
                     {
@@ -188,7 +239,7 @@
             {
                 "margin": [
                     0,
-                    5,
+                    10,
                     0,
                     0
                 ],
@@ -243,9 +294,9 @@
             {
                 "margin": [
                     0,
-                    15,
+                    10,
                     0,
-                    10
+                    0
                 ],
                 "columns": [
                     {
@@ -280,9 +331,9 @@
             {
                 "margin": [
                     0,
-                    7,
+                    10,
                     0,
-                    7
+                    0
                 ],
                 "text": [
                     {
@@ -311,9 +362,9 @@
             {
                 "margin": [
                     0,
-                    7,
+                    10,
                     0,
-                    7
+                    0
                 ],
                 "text": [
                     {
@@ -328,7 +379,7 @@
             {
                 "margin": [
                     0,
-                    7,
+                    10,
                     0,
                     0
                 ],
@@ -359,7 +410,12 @@
                 ]
             },
             {
-                "margin":[121,0,0,0],
+                "margin": [
+                    121,
+                    0,
+                    0,
+                    0
+                ],
                 "text": [
                     {
                         "text": "    Bank A/C No. :  ",
@@ -384,9 +440,9 @@
             {
                 "margin": [
                     0,
-                    7,
+                    10,
                     0,
-                    7
+                    0
                 ],
                 "ol": [
                     {
@@ -633,7 +689,7 @@
             }
         ],
         "defaultStyle": {
-            "fontSize": 10
+            "fontSize": 11
         }
     }
 }
