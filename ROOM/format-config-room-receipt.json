@@ -200,7 +200,7 @@
                         "bold": true
                     },
                     {
-                        "text": "{{bookrdRooms}}",
+                        "text": "{{bookedRooms}}",
                         "width": "auto",
                         "margin": [
                             5,
