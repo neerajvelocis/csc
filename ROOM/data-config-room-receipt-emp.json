@@ -28,7 +28,7 @@
                             {
                                 "variable": "bookedRooms",
                                 "value": {
-                                    "path": "$.bookingDetails.bookedRooms"
+                                    "path": "$.booking.bookedRooms"
                                 }
                             },
                             {
