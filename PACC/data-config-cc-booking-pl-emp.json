@@ -163,6 +163,18 @@
                         }
                      },
                      {
+                        "variable": "dateVenueChangeCharges",
+                        "value": {
+                           "path": "$.paymentInfo.dateVenueChangeCharges"
+                        }
+                     },
+                     {
+                        "variable": "cardNumberLast4",
+                        "value": {
+                           "path": "$.paymentInfo.cardNumberLast4"
+                        }
+                     },
+                     {
                         "variable": "paymentDate",
                         "value": {
                            "path": "$.paymentInfo.paymentDate"

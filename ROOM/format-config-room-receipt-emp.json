@@ -232,7 +232,7 @@
             {
                 "columns": [
                     {
-                        "text": "No. of AC Rooms : ",
+                        "text": "Booked Rooms: ",
                         "width": "auto",
                         "margin": [
                             0,
@@ -243,32 +243,7 @@
                         "bold": true
                     },
                     {
-                        "text": "{{noOfAcRooms}}",
-                        "width": "auto",
-                        "margin": [
-                            5,
-                            5,
-                            0,
-                            0
-                        ]
-                    }
-                ]
-            },
-            {
-                "columns": [
-                    {
-                        "text": "No. of NON-AC Rooms : ",
-                        "width": "auto",
-                        "margin": [
-                            0,
-                            15,
-                            0,
-                            0
-                        ],
-                        "bold": true
-                    },
-                    {
-                        "text": "{{noOfNonAcRooms}}",
+                        "text": "{{bookrdRooms}}",
                         "width": "auto",
                         "margin": [
                             5,
@@ -651,6 +626,31 @@
             {
                 "columns": [
                     {
+                        "text": "Date/Venue Change Charges : ",
+                        "width": "auto",
+                        "margin": [
+                            0,
+                            15,
+                            0,
+                            0
+                        ],
+                        "bold": true
+                    },
+                    {
+                        "text": "{{dateVenueChangeCharges}}",
+                        "width": "auto",
+                        "margin": [
+                            5,
+                            15,
+                            0,
+                            0
+                        ]
+                    }
+                ]
+            },
+            {
+                "columns": [
+                    {
                         "text": "Bank Name : ",
                         "width": "auto",
                         "margin": [
@@ -688,6 +688,31 @@
                     },
                     {
                         "text": "{{transactionId}}",
+                        "width": "auto",
+                        "margin": [
+                            5,
+                            15,
+                            0,
+                            0
+                        ]
+                    }
+                ]
+            },
+            {
+                "columns": [
+                    {
+                        "text": "Card No : ",
+                        "width": "auto",
+                        "margin": [
+                            0,
+                            15,
+                            0,
+                            0
+                        ],
+                        "bold": true
+                    },
+                    {
+                        "text": "{{cardNumberLast4}}",
                         "width": "auto",
                         "margin": [
                             5,

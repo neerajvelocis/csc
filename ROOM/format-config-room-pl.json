@@ -140,19 +140,7 @@
                         "text": " "
                     },
                     {
-                        "text": "{{noOfACRooms}}"
-                    },
-                    {
-                        "text": " AC "
-                    },
-                    {
-                        "text": " and "
-                    },
-                    {
-                        "text": "{{noOfNonACRooms}}"
-                    },
-                    {
-                        "text": " Non AC rooms"
+                        "text": "{{bookedRooms}}"
                     },
                     {
                         "text": " at "
@@ -186,19 +174,7 @@
                         "text": " "
                     },
                     {
-                        "text": "{{noOfACRooms}}"
-                    },
-                    {
-                        "text": " AC "
-                    },
-                    {
-                        "text": " and "
-                    },
-                    {
-                        "text": "{{noOfNonACRooms}}"
-                    },
-                    {
-                        "text": " Non AC rooms"
+                        "text": "{{bookedRooms}}"
                     },
                     {
                         "text": " at "
@@ -268,6 +244,23 @@
                     },
                     {
                         "text": "{{refundableCharges}}",
+                        "bold": true
+                    }
+                ]
+            },
+            {
+                "margin": [
+                    0,
+                    10,
+                    0,
+                    0
+                ],
+                "text": [
+                    {
+                        "text": "Date/Venue Change Charges : "
+                    },
+                    {
+                        "text": "{{dateVenueChangeCharges}}",
                         "bold": true
                     }
                 ]
@@ -353,6 +346,23 @@
                     },
                     {
                         "text": "{{totalPayment}}",
+                        "bold": true
+                    }
+                ]
+            },
+            {
+                "margin": [
+                    0,
+                    10,
+                    0,
+                    0
+                ],
+                "text": [
+                    {
+                        "text": "Card No. :- "
+                    },
+                    {
+                        "text": "{{cardNumberLast4}}",
                         "bold": true
                     }
                 ]

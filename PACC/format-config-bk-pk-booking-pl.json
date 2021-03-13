@@ -80,7 +80,6 @@
                     0,
                     10
                 ],
-               
                 "stack": [
                     {
                         "text": "{{applicantName}}"
@@ -113,7 +112,6 @@
                     0,
                     7
                 ],
-               
                 "text": [
                     {
                         "text": "Receipt No : "
@@ -131,7 +129,6 @@
                     0,
                     7
                 ],
-               
                 "text": [
                     {
                         "text": "Subject : "
@@ -162,7 +159,6 @@
                     0,
                     7
                 ],
-               
                 "text": [
                     {
                         "text": "Ref : Permission is herby accorded to use the "
@@ -190,7 +186,6 @@
                     0,
                     7
                 ],
-               
                 "text": [
                     {
                         "text": "Detailed Amount :- "
@@ -244,9 +239,25 @@
                     0,
                     10,
                     0,
+                    0
+                ],
+                "text": [
+                    {
+                        "text": "Date/Venue Change Charges : "
+                    },
+                    {
+                        "text": "{{dateVenueChangeCharges}}",
+                        "bold": true
+                    }
+                ]
+            },
+            {
+                "margin": [
+                    0,
+                    10,
+                    0,
                     10
                 ],
-               
                 "columns": [
                     {
                         "text": [
@@ -284,7 +295,6 @@
                     0,
                     7
                 ],
-               
                 "text": [
                     {
                         "text": "Place of Service : "
@@ -316,7 +326,6 @@
                     0,
                     7
                 ],
-               
                 "text": [
                     {
                         "text": "Total Amount :- "
@@ -330,11 +339,27 @@
             {
                 "margin": [
                     0,
+                    10,
+                    0,
+                    0
+                ],
+                "text": [
+                    {
+                        "text": "Card No. :- "
+                    },
+                    {
+                        "text": "{{cardNumberLast4}}",
+                        "bold": true
+                    }
+                ]
+            },
+            {
+                "margin": [
+                    0,
                     7,
                     0,
                     0
                 ],
-               
                 "text": [
                     {
                         "text": "Bank Details for Refund : ",
@@ -386,7 +411,6 @@
                     0,
                     0
                 ],
-               
                 "ol": [
                     {
                         "margin": [

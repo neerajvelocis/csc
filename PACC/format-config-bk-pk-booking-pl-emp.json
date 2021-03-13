@@ -271,6 +271,23 @@
                     0,
                     0
                 ],
+                "text": [
+                    {
+                        "text": "Date/Venue Change Charges : "
+                    },
+                    {
+                        "text": "{{dateVenueChangeCharges}}",
+                        "bold": true
+                    }
+                ]
+            },
+            {
+                "margin": [
+                    0,
+                    10,
+                    0,
+                    0
+                ],
                 "columns": [
                     {
                         "text": [
@@ -345,6 +362,23 @@
                     },
                     {
                         "text": "{{totalPayment}}",
+                        "bold": true
+                    }
+                ]
+            },
+            {
+                "margin": [
+                    0,
+                    10,
+                    0,
+                    0
+                ],
+                "text": [
+                    {
+                        "text": "Card No. :- "
+                    },
+                    {
+                        "text": "{{cardNumberLast4}}",
                         "bold": true
                     }
                 ]

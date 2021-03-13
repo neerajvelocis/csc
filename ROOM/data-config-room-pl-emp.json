@@ -13,6 +13,24 @@
                     {
                         "direct": [
                             {
+                                "variable": "dateVenueChangeCharges",
+                                "value": {
+                                    "path": "$.paymentInfo.dateVenueChangeCharges"
+                                }
+                            },
+                            {
+                                "variable": "cardNumberLast4",
+                                "value": {
+                                    "path": "$.paymentInfo.cardNumberLast4"
+                                }
+                            },
+                            {
+                                "variable": "bookedRooms",
+                                "value": {
+                                    "path": "$.bookingDetails.bookedRooms"
+                                }
+                            },
+                            {
                                 "variable": "samparkaddress",
                                 "value": {
                                     "path": "$.emp.samparkaddress"

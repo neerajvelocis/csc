@@ -236,7 +236,7 @@
                         "width": "auto",
                         "margin": [
                             0,
-                            5,
+                            15,
                             0,
                             0
                         ],
@@ -247,7 +247,7 @@
                         "width": "auto",
                         "margin": [
                             5,
-                            5,
+                            15,
                             0,
                             0
                         ]
@@ -319,6 +319,31 @@
                     },
                     {
                         "text": "{{refundableCharges}}",
+                        "width": "auto",
+                        "margin": [
+                            5,
+                            15,
+                            0,
+                            0
+                        ]
+                    }
+                ]
+            },
+            {
+                "columns": [
+                    {
+                        "text": "Date/Venue Change Charges : ",
+                        "width": "auto",
+                        "margin": [
+                            0,
+                            15,
+                            0,
+                            0
+                        ],
+                        "bold": true
+                    },
+                    {
+                        "text": "{{dateVenueChangeCharges}}",
                         "width": "auto",
                         "margin": [
                             5,
@@ -524,6 +549,31 @@
                     },
                     {
                         "text": "{{transactionId}}",
+                        "width": "auto",
+                        "margin": [
+                            5,
+                            15,
+                            0,
+                            0
+                        ]
+                    }
+                ]
+            },
+            {
+                "columns": [
+                    {
+                        "text": "Card No : ",
+                        "width": "auto",
+                        "margin": [
+                            0,
+                            15,
+                            0,
+                            0
+                        ],
+                        "bold": true
+                    },
+                    {
+                        "text": "{{cardNumberLast4}}",
                         "width": "auto",
                         "margin": [
                             5,
