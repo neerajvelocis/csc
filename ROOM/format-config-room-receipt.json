@@ -658,31 +658,6 @@
             {
                 "columns": [
                     {
-                        "text": "Card No : ",
-                        "width": "auto",
-                        "margin": [
-                            0,
-                            10,
-                            0,
-                            0
-                        ],
-                        "bold": true
-                    },
-                    {
-                        "text": "{{cardNumberLast4}}",
-                        "width": "auto",
-                        "margin": [
-                            5,
-                            10,
-                            0,
-                            0
-                        ]
-                    }
-                ]
-            },
-            {
-                "columns": [
-                    {
                         "text": "{{paymentType}}",
                         "width": "auto",
                         "margin": [

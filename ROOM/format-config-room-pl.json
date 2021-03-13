@@ -359,23 +359,6 @@
                 ],
                 "text": [
                     {
-                        "text": "Card No. :- "
-                    },
-                    {
-                        "text": "{{cardNumberLast4}}",
-                        "bold": true
-                    }
-                ]
-            },
-            {
-                "margin": [
-                    0,
-                    10,
-                    0,
-                    0
-                ],
-                "text": [
-                    {
                         "text": "Bank Details for Refund : ",
                         "width": "auto",
                         "bold": true
