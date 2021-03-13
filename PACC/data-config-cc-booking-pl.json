@@ -150,12 +150,6 @@
                         }
                      },
                      {
-                        "variable": "cardNumberLast4",
-                        "value": {
-                           "path": "$.paymentInfo.cardNumberLast4"
-                        }
-                     },
-                     {
                         "variable": "custGSTN",
                         "value": {
                            "path": "$.applicantDetail.custGSTN"

@@ -20,12 +20,6 @@
                         }
                      },
                      {
-                        "variable": "cardNumberLast4",
-                        "value": {
-                           "path": "$.paymentInfo.cardNumberLast4"
-                        }
-                     },
-                     {
                         "variable": "accountholderName",
                         "value": {
                            "path": "$.bankInfo.accountholderName"

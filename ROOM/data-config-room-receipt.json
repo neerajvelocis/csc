@@ -20,12 +20,6 @@
                                 }
                             },
                             {
-                                "variable": "cardNumberLast4",
-                                "value": {
-                                    "path": "$.paymentInfo.cardNumberLast4"
-                                }
-                            },
-                            {
                                 "variable": "bookedRooms",
                                 "value": {
                                     "path": "$.booking.bookedRooms"
