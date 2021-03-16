@@ -125,6 +125,23 @@
                 "bold": true,
                 "margin": [
                     0,
+                    10,
+                    0,
+                    0
+                ],
+                "text": [
+                    {
+                        "text": "Application No : "
+                    },
+                    {
+                        "text": "{{applicationNumber}}"
+                    }
+                ]
+            },
+            {
+                "bold": true,
+                "margin": [
+                    0,
                     0,
                     0,
                     7

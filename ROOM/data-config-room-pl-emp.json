@@ -121,6 +121,12 @@
                                 }
                             },
                             {
+                                "variable": "applicationNumber",
+                                "value": {
+                                   "path": "$.bookingDetail.applicationNumber"
+                                }
+                             },
+                            {
                                 "variable": "clCharge",
                                 "value": {
                                     "path": "$.paymentInfo.cleaningCharges"
