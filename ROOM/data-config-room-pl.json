@@ -110,7 +110,7 @@
                             {
                                 "variable": "applicationNumber",
                                 "value": {
-                                   "path": "$.bookingDetail.applicationNumber"
+                                   "path": "$.bookingDetails.applicationNumber"
                                 }
                              },
                             {
