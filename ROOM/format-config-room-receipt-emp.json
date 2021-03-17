@@ -55,7 +55,7 @@
                     0,
                     0,
                     0,
-                    30
+                    20
                 ]
             },
             {
@@ -613,31 +613,6 @@
                     },
                     {
                         "text": "{{refundableCharges}}",
-                        "width": "auto",
-                        "margin": [
-                            5,
-                            10,
-                            0,
-                            0
-                        ]
-                    }
-                ]
-            },
-            {
-                "columns": [
-                    {
-                        "text": "Date/Venue Change Charges : ",
-                        "width": "auto",
-                        "margin": [
-                            0,
-                            10,
-                            0,
-                            0
-                        ],
-                        "bold": true
-                    },
-                    {
-                        "text": "{{dateVenueChangeCharges}}",
                         "width": "auto",
                         "margin": [
                             5,

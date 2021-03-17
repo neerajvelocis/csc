@@ -297,23 +297,6 @@
                     0,
                     0
                 ],
-                "text": [
-                    {
-                        "text": "Date/Venue Change Charges : "
-                    },
-                    {
-                        "text": "{{dateVenueChangeCharges}}",
-                        "bold": true
-                    }
-                ]
-            },
-            {
-                "margin": [
-                    0,
-                    10,
-                    0,
-                    0
-                ],
                 "columns": [
                     {
                         "text": [
