@@ -109,7 +109,7 @@
                          }
                       },
                       {
-                        "variable": "variable14",
+                        "variable": "variable15",
                         "value": {
                            "path": "$.paymentInfo.refundableSecurity"
                         }
