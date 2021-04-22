@@ -354,7 +354,7 @@
                 ]
               },
               {
-                "text": "Total Amount (Rs.)",
+                "text": "Refundable Security",
                 "style": "app-table-label",
                 "alignment": "left",
                 "border": [
@@ -374,7 +374,7 @@
                   true,
                   false,
                   false,
-                  true
+                  false
                 ]
               },
               {
@@ -385,20 +385,52 @@
                   false,
                   false,
                   false,
-                  true
+                  false
                 ]
               },
               {
-                "text": "{{totalAmount}}",
+                "text": "{{refundableSecurity}}",
                 "style": "app-table-value",
                 "alignment": "left",
                 "border": [
                   false,
                   false,
                   true,
-                  true
+                  false
                 ]
               }
+            ],
+            [
+              {
+                "text": "Total amount",
+                "style": "app-table-value",
+                "alignment": "left",
+                "colSpan": 3,
+                "border": [
+                  true,
+                  false,
+                  true,
+                  false
+                ]
+              },
+              {},
+              {}
+            ],
+            [
+              {
+                "text": "{{totalAmount}}",
+                "style": "app-table-value",
+                "alignment": "left",
+                "colSpan": 3,
+                "border": [
+                  true,
+                  false,
+                  true,
+                  true
+                ]
+              },
+              {},
+              {}
             ]
           ]
         }

@@ -108,6 +108,13 @@
                          }
                       },
                       {
+                        "variable": "refundableSecurity",
+                        "value": {
+                           "path": "$.feeDetail.refundableSecurity"
+                        }
+                     },
+
+                      {
                         "variable": "generatedBy",
                         "value": {
                            "path": "$.generatedBy.generatedBy"
