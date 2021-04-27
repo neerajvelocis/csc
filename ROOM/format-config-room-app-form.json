@@ -56,6 +56,136 @@
                     "body": [
                         [
                             {
+                                "text": "Applicant Details",
+                                "style": "app-table-value",
+                                "alignment": "left",
+                                "colSpan": 3,
+                                "border": [
+                                    true,
+                                    true,
+                                    true,
+                                    false
+                                ]
+                            },
+                            {},
+                            {}
+                        ],
+                        [
+                            {
+                                "text": "Applicant Name",
+                                "style": "app-table-label",
+                                "alignment": "left",
+                                "border": [
+                                    true,
+                                    false,
+                                    false,
+                                    false
+                                ]
+                            },
+                            {
+                                "text": "Applicant Contact",
+                                "style": "app-table-label",
+                                "alignment": "left",
+                                "border": [
+                                    false,
+                                    false,
+                                    false,
+                                    false
+                                ]
+                            },
+                            {
+                                "text": "Applicant Address",
+                                "style": "app-table-label",
+                                "alignment": "left",
+                                "border": [
+                                    false,
+                                    false,
+                                    true,
+                                    false
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "text": "{{applicantName}}",
+                                "style": "app-table-value",
+                                "alignment": "left",
+                                "border": [
+                                    true,
+                                    false,
+                                    false,
+                                    false
+                                ]
+                            },
+                            {
+                                "text": "{{applicantMobile}}",
+                                "style": "app-table-value",
+                                "alignment": "left",
+                                "border": [
+                                    false,
+                                    false,
+                                    false,
+                                    false
+                                ]
+                            },
+                            {
+                                "text": "{{applicantAddress}}",
+                                "style": "app-table-value",
+                                "alignment": "left",
+                                "border": [
+                                    false,
+                                    false,
+                                    true,
+                                    false
+                                ]
+                            }
+                        ],
+                        [
+                            {
+                                "text": "Email",
+                                "style": "app-table-label",
+                                "alignment": "left",
+                                "colSpan": 3,
+                                "border": [
+                                    true,
+                                    false,
+                                    true,
+                                    false
+                                ]
+                            },
+                            {},
+                            {}
+                        ],
+                        [
+                            {
+                                "text": "{{applicantEmail}}",
+                                "style": "app-table-value",
+                                "alignment": "left",
+                                "colSpan": 3,
+                                "border": [
+                                    true,
+                                    false,
+                                    true,
+                                    true
+                                ]
+                            },
+                            {},
+                            {}
+                        ]
+                    ]
+                }
+            },
+            {
+                "style": "table-gap",
+                "table": {
+                    "widths": [
+                        160,
+                        200,
+                        120
+                    ],
+                    "body": [
+                        [
+                            {
                                 "text": "Application Details",
                                 "style": "app-table-value",
                                 "alignment": "left",
@@ -242,136 +372,6 @@
                                     true
                                 ]
                             },
-                            {}
-                        ]
-                    ]
-                }
-            },
-            {
-                "style": "table-gap",
-                "table": {
-                    "widths": [
-                        160,
-                        200,
-                        120
-                    ],
-                    "body": [
-                        [
-                            {
-                                "text": "Applicant Details",
-                                "style": "app-table-value",
-                                "alignment": "left",
-                                "colSpan": 3,
-                                "border": [
-                                    true,
-                                    true,
-                                    true,
-                                    false
-                                ]
-                            },
-                            {},
-                            {}
-                        ],
-                        [
-                            {
-                                "text": "Applicant Name",
-                                "style": "app-table-label",
-                                "alignment": "left",
-                                "border": [
-                                    true,
-                                    false,
-                                    false,
-                                    false
-                                ]
-                            },
-                            {
-                                "text": "Applicant Contact",
-                                "style": "app-table-label",
-                                "alignment": "left",
-                                "border": [
-                                    false,
-                                    false,
-                                    false,
-                                    false
-                                ]
-                            },
-                            {
-                                "text": "Applicant Address",
-                                "style": "app-table-label",
-                                "alignment": "left",
-                                "border": [
-                                    false,
-                                    false,
-                                    true,
-                                    false
-                                ]
-                            }
-                        ],
-                        [
-                            {
-                                "text": "{{applicantName}}",
-                                "style": "app-table-value",
-                                "alignment": "left",
-                                "border": [
-                                    true,
-                                    false,
-                                    false,
-                                    false
-                                ]
-                            },
-                            {
-                                "text": "{{applicantMobile}}",
-                                "style": "app-table-value",
-                                "alignment": "left",
-                                "border": [
-                                    false,
-                                    false,
-                                    false,
-                                    false
-                                ]
-                            },
-                            {
-                                "text": "{{applicantAddress}}",
-                                "style": "app-table-value",
-                                "alignment": "left",
-                                "border": [
-                                    false,
-                                    false,
-                                    true,
-                                    false
-                                ]
-                            }
-                        ],
-                        [
-                            {
-                                "text": "Email",
-                                "style": "app-table-label",
-                                "alignment": "left",
-                                "colSpan": 3,
-                                "border": [
-                                    true,
-                                    false,
-                                    true,
-                                    false
-                                ]
-                            },
-                            {},
-                            {}
-                        ],
-                        [
-                            {
-                                "text": "{{applicantEmail}}",
-                                "style": "app-table-value",
-                                "alignment": "left",
-                                "colSpan": 3,
-                                "border": [
-                                    true,
-                                    false,
-                                    true,
-                                    true
-                                ]
-                            },
-                            {},
                             {}
                         ]
                     ]
