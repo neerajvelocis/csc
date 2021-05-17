@@ -801,7 +801,16 @@
                     {
                         "text": "{{rIFSCCode}}",
                         "width": "auto"
-                    }
+                    },
+                    {
+                       "text": "     Nominee Name : ",
+                       "width": "auto",
+                       "bold": true
+                   },
+                   {
+                       "text": "{{NomName}}",
+                       "width": "auto"
+                   }
                 ]
             },
             {

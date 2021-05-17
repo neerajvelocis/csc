@@ -50,6 +50,12 @@
                         }
                      },
                      {
+                        "variable": "NomName",
+                        "value": {
+                            "path": "$.bankInfo.nomName"
+                        }
+                    },
+                     {
                         "variable": "samparkAdd",
                         "value": {
                            "path": "$.emp.address"

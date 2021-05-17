@@ -105,9 +105,9 @@
                             {
                                 "variable": "applicationNumber",
                                 "value": {
-                                   "path": "$.bookingDetails.applicationNumber"
+                                    "path": "$.bookingDetails.applicationNumber"
                                 }
-                             },
+                            },
                             {
                                 "variable": "clCharge",
                                 "value": {
@@ -249,6 +249,12 @@
                                 "variable": "rIFSCCode",
                                 "value": {
                                     "path": "$.bankInfo.rIFSCCode"
+                                }
+                            },
+                            {
+                                "variable": "NomName",
+                                "value": {
+                                    "path": "$.bankInfo.nomName"
                                 }
                             }
                         ]
