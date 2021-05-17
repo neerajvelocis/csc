@@ -81,7 +81,7 @@
                         "width": "auto"
                     },
                     {
-                        "text": "{{paymentDateTime}}",
+                        "text": "{{paymentDate}}",
                         "width": "auto"
                     }
                 ]
