@@ -101,7 +101,7 @@
                     },
                     {
                         "text": "{{paymentDate}}",
-                        "width": 85,
+                        "width": "auto",
                         "margin": [
                             2,
                             15,
