@@ -71,12 +71,26 @@
                 ]
             },
             {
-                "text": "FROM",
                 "margin": [
                     0,
-                    0,
+                    20,
                     0,
                     0
+                ],
+                "columns": [
+                    {
+                        "text": "FROM,",
+                        "width": 350,
+                        "fontSize": 12
+                    },
+                    {
+                        "text": "Date : ",
+                        "width": "auto"
+                    },
+                    {
+                        "text": "{{paymentDateTime}}",
+                        "width": "auto"
+                    }
                 ]
             },
             {
@@ -450,14 +464,14 @@
                         "width": "auto"
                     },
                     {
-                       "text": "     Nominee Name : ",
-                       "width": "auto",
-                       "bold": true
-                   },
-                   {
-                       "text": "{{NomName}}",
-                       "width": "auto"
-                   }
+                        "text": "     Nominee Name : ",
+                        "width": "auto",
+                        "bold": true
+                    },
+                    {
+                        "text": "{{NomName}}",
+                        "width": "auto"
+                    }
                 ]
             },
             {

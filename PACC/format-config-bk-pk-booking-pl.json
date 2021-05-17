@@ -65,12 +65,25 @@
                 "bold": true
             },
             {
-                "text": "To,",
                 "margin": [
                     0,
                     20,
                     0,
                     0
+                ],
+                "columns": [
+                    {
+                        "text": "To,",
+                        "width": 350
+                    },
+                    {
+                        "text": "Date : ",
+                        "width": "auto"
+                    },
+                    {
+                        "text": "{{paymentDateTime}}",
+                        "width": "auto"
+                    }
                 ]
             },
             {
@@ -403,14 +416,14 @@
                         "width": "auto"
                     },
                     {
-                       "text": "     Nominee Name : ",
-                       "width": "auto",
-                       "bold": true
-                   },
-                   {
-                       "text": "{{NomName}}",
-                       "width": "auto"
-                   }
+                        "text": "     Nominee Name : ",
+                        "width": "auto",
+                        "bold": true
+                    },
+                    {
+                        "text": "{{NomName}}",
+                        "width": "auto"
+                    }
                 ]
             },
             {
