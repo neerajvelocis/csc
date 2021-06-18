@@ -644,6 +644,28 @@
                         "bold": true
                     },
                     {
+                        "text": " : ",
+                        "width": "auto",
+                        "margin": [
+                            0,
+                            15,
+                            0,
+                            0
+                        ],
+                        "bold": true
+                    },
+                    {
+                        "text": "Rs. ",
+                        "width": "auto",
+                        "margin": [
+                            0,
+                            15,
+                            0,
+                            0
+                        ],
+                        "bold": true
+                    },
+                    {
                         "text": "{{totalPayment}}",
                         "width": "auto",
                         "margin": [

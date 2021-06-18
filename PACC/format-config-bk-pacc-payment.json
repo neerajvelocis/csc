@@ -584,6 +584,28 @@
                         "bold": true
                     },
                     {
+                        "text": " : ",
+                        "width": "auto",
+                        "margin": [
+                            0,
+                            15,
+                            0,
+                            0
+                        ],
+                        "bold": true
+                    },
+                    {
+                        "text": "Rs. ",
+                        "width": "auto",
+                        "margin": [
+                            0,
+                            15,
+                            0,
+                            0
+                        ],
+                        "bold": true
+                    },
+                    {
                         "text": "{{totalPayment}}",
                         "width": "auto",
                         "margin": [
@@ -675,14 +697,14 @@
                         "width": "auto"
                     },
                     {
-                       "text": "     Nominee Name : ",
-                       "width": "auto",
-                       "bold": true
-                   },
-                   {
-                       "text": "{{NomName}}",
-                       "width": "auto"
-                   }
+                        "text": "     Nominee Name : ",
+                        "width": "auto",
+                        "bold": true
+                    },
+                    {
+                        "text": "{{NomName}}",
+                        "width": "auto"
+                    }
                 ]
             }
         ],
