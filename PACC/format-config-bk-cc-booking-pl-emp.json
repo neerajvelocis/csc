@@ -456,7 +456,6 @@
                     {
                         "text": "{{chequeDate}}",
                         "width": "auto",
-                         "bold": true,
                         "margin": [
                             5,
                             15,
@@ -471,6 +470,7 @@
                     {
                         "text": "Demand Draft No : ",
                         "width": "auto",
+                        "bold": true,
                         "margin": [
                             0,
                             15,

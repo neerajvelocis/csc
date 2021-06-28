@@ -505,7 +505,6 @@
                     {
                         "text": "Demand Draft Date : ",
                         "width": "auto",
-                        "bold": true,
                         "margin": [
                             0,
                             15,
@@ -517,6 +516,7 @@
                     {
                         "text": "{{demandDraftDate}}",
                         "width": "auto",
+                        "bold": true,
                         "margin": [
                             5,
                             15,

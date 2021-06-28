@@ -300,6 +300,12 @@
                                "value": {
                                   "path": "$.paymentInfo.demandDraftDate"
                                }
+                            },
+                             {
+                                "variable": "transactionId",
+                                "value": {
+                                    "path": "$.paymentInfo.transactionId"
+                                }
                             }
                         ]
                     }
