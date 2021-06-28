@@ -398,6 +398,135 @@
                 ]
             },
             {
+                "columns": [
+                    {
+                        "text": "Transaction No : ",
+                        "width": "auto",
+                        "margin": [
+                            0,
+                            10,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": "{{transactionId}}",
+                        "width": "auto",
+                        "bold": true,
+                        "margin": [
+                            5,
+                            10,
+                            0,
+                            0
+                        ]
+                    }
+                ]
+            },
+             {
+                "columns": [
+                    {
+                        "text": "Cheque No : ",
+                        "width": "auto",
+                        "margin": [
+                            0,
+                            15,
+                            0,
+                            0
+                        ]
+                       
+                    },
+                    {
+                        "text": "{{chequeNo}}",
+                        "width": "auto",
+                        "bold": true,
+                        "margin": [
+                            5,
+                            15,
+                            0,
+                            0
+                        ]
+                    }
+                ]
+            },
+            {
+                "columns": [
+                    {
+                        "text": "Cheque Date : ",
+                        "width": "auto",
+                        "margin": [
+                            0,
+                            15,
+                            0,
+                            0
+                        ]
+                        
+                    },
+                    {
+                        "text": "{{chequeDate}}",
+                        "width": "auto",
+                         "bold": true,
+                        "margin": [
+                            5,
+                            15,
+                            0,
+                            0
+                        ]
+                    }
+                ]
+            },
+            {
+                "columns": [
+                    {
+                        "text": "Demand Draft No : ",
+                        "width": "auto",
+                        "margin": [
+                            0,
+                            15,
+                            0,
+                            0
+                        ]
+                        
+                    },
+                    {
+                        "text": "{{demandDraftNo}}",
+                        "width": "auto",
+                        "bold": true,
+                        "margin": [
+                            5,
+                            15,
+                            0,
+                            0
+                        ]
+                    }
+                ]
+            },
+            {
+                "columns": [
+                    {
+                        "text": "Demand Draft Date : ",
+                        "width": "auto",
+                        "bold": true,
+                        "margin": [
+                            0,
+                            15,
+                            0,
+                            0
+                        ]
+                        
+                    },
+                    {
+                        "text": "{{demandDraftDate}}",
+                        "width": "auto",
+                        "margin": [
+                            5,
+                            15,
+                            0,
+                            0
+                        ]
+                    }
+                ]
+            },
+            {
                 "margin": [
                     0,
                     10,

@@ -274,6 +274,32 @@
                                 "value": {
                                     "path": "$.bankInfo.nomName"
                                 }
+                            },
+                            {
+                               "variable": "currentDate",
+                               "value": {
+                                  "path": "$.paymentInfo.currentDate"
+                               }
+                            }, {
+                               "variable": "chequeNo",
+                               "value": {
+                                  "path": "$.paymentInfo.chequeNo"
+                               }
+                            }, {
+                               "variable": "chequeDate",
+                               "value": {
+                                  "path": "$.paymentInfo.chequeDate"
+                               }
+                            }, {
+                               "variable": "demandDraftNo",
+                               "value": {
+                                  "path": "$.paymentInfo.demandDraftNo"
+                               }
+                            }, {
+                               "variable": "demandDraftDate",
+                               "value": {
+                                  "path": "$.paymentInfo.demandDraftDate"
+                               }
                             }
                         ]
                     }
