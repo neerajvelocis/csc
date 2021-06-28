@@ -474,7 +474,7 @@
            {
                "columns": [
                    {
-                       "text": "Demand Draft No : ",
+                       "text": "DD No : ",
                        "width": "auto",
                        "margin": [
                            0,
@@ -500,7 +500,7 @@
            {
                "columns": [
                    {
-                       "text": "Demand Draft Date : ",
+                       "text": "DD Date : ",
                        "width": "auto",
                        "margin": [
                            0,
