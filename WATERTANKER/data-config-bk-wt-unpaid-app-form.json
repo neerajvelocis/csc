@@ -168,13 +168,13 @@
                      {
                         "variable": "qty",
                         "value": {
-                           "path": "$.paymentInfo.wtQuantity"
+                           "path": "$.feeDetail.wtQuantity"
                         }
                       },
                       {
                         "variable": "wtT",
                         "value": {
-                           "path": "$.paymentInfo.wtTotalPayment"
+                           "path": "$.feeDetail.wtTotalPayment"
                         }
                       }
 
