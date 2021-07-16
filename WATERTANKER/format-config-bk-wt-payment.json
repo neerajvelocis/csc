@@ -291,12 +291,12 @@
                                 "alignment": "center"
                             },
                             {
-                                "text": "{{wtT}}",
+                                "text": "{{variable11}}",
                                 "style": "horizontalcontentstyle",
                                 "alignment": "center"
                             },
                             {
-                                "text": "{{variable11}}",
+                                "text": "{{wtT}}",
                                 "style": "horizontalcontentstyle",
                                 "alignment": "right"
                             }
