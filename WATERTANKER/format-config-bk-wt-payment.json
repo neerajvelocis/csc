@@ -264,7 +264,7 @@
                                 "alignment": "center"
                             },
                             {
-                                "text": "TOTAL AMOUNT",
+                                "text": "AMOUNT",
                                 "style": "horizontalcolumnsheader",
                                 "alignment": "center"
                             }
@@ -288,12 +288,12 @@
                             {
                                 "text": "{{qty}}",
                                 "style": "horizontalcontentstyle",
-                                "alignment": "right"
+                                "alignment": "center"
                             },
                             {
                                 "text": "{{wtT}}",
                                 "style": "horizontalcontentstyle",
-                                "alignment": "right"
+                                "alignment": "center"
                             },
                             {
                                 "text": "{{variable11}}",
