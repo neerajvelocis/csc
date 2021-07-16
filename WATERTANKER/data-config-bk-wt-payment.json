@@ -91,6 +91,18 @@
                          }
                       },
                       {
+                        "variable": "qty",
+                        "value": {
+                           "path": "$.paymentInfo.wtQuantity"
+                        }
+                      },
+                      {
+                        "variable": "wtT",
+                        "value": {
+                           "path": "$.paymentInfo.wtTotalPayment"
+                        }
+                      },
+                      {
                          "variable": "variable13",
                          "value": {
                             "path": "$.paymentInfo.grandTotal"
