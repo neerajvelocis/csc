@@ -304,7 +304,7 @@
                                 ]
                             },
                             {
-                                "text": "Qunatity",
+                                "text": "Quantity",
                                 "style": "app-table-label",
                                 "alignment": "left",
                                 "border": [
