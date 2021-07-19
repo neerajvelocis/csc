@@ -264,7 +264,7 @@
                                 "alignment": "center"
                             },
                             {
-                                "text": "AMOUNT (Rs.)",
+                                "text": "AMOUNT       (Rs.)",
                                 "style": "horizontalcolumnsheader",
                                 "alignment": "center"
                             }
