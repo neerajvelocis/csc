@@ -264,7 +264,14 @@
                                 "alignment": "center"
                             },
                             {
-                                "text": "AMOUNT       (Rs.)",
+                                "text": [
+                                    {
+                                        "text": "AMOUNT"
+                                    },
+                                    {
+                                        "text": "\n (Rs.)"
+                                    }
+                                ],
                                 "style": "horizontalcolumnsheader",
                                 "alignment": "center"
                             }
@@ -359,7 +366,7 @@
                                     true
                                 ]
                             },
-                            { 
+                            {
                                 "text": " ",
                                 "border": [
                                     false,
