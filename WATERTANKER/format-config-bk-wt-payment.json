@@ -269,7 +269,7 @@
                                         "text": "AMOUNT"
                                     },
                                     {
-                                        "text": "\n (Rs.)"
+                                        "text": "\\n (Rs.)"
                                     }
                                 ],
                                 "style": "horizontalcolumnsheader",
