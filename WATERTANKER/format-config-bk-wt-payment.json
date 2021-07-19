@@ -230,10 +230,10 @@
                     "widths": [
                         "auto",
                         110,
-                        170,
+                        190,
                         30,
                         70,
-                        80
+                        60
                     ],
                     "headerRows": 1,
                     "body": [
@@ -264,14 +264,7 @@
                                 "alignment": "center"
                             },
                             {
-                                "text": [
-                                    {
-                                        "text": "AMOUNT"
-                                    },
-                                    {
-                                        "text": "\\n (Rs.)"
-                                    }
-                                ],
+                                "text": "AMOUNT (Rs.)",
                                 "style": "horizontalcolumnsheader",
                                 "alignment": "center"
                             }
@@ -366,7 +359,7 @@
                                     true
                                 ]
                             },
-                            {
+                            { 
                                 "text": " ",
                                 "border": [
                                     false,
