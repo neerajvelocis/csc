@@ -259,12 +259,12 @@
                                 "alignment": "center"
                             },
                             {
-                                "text": "BASE AMOUNT",
+                                "text": "BASE AMOUNT (Rs.)",
                                 "style": "horizontalcolumnsheader",
                                 "alignment": "center"
                             },
                             {
-                                "text": "AMOUNT",
+                                "text": "AMOUNT (Rs.)",
                                 "style": "horizontalcolumnsheader",
                                 "alignment": "center"
                             }
