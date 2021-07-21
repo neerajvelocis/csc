@@ -380,7 +380,7 @@
                         ],
                         [
                             {
-                                "text": "Base Charges",
+                                "text": "Base Charges (Rs.)",
                                 "style": "app-table-label",
                                 "alignment": "left",
                                 "border": [
