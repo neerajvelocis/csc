@@ -93,7 +93,7 @@
                 "text": [
                     "The permission for use of {{variable10}}, {{sector}} , {{variable6}} for {{bookingDays}} day i.e {{variable9}} for {{bookingPurpose}} is hereby granted on deposit of Rs.",
                     {
-                        "text": "{{depositAmount}} /- ",
+                        "text": " {{depositAmount}} /- ",
                         "bold": true
                     },
                     "(as Ground Rent & GST @ 18%) vide Gr. No 2864/38 dated {{date1}} on the following terms and condtions:- "
