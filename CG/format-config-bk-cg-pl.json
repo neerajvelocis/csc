@@ -108,6 +108,27 @@
                 ]
             },
             {
+                "text": "Reference: Your letter dated {{currentDate}} on the above noted subject.",
+                "style": "app-table-value"
+            },
+            {
+                "text": [
+                    "The permisiion for use of {{groundName}}, {{sector}} , {{variable6}} for {{bookingDays}} day i.e {{variable9}} for {{bookingPurpose}} is hereby granted on deposit of Rs.",
+                    {
+                        "text": "{{depositAmount}} /_",
+                        "bold": true
+                    },
+                    "(as Ground Rent & GST @ 18%) vide Gr. No 2864/38 dated {{date1}} on the following terms and condtions:- "
+                ],
+                "style": "app-table-label",
+                "margin": [
+                    5,
+                    20,
+                    5,
+                    5
+                ]
+            },
+            {
                 "ol": [
                     {
                         "text": "Ground shall be used for the purpose for which the permission is being granted above and shall not be used for any purpose.",

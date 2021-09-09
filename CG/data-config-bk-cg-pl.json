@@ -73,6 +73,42 @@
                         }
                      },
                      {
+                        "variable": "sector",
+                        "value": {
+                           "path": "$.bookingDetail.sector"
+                        }
+                     },
+                     {
+                        "variable": "bookingDays",
+                        "value": {
+                           "path": "$.bookingDetail.bookingDays"
+                        }
+                     },
+                     {
+                        "variable": "bookingPurpose",
+                        "value": {
+                           "path": "$.bookingDetail.bookingPurpose"
+                        }
+                     },
+                     {
+                        "variable": "depositAmount",
+                        "value": {
+                           "path": "$.bookingDetail.depositAmount"
+                        }
+                     },
+                     {
+                        "variable": "date1",
+                        "value": {
+                           "path": "$.bookingDetail.date1"
+                        }
+                     },
+                     {
+                        "variable": "currentDate",
+                        "value": {
+                           "path": "$.bookingDetail.currentDate"
+                        }
+                     },
+                     {
                         "variable": "generatedBy",
                         "value": {
                            "path": "$.generatedBy.generatedBy"
