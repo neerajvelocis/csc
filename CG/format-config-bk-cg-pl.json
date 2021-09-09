@@ -80,7 +80,7 @@
                         "style": "app-table-value"
                     },
                     {
-                        "text": "Subject: Permission of ground for commercial purpose in {{variable10}}.",
+                        "text": "Subject: Booking of  {{variable10}} {{sector}} , {{variable6}}.",
                         "style": "app-table-value"
                     }
                 ]
@@ -91,7 +91,7 @@
             },
             {
                 "text": [
-                    "The permisiion for use of {{groundName}}, {{sector}} , {{variable6}} for {{bookingDays}} day i.e {{variable9}} for {{bookingPurpose}} is hereby granted on deposit of Rs.",
+                    "The permission for use of {{variable10}}, {{sector}} , {{variable6}} for {{bookingDays}} day i.e {{variable9}} for {{bookingPurpose}} is hereby granted on deposit of Rs.",
                     {
                         "text": "{{depositAmount}} /- ",
                         "bold": true
