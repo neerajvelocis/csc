@@ -102,7 +102,7 @@
                         "text": " {{depositAmount}} /- ",
                         "bold": true
                     },
-                    "(as Ground Rent & GST @ 18%) vide Gr. No 2864/38 dated {{date1}} on the following terms and condtions:- "
+                    "(as Ground Rent & GST @ 18%) vide Gr. No 2864/38 dated {{variable8}} on the following terms and condtions:- "
                 ],
                 "style": "app-table-label",
                 "margin": [

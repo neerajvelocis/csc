@@ -97,12 +97,6 @@
                         }
                      },
                      {
-                        "variable": "date1",
-                        "value": {
-                           "path": "$.bookingDetail.date1"
-                        }
-                     },
-                     {
                         "variable": "currentDate",
                         "value": {
                            "path": "$.bookingDetail.currentDate"
