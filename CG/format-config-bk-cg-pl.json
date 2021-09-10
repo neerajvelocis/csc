@@ -92,7 +92,7 @@
                 ]
             },
             {
-                "text": "Reference: Your letter dated {{currentDate}} on the above noted subject.",
+                "text": "Reference: Your letter dated {{variable8}} on the above noted subject.",
                 "style": "app-table-value"
             },
             {
