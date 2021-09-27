@@ -414,14 +414,14 @@
                         "width": "auto"
                     },
                     {
-                       "text": "     Nominee Name : ",
-                       "width": "auto",
-                       "bold": true
-                   },
-                   {
-                       "text": "{{NomName}}",
-                       "width": "auto"
-                   }
+                        "text": "     Nominee Name : ",
+                        "width": "auto",
+                        "bold": true
+                    },
+                    {
+                        "text": "{{NomName}}",
+                        "width": "auto"
+                    }
                 ]
             },
             {
@@ -538,7 +538,7 @@
                                     {
                                         "stack": [
                                             {
-                                                "text": "If the request for cancellation is received less than 15 days than the date of booking. Nll% ",
+                                                "text": "If the request for cancellation is received less than 15 days than the date of booking. NIL% ",
                                                 "margin": [
                                                     0,
                                                     5,
@@ -555,7 +555,7 @@
                     {
                         "stack": [
                             {
-                                "text": "Permission to use Music System/Loud speakers/Fire has to be obtained separately from the Estate Office.",
+                                "text": "Permission to use Music System/Loud speakers/Fire has to be obtained separately from the Competent authority.",
                                 "margin": [
                                     0,
                                     5,
@@ -568,7 +568,7 @@
                     {
                         "stack": [
                             {
-                                "text": "In case of Lawn of community senter/janj ghar the electricity connection is to be arranged by the consumer.",
+                                "text": "In case of Lawn of community center/janj ghar the electricity connection is to be arranged by the consumer.",
                                 "margin": [
                                     0,
                                     5,
@@ -594,7 +594,7 @@
                     {
                         "stack": [
                             {
-                                "text": "You are directed to comply with the quidlines(attached) pertaining to pervention of fire.",
+                                "text": "You are directed to comply with the guidelines(attached) pertaining to prevention of fire.",
                                 "margin": [
                                     0,
                                     5,
@@ -635,17 +635,17 @@
                                 "text": " for other community center needs to be deposited with the supervisor community Center as cleaning Charges security."
                             },
                             {
-                                "text": " In case the permission holder wants to get the community Center celaned at hiscost the cleaning charges security shall be refunded by supervisor, to the permission holder."
+                                "text": " In case the permission holder wants to get the community Center cleaned at his cost the cleaning charges security shall be refunded by supervisor, to the permission holder."
                             },
                             {
-                                "text": " Other wise the supervisor are authorized to use these cleaning charges security to get the community center cleaned."
+                                "text": " Otherwise the supervisor are authorized to use these cleaning charges security to get the community center cleaned."
                             }
                         ]
                     },
                     {
                         "stack": [
                             {
-                                "text": "In case of bouncing of DD, the applicant will be criminally prosecuted as per law.  ",
+                                "text": "In case of payment failure, the applicant will be criminally prosecuted as per law.  ",
                                 "margin": [
                                     0,
                                     5,
@@ -662,7 +662,7 @@
                             0,
                             0
                         ],
-                        "text": "Organsiers/Applicant ensure the compliance of Model of Conduct rule general Election og Lock Sabha 2019."
+                        "text": "Organiser/Applicant ensure the compliance of Model of Conduct rule general Election of Lok Sabha 2019."
                     },
                     {
                         "margin": [
@@ -671,7 +671,7 @@
                             0,
                             0
                         ],
-                        "text": "Organsiers/Applicant shall no political issue is involved & this for Nobel cause."
+                        "text": "Organiser/Applicant shall no political issue is involved & this for Nobel cause."
                     },
                     {
                         "margin": [
@@ -699,6 +699,24 @@
                             0
                         ],
                         "text": "The Commissioner Municipal Corporation Chandigarh reserve the right to cancel the booking at any time. If the accommodation is required for isolation home & quarantine center of any other purpose pertaining to COVID-19."
+                    },
+                    {
+                        "margin": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ],
+                        "text": "All applicable permissions for music, liquor to be taken from competent authority."
+                    },
+                    {
+                        "margin": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ],
+                        "text": "'I understand that I will be liable for prosecution if any incorrect information is shared by me in this application."
                     }
                 ]
             }

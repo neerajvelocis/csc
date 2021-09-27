@@ -80,7 +80,7 @@
                         "style": "app-table-value"
                     },
                     {
-                        "text": "Subject: Permission of of open space for {{variable11}} purpose in {{variable10}}, {{variable12}}.",
+                        "text": "Subject: Permission of open space for {{variable11}} purpose in {{variable10}}, {{variable12}}.",
                         "style": "app-table-value"
                     }
                 ]
@@ -126,7 +126,7 @@
                         ]
                     },
                     {
-                        "text": "No damage shall be caused to the M.C. property / flooring / parkings etc. In case of any damage of Municipal property the recovery shall be made from the applicant.",
+                        "text": "No damage shall be caused to the M.C. property / flooring / parkings etc. In case of any damage to Municipal property the recovery shall be made from the applicant.",
                         "style": "app-table-label",
                         "margin": [
                             20,
@@ -166,7 +166,7 @@
                         ]
                     },
                     {
-                        "text": "The Commissioner, Municipal Corporation, Chd, reserve the right to the cancel the permission without assigning any reason in public interest. ",
+                        "text": "The Commissioner, Municipal Corporation, Chd, reserve the right to cancel the permission without assigning any reason in public interest. ",
                         "style": "app-table-label",
                         "margin": [
                             20,

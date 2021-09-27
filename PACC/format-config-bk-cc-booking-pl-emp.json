@@ -694,7 +694,7 @@
                     {
                         "stack": [
                             {
-                                "text": "In case the Cancellation is required the refund shall be as follow",
+                                "text": "In case the Cancellation is required the refund shall be as follows",
                                 "margin": [
                                     0,
                                     5,
@@ -739,7 +739,7 @@
                                     {
                                         "stack": [
                                             {
-                                                "text": "Within 7 days Nll%",
+                                                "text": "Within 7 days NIL%",
                                                 "margin": [
                                                     0,
                                                     5,
@@ -756,7 +756,7 @@
                     {
                         "stack": [
                             {
-                                "text": "Permission to use Music System/Loud speakers/Fire has to be obtained separately from the Estate Office.",
+                                "text": "Permission to use Music System/Loud speakers/Fire has to be obtained separately from the Competent authority.",
                                 "margin": [
                                     0,
                                     5,
@@ -769,7 +769,7 @@
                     {
                         "stack": [
                             {
-                                "text": "In case of Lawn of community senter/janj ghar the electricity connection is to be arranged by the consumer.",
+                                "text": "In case of Lawn of community center/janj ghar the electricity connection is to be arranged by the consumer.",
                                 "margin": [
                                     0,
                                     5,
@@ -795,7 +795,7 @@
                     {
                         "stack": [
                             {
-                                "text": "You are directed to comply with the quidlines(attached) pertaining to pervention of fire.",
+                                "text": "You are directed to comply with the guidelines(attached) pertaining to prevention of fire.",
                                 "margin": [
                                     0,
                                     5,
@@ -808,7 +808,7 @@
                     {
                         "stack": [
                             {
-                                "text": "In case of bouncing of DD, the applicant will be criminally prosecuted as per law.  ",
+                                "text": "In case of payment failure, the applicant will be criminally prosecuted as per law.  ",
                                 "margin": [
                                     0,
                                     5,
@@ -825,7 +825,7 @@
                             0,
                             0
                         ],
-                        "text": "Organsiers/Applicant ensure the compliance of Model of Conduct rule general Election og Lock Sabha 2019."
+                        "text": "Organisers/Applicant ensure the compliance of Model of Conduct rule general Election of Lok Sabha 2019."
                     },
                     {
                         "margin": [
@@ -834,7 +834,7 @@
                             0,
                             0
                         ],
-                        "text": "Organsiers/Applicant shall no political issue is involved & this for Nobel cause."
+                        "text": "Organisers/Applicant shall no political issue is involved & this for Nobel cause."
                     },
                     {
                         "margin": [
@@ -843,7 +843,7 @@
                             0,
                             0
                         ],
-                        "text": "In case any violation of Model conduct rule is found, I shall be liable for action."
+                        "text": "Organizers shall follow the modal code of conduct and he/she shall be bound to ensure compliance, law & order and rules enforced at the time of booking."
                     },
                     {
                         "margin": [
@@ -853,6 +853,24 @@
                             0
                         ],
                         "text": "The Organisers will also compliance the guidelines and orders issued by MOHFW or any other Competent Authority regarding COVID-19 or implementing of Law & Orders."
+                    },
+                    {
+                        "margin": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ],
+                        "text": "All applicable permissions for music, liquor to be taken from competent authority."
+                    },
+                    {
+                        "margin": [
+                            0,
+                            5,
+                            0,
+                            0
+                        ],
+                        "text": "'I understand that I will be liable for prosecution if any incorrect information is shared by me in this application."
                     }
                 ]
             }
