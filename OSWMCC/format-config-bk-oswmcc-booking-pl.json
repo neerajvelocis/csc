@@ -104,72 +104,214 @@
                 ]
             },
             {
+                "margin": [
+                    0,
+                    10,
+                    0,
+                    0
+                ],
                 "ol": [
                     {
-                        "text": "Area shall be used for the purposes for which the permission is being granted above and shall not be used for any other purpose.",
-                        "style": "app-table-label",
+                        "text": "Tentage etc. will be erected and removed during the permitted period only. In case of used before or after the booking period, penal rates at double to the normal rates will be charged.",
                         "margin": [
-                            20,
+                            0,
                             10,
                             0,
                             0
                         ]
                     },
                     {
-                        "text": "No Banner/Hoardings shall be allowed. ",
-                        "style": "app-table-label",
+                        "text": "The Municipal Corporation reserves the right to cancel the booking in public interest in the exigencies of the exception circumstances.",
                         "margin": [
-                            20,
+                            0,
                             10,
                             0,
                             0
                         ]
                     },
                     {
-                        "text": "No damage shall be caused to the M.C. property / flooring / parkings etc. In case of any damage to Municipal property the recovery shall be made from the applicant.",
-                        "style": "app-table-label",
+                        "stack": [
+                            {
+                                "text": "In case the cancellation is required the refund shall be as follow",
+                                "margin": [
+                                    0,
+                                    6,
+                                    0,
+                                    0
+                                ]
+                            },
+                            {
+                                "separator": [
+                                    "(",
+                                    ")"
+                                ],
+                                "type": "lower-roman",
+                                "bold": true,
+                                "ol": [
+                                    {
+                                        "stack": [
+                                            {
+                                                "text": "If the request is made 1 month in advance to the date of booking 50%.",
+                                                "margin": [
+                                                    0,
+                                                    6,
+                                                    0,
+                                                    0
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "stack": [
+                                            {
+                                                "text": "Between less than 1 month and more than15 days from the date of booking25%.",
+                                                "margin": [
+                                                    0,
+                                                    6,
+                                                    0,
+                                                    0
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "stack": [
+                                            {
+                                                "text": "less than 15 days from the date of booking Nil%.",
+                                                "margin": [
+                                                    0,
+                                                    6,
+                                                    0,
+                                                    0
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Permission to use Music System/Loud Speaker/Fire/Crackers has to be obtained from the competent authority. The DJ/ Loud Speaker shall be permitted inside the hall only.",
                         "margin": [
-                            20,
+                            0,
                             10,
                             0,
                             0
                         ]
                     },
                     {
-                        "text": "No inconvenience is to be caused to the General Public on account of this permission.",
-                        "style": "app-table-label",
+                        "text": "Permission for loudspeaker and liquor etc. shall be obtained by me at my own cost.",
                         "margin": [
-                            20,
+                            0,
                             10,
                             0,
                             0
                         ]
                     },
                     {
-                        "text": "Erection of tentage / erection of poles are allowed without holes.",
-                        "style": "app-table-label",
+                        "text": "The Liquor can be served in the marriage functions only with the permission of competent authority.",
                         "margin": [
-                            20,
+                            0,
                             10,
                             0,
                             0
                         ]
                     },
                     {
-                        "text": "Advertisement fee shall be charged as per Chandigarh Advertisement Control Order1954 for displaying of banner(s) and any kind of display of advertisement, if any.",
-                        "style": "app-table-label",
+                        "text": "I will ensure the compliance of noise pollution and other safety measures strictly.",
                         "margin": [
-                            20,
+                            0,
                             10,
                             0,
                             0
                         ]
                     },
                     {
-                        "text": "The Commissioner, Municipal Corporation, Chd, reserve the right to cancel the permission without assigning any reason in public interest. ",
-                        "style": "app-table-label",
+                        "text": "I understand that the Booking is strictly prohibited for religious and political activities in the Community Centres.",
                         "margin": [
-                            20,
+                            0,
+                            10,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": "In case of Lawn of community centre, Janj Ghar the water, electricity connection is to be arranged by the consumer at his own cost.",
+                        "margin": [
+                            0,
+                            10,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": "In case of payment failure, the applicant will be liable to be prosecuted as per law.",
+                        "margin": [
+                            0,
+                            10,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": "Organizer should follow all the guidelines in case of natural disaster or emergency or any other order issued by the competent authority under the law enforce at the time such as Covid Protocol, Curfew, Section 144 or National Emergency etc.",
+                        "margin": [
+                            0,
+                            10,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": "Organizer shall follow the modal code of conduct and he/she shall be bound to ensure compliance, law & order and rules enforced at the time.",
+                        "margin": [
+                            0,
+                            10,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": "Security amount submitted by the applicant is refundable.",
+                        "margin": [
+                            0,
+                            10,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": "The Commissioner Municipal Corporation reserve the right to cancel the booking in public interest without assigning any reason.",
+                        "margin": [
+                            0,
+                            10,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": "The Organizer shall inform the supervisor at time of vacation of the venue.",
+                        "margin": [
+                            0,
+                            10,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": "In case the rates are revised from the date of booking and between the date of function, I shall be liable to make the payments as and when demanded.",
+                        "margin": [
+                            0,
+                            10,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": "I have seen the condition of community centres/open spaces and fully satisfied with the conditions.",
+                        "margin": [
+                            0,
                             10,
                             0,
                             0
