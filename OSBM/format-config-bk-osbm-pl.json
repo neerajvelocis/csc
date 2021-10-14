@@ -305,6 +305,100 @@
         }
       },
       {
+        "text": "The permission is accorded at following term and conditions:-",
+        "alignment": "center",
+        "fontSize": 12,
+        "bold": true,
+        "margin": [
+          0,
+          10,
+          0,
+          7
+        ]
+      },
+      {
+        "margin": [
+          0,
+          10,
+          0,
+          0
+        ],
+        "ol": [
+          {
+            "text": "Applicant shall ensure no hurdle in free flow of traffic and avoid any kind of inconvenience to the general public.",
+            "margin": [
+              0,
+              10,
+              0,
+              0
+            ]
+          },
+          {
+            "text": "In case of any damage/loss to the Municipal property, damages can be recovered from the applicant through Water Bills.",
+            "margin": [
+              0,
+              10,
+              0,
+              0
+            ]
+          },
+          {
+            "text": "The applicant will clean the space after completion of work or expiry of permission whichever is earlier & maintain the space in a clean and tidy condition to the satisfaction of Municipal Corporation Chandigarh..",
+            "margin": [
+              0,
+              10,
+              0,
+              0
+            ]
+          },
+          {
+            "text": "This permission certificate does not constitute any right of ownership of property or otherwise.",
+            "margin": [
+              0,
+              10,
+              0,
+              0
+            ]
+          },
+          {
+            "text": "The Municipal Corporation reserves the right to cancel the Permission in public interest in the exigencies of exceptional circumstances without assigning any reason.",
+            "margin": [
+              0,
+              10,
+              0,
+              0
+            ]
+          },
+          {
+            "text": "In case of payment failure, same will be recovered through water bill or the applicant will be liable to be prosecuted as per law.",
+            "margin": [
+              0,
+              10,
+              0,
+              0
+            ]
+          },
+          {
+            "text": "The corporation shall not be liable to any damage/loss caused to any person property or lives and same will be the sole responsibility of the applicant.",
+            "margin": [
+              0,
+              10,
+              0,
+              0
+            ]
+          },
+          {
+            "text": "I hereby declare that all the information/facts & figures given by me are true & correct to the best of my knowledge. In case any information/facts & figures found false or incorrect, I shall be liable for prosecution as per the provision of law.",
+            "margin": [
+              0,
+              10,
+              0,
+              10
+            ]
+          }
+        ]
+      },
+      {
         "text": [
           {
             "text": "Note: ",
@@ -321,10 +415,10 @@
     ],
     "footer": [
       {
-          "text": "The receipt and permission letter are electronically generated and need no official signature or stamp.",
-          "style": "footerstyle"
+        "text": "The receipt and permission letter are electronically generated and need no official signature or stamp.",
+        "style": "footerstyle"
       }
-  ],
+    ],
     "styles": {
       "pdfheader": {
         "fontSize": 18,
@@ -351,8 +445,13 @@
       "footerstyle": {
         "alignment": "center",
         "fontSize": "8",
-        "margin": [10, 0, 10, 0]
-    },
+        "margin": [
+          10,
+          0,
+          10,
+          0
+        ]
+      },
       "verticalcolumnsheader": {
         "fontSize": 10,
         "bold": true,
