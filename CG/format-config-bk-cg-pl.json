@@ -115,7 +115,7 @@
             {
                 "ol": [
                     {
-                        "text": "Applicant shall ensure no hurdle in free flow of traffic and avoid any kind of inconvenience to the general public.",
+                        "text": "Ground shall be used for the purpose for which the permission is being granted above and shall not be used for any other purpose.",
                         "style": "app-table-label",
                         "margin": [
                             20,
@@ -125,7 +125,7 @@
                         ]
                     },
                     {
-                        "text": "In case of any damage/loss to the Municipal property, damages can be recovered from the applicant through Water Bills.",
+                        "text": "No subletting of the ground to any other agency is permitted.",
                         "style": "app-table-label",
                         "margin": [
                             20,
@@ -135,7 +135,7 @@
                         ]
                     },
                     {
-                        "text": "The applicant will clean the space after completion of work or expiry of permission whichever is earlier & maintain the space in a clean and tidy condition to the satisfaction of Municipal Corporation Chandigarh.",
+                        "text": "In case of any damage to Municipal property the recovery shall be made from you.",
                         "style": "app-table-label",
                         "margin": [
                             20,
@@ -145,7 +145,7 @@
                         ]
                     },
                     {
-                        "text": "This permission certificate does not constitute any right of ownership of property or otherwise.",
+                        "text": "After the completion of function, the site in question should be properly cleaned.",
                         "style": "app-table-label",
                         "margin": [
                             20,
@@ -155,7 +155,7 @@
                         ]
                     },
                     {
-                        "text": "The Municipal Corporation reserves the right to cancel the Permission in public interest in the exigencies of exceptional circumstances without assigning any reason.",
+                        "text": "Permission from the District Magistrate and Police Authority of UT Chandigarh for Law and Order, Chief Fire Officer for ensuring fire safety norms will be sought separately.",
                         "style": "app-table-label",
                         "margin": [
                             20,
@@ -165,7 +165,7 @@
                         ]
                     },
                     {
-                        "text": "In case of payment failure, same will be recovered through water bill or the applicant will be liable to be prosecuted as per law.",
+                        "text": "The Municipal Corporation Chandigarh reserves the right to cancel the booking of ground in Public interest.",
                         "style": "app-table-label",
                         "margin": [
                             20,
@@ -175,7 +175,7 @@
                         ]
                     },
                     {
-                        "text": "The corporation shall not be liable to any damage/loss caused to any person property or lives and same will be the sole responsibility of the applicant.",
+                        "text": "No cancellation/Change of date of booking is permissible in any case once the booking is made to you for the specific period.",
                         "style": "app-table-label",
                         "margin": [
                             20,
@@ -185,7 +185,57 @@
                         ]
                     },
                     {
-                        "text": "I hereby declare that all the information/facts & figures given by me are true & correct to the best of my knowledge. In case any information/facts & figures found false or incorrect, I shall be liable for prosecution as per the provision of law.",
+                        "text": "Event/ proposed activity/ demolition and vacation of ground arrangements are to be carried out within the permitted period.",
+                        "style": "app-table-label",
+                        "margin": [
+                            20,
+                            10,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": "The Organizer would require to start removing the hangers well in time. so that the ground is vacant in all respect by 10:00 pm on the last day of booking, failing which the same be will removed by the municipal corporation at the cost of organizer and exemplary penalty will be imposed.",
+                        "style": "app-table-label",
+                        "margin": [
+                            20,
+                            10,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": "Organizer to take necessary NOC from concerned department after clearing the ground to initiate the security refund.",
+                        "style": "app-table-label",
+                        "margin": [
+                            20,
+                            10,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": "Organizer should follow all the guidelines in case of natural disaster or emergency or any other order issed by the competent authority under the law enforce at the time such as Covid Protocol, Curfew, Section 144 or National Emergency etc.",
+                        "style": "app-table-label",
+                        "margin": [
+                            20,
+                            10,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": "Any commercial advertisement/logo will not be allowed without permission of the competent authority.",
+                        "style": "app-table-label",
+                        "margin": [
+                            20,
+                            10,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "text": "Advertisement fees will be charged as per Chd. Advt. Control Order-1954 for display of advertisement banner, if any.",
                         "style": "app-table-label",
                         "margin": [
                             20,
