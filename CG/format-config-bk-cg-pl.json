@@ -107,7 +107,7 @@
                 "style": "app-table-label",
                 "margin": [
                     20,
-                    15,
+                    0,
                     5,
                     5
                 ]
